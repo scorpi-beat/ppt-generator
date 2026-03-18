@@ -1,11 +1,10 @@
 node_modules/
 
-# 생성된 결과물 (draft JSON과 style JSON은 포함, 나머지 제외)
-outputs/*.pptx
-outputs/*.html
-outputs/*.png
-outputs/pilot_png/
-outputs/analysis_*.txt
+# 참고 자료 원본 (PDF, PPTX — 코드 아님)
+references/
+
+# 생성된 결과물
+outputs/
 
 # Python
 __pycache__/
