@@ -77,6 +77,15 @@ outputs/logic_{type}.json    — 로직 통합 캐시 (logic-analyst 생성, 신
 - 사용자가 이미지로 팔레트를 첨부하면 style-analyst가 색상을 추출해 `default_color_palette`를 덮어씀
 - `accept_palette_image: true` 인 유형은 이미지 첨부를 허용함
 
+### 색상 해상도 우선순위 (builder & HTML preview 공통)
+1. `style_{type}.json` → colors (참고 파일 정밀 추출, 최고 우선)
+2. `draft.meta.color_palette` (세션별 — content-planner가 선택)
+3. `types/{type}.json` → `default_color_palette` (유형 기본)
+4. BCG Forest 하드코딩 (최후 수단)
+
+pptxgen_builder.js는 draft 로드 후 자동으로 이 체인을 적용한다.
+`--style` 미지정 시 `outputs/style_{type}.json`을 자동 탐색한다.
+
 ### BCG Forest 기본값
 | 역할 | 이름 | HEX |
 |------|------|-----|

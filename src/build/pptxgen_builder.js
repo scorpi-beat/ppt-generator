@@ -82,14 +82,14 @@ let FONT = {
 // [3] COLOR — style JSON 로드 시 덮어씌워짐
 // ═══════════════════════════════════════════════════════════════════════
 let C = {
-  primary:  "627365",
-  accent:   "2D3734",
-  salmon:   "D98F76",
-  warm:     "A09567",
-  blue:     "406D92",
-  text:     "232323",
+  primary:  "1D3C2F",   // BCG Forest Deep Forest
+  accent:   "00876A",   // BCG Forest Emerald
+  salmon:   "F2C94C",   // BCG Forest Gold (support)
+  warm:     "A09567",   // 보조색 (style JSON 없을 때 fallback)
+  blue:     "406D92",   // 차트 다중 시리즈용 보조색
+  text:     "1A1A1A",   // BCG Forest Near Black
   white:    "FFFFFF",
-  neutral:  "F2F2F2",
+  neutral:  "F5F5F2",   // BCG Forest Warm White
   negative: "C0392B",
 };
 
@@ -128,6 +128,30 @@ function loadStyle(stylePath) {
   } catch (e) {
     console.warn(`[style] 로드 실패 (기본값 사용): ${stylePath} — ${e.message}`);
   }
+}
+
+function loadTypeDefaults(type) {
+  const typePath = path.join(__dirname, "../../types", `${type}.json`);
+  try {
+    const t = JSON.parse(fs.readFileSync(typePath, "utf-8"));
+    const p = t.default_color_palette;
+    if (p?.primary) C.primary = hex(p.primary);
+    if (p?.accent)  C.accent  = hex(p.accent);
+    if (p?.support) C.salmon  = hex(p.support);
+    if (p?.neutral) C.neutral = hex(p.neutral);
+    if (p?.text)    C.text    = hex(p.text);
+  } catch (e) { /* types JSON 없으면 BCG Forest 유지 */ }
+}
+
+function loadDraftPalette(palette) {
+  if (!palette) return;
+  if (palette.primary) C.primary = hex(palette.primary);
+  if (palette.accent)  C.accent  = hex(palette.accent);
+  if (palette.support) C.salmon  = hex(palette.support);
+  if (palette.neutral) C.neutral = hex(palette.neutral);
+  if (palette.text)    C.text    = hex(palette.text);
+  if (palette.accent_blue)   C.blue  = hex(palette.accent_blue);
+  if (palette.accent_salmon) C.salmon = hex(palette.accent_salmon);
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -785,7 +809,16 @@ async function main() {
   }
 
   const draft = JSON.parse(fs.readFileSync(draftPath, "utf-8"));
-  loadStyle(stylePath);
+  const type  = draft.meta?.type || "report";
+
+  // 색상 해상도 체인 (후순위 → 선순위)
+  loadTypeDefaults(type);                       // types/{type}.json
+  loadDraftPalette(draft.meta?.color_palette);  // draft 세션 팔레트
+
+  // style JSON 자동 탐색 (--style 미지정 시)
+  const autoStyle = path.join(path.dirname(draftPath), `style_${type}.json`);
+  const effectiveStyle = stylePath || (fs.existsSync(autoStyle) ? autoStyle : null);
+  loadStyle(effectiveStyle);                    // 참고 파일 정밀 색상 (최고 우선)
 
   const prs = new PptxGenJS();
   prs.defineLayout({ name:"SRC", width:W, height:H });
