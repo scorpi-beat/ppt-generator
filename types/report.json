@@ -1,0 +1,41 @@
+{
+  "name": "리포트/제언",
+  "description": "부동산·금융 시장 분석 리포트 및 제언. 회사 양식을 엄격히 따른다.",
+  "style": {
+    "sources": ["references/report/templates/", "references/report/best_practices/"],
+    "fidelity": 1.0,
+    "fallback": "first",
+    "note": "회사 공식 양식. 임의 변경 불가."
+  },
+  "logic": {
+    "sources": ["references/report/narratives/", "references/report/best_practices/"],
+    "fidelity": 0.8,
+    "fallback": "ai",
+    "genre": "report",
+    "narrative_arc": "evidence_first",
+    "note": "근거→분석→제언 순서. 참고 자료 없으면 장르 기본 구조 사용."
+  },
+  "content": {
+    "mode": "ai_with_data",
+    "web_search": true,
+    "tone": "objective_analytical",
+    "language": "ko"
+  },
+  "default_color_palette": {
+    "name": "BCG Forest",
+    "primary": "#1D3C2F",
+    "accent": "#00876A",
+    "support": "#F2C94C",
+    "neutral": "#F5F5F2",
+    "text": "#1A1A1A"
+  },
+  "accept_palette_image": true,
+  "slide_defaults": {
+    "min_slides": 12,
+    "max_slides": 30,
+    "default_slides": 18
+  },
+  "slide_master": "outputs/component_template_report.pptx",
+  "canonical_template": "references/report/best_practices/36기 12월 마켓리포트-물류.pptx",
+  "default_generation_mode": "autofill"
+}

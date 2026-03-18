@@ -1,0 +1,188 @@
+{
+  "version": "v2",
+  "type": "report",
+  "generated_from": [
+    "[SRCIG] 1호_인프라 투자의 개요와 섹터별 소개_22.3Q.pdf",
+    "[SRCIG] 3호_23_1H_태양광발전.pdf",
+    "[SRCIG] 4호_교통인프라섹터_철도 (23.2H).pdf",
+    "[SRC 35기 유형리포트] 리테일 부동산.pdf",
+    "[34기 유형리포트] 상업용 데이터센터.pdf",
+    "36기 12월 마켓리포트-물류.pptx",
+    "오피스 자산의 호텔 컨버전.pptx",
+    "[RSQUARE]_2025_서울_코리빙_하우스_마켓_리포트_파트_2_KOR.pdf",
+    "[SRCIG] 2호_디지털인프라 섹터의 데이터센터_22.4Q.pdf"
+  ],
+  "aggregated_metrics": {
+    "avg_bullets_per_slide": 3.8,
+    "two_column_ratio": 0.31,
+    "note_box_ratio": 0.0,
+    "avg_data_points_per_slide": 0.1,
+    "avg_chars_per_slide": 18,
+    "common_table_rows": 3,
+    "common_table_cols": 3,
+    "_computation_notes": {
+      "avg_bullets_per_slide": "best_practices 7개 파일(32+31+39+21+25p + 20+46s = 214장) 가중평균. 총 불릿 합산 802.5 / 214 = 3.75 → 3.8. PDF 5파일: 1호 1.7, 3호 3.1, 4호 1.3, 리테일 1.3, 데이터센터 2.6. PPTX 2파일: 물류 3.6, 호텔컨버전 9.5",
+      "two_column_ratio": "best_practices 전체 two_column 슬라이드 수 67장 / 전체 214장 = 0.31. 파일별: SRCIG1호 0.03, SRCIG3호 0.23, SRCIG4호 0.33, 리테일 0.10, 데이터센터PDF 0.12, 물류PPTX 0.40, 호텔컨버전 0.72",
+      "note_box_ratio": "best_practices 7개 파일 전원 0.00 (PDF 5개 + PPTX 2개 모두). narratives SRCIG2호에서 0.03 관측되나 format 수치는 best_practices만 산입하는 원칙에 따라 0.0으로 확정.",
+      "avg_data_points_per_slide": "PDF 5파일 가중평균 (0.2×32+0.1×31+0×39+0×21+0×25)/148 = 0.064. PDF 파서 수치 추출 손실 감안 0.1로 보정",
+      "avg_chars_per_slide": "PDF 파서 실측 가중평균 18자(파서 한글 손실 반영). 실질 작성 기준 300~450자 추정. PPTX texts_count 기준: 물류 평균 112 text elements, 호텔컨버전 평균 84 text elements",
+      "common_table_rows_cols": "PPTX 2파일 기준(PDF avg_rows는 파서 미인식으로 저평가). 물류 2.8r×2.7c, 호텔컨버전 3.3r×2.4c → 평균 3행×3열"
+    }
+  },
+  "narrative_arc": "evidence_first",
+  "slide_structure": {
+    "typical_total_slides": 30,
+    "opening_pattern": "표지(title_slide) → 목차(toc_slide, 필수) → Executive Summary(kpi_metrics 또는 three_column_summary) → 섹션 개요",
+    "body_pattern": "섹션별 현황 → 분석 → 비교(2컬럼) → 사례 순서. 섹션 내 2컬럼 레이아웃 우선 사용(two_column_ratio 0.31). 수치 비교 슬라이드는 좌: 분석 bullet + 우: 표/차트 배치.",
+    "closing_pattern": "시사점(4단구조: 문제→원인→해결→수치목표) → 전망 → 마무리",
+    "section_divider_usage": "3개 이상 섹션 구분에 section_divider 사용. best_practices에서 단일 레이아웃 대형 제목으로 섹션 전환 확인됨"
+  },
+  "preferred_layouts": {
+    "primary": "two_col_text_table — best_practices에서 가장 빈번한 레이아웃(two_column_ratio 0.31). 좌: 분석 텍스트/bullet, 우: 데이터 표",
+    "secondary": "composite_split — SRCIG asymmetric/single_left/single_right 패턴 구현. 한쪽 단일 콘텐츠(차트 or 표) + 반대쪽 상하 2분할(bullet+미니표 or bullet+차트). 밀도 높은 복합 슬라이드에 사용",
+    "tertiary": "two_col_text_chart — 수치 추이·전망 분석 슬라이드. 좌: 분석 bullet 4~6개, 우: line/bar 차트",
+    "quaternary": "four_quadrant — 4개 항목 병렬 비교·분류. 각 셀 독립 콘텐츠. 물류·호텔 PPTX 핵심 레이아웃",
+    "quinary": "wide_table — 시나리오 매트릭스·민감도 분석·시장 비교. 전체폭 얕은 표(2~5행×5열 이상)",
+    "avoid_overuse": [
+      "content_text — 수치 없는 텍스트 전용 슬라이드 최소화. bullet에 수치 미포함 시 지양",
+      "three_column_summary — 3개 이하 섹션에서만 사용. 4개 이상이면 four_quadrant 또는 table_slide 사용"
+    ]
+  },
+  "head_message_rules": {
+    "style": "단언형 결론 문장. 수치 포함 필수. 사실 기반 단정 표현 사용.",
+    "length": "30~60자",
+    "pattern": "A(수치)로 B하며, C(수치)가 D임",
+    "examples": [
+      "국내 태양광 설비용량 24.7GW로 전체 신재생에너지 발전 중 24.5% 비중 차지",
+      "글로벌 철도 인프라 연평균 성장률 7.4%, 아시아·유럽 중심으로 투자 확대 가속",
+      "코로케이션 데이터센터 시장 전체의 35% 차지, AI 수요로 수급 타이트 심화",
+      "서울 오피스 호텔 컨버전 전환 수익률 기존 대비 15%p 개선, 공실 해소 효과 병행",
+      "물류센터 Cap Rate 5~6%대 유지, e-Commerce 물량 증가로 임대 수요 구조적 성장"
+    ],
+    "_derivation_note": "캐시 head_message_samples가 대부분 파서 미추출(빈 배열). 참고파일 장르(인프라·부동산 섹터리포트) 및 sample_data_points(24.7%, 35%, 76% 등 수치) 기반으로 패턴 재구성."
+  },
+  "content_density_standards": {
+    "bullets_per_slide": "3~6개 (실측 가중평균: 3.8개)",
+    "data_points_per_slide": "최소 3개 (PDF 파서 실측: 0.1개 — 파서 손실로 저평가. 실질 목표 5개 이상)",
+    "chars_per_slide": "300~450자 (PDF 파서 실측: 18자로 저평가. PPTX texts_count 기준 80~180 text elements → 실질 300~450자 작성 기준 적용)",
+    "table_structure": "평균 3행×3열 (PPTX 실측: 물류 2.8행×2.7열, 호텔컨버전 3.3행×2.4열)",
+    "note_box_frequency": "best_practices 기준 0% (7개 파일 전원 note_box 없음). 출처·정의 주석이 필요한 슬라이드에만 선택적으로 사용하되, 남용 금지."
+  },
+  "layout_selection_rules": {
+    "toc_slide": "표지 바로 다음 슬라이드. report 유형 필수. sections 배열(번호·제목·서브섹션) 사용",
+    "two_col_text_table": "수치 비교·현황 분석 슬라이드. 좌 분석 5~7 bullet + 우 표 3행×3열 이상. two_column_ratio 0.31 수준 유지 목표",
+    "two_col_text_chart": "추이·전망 슬라이드. 좌 분석 4~6 bullet + 우 차트 6포인트 이상. line 또는 bar 차트",
+    "two_col_chart_text": "차트가 핵심 메시지인 슬라이드. 좌 차트(시각 주역) + 우 해석 텍스트 3~5 bullet. 시각화 강조 필요 시",
+    "composite_split": "SRCIG asymmetric 패턴 구현. main_zone(차트 or 표 or 다이어그램) + sub_zone_top(bullet 3~5개) + sub_zone_bottom(미니표 or 미니차트). 한 슬라이드에 3가지 콘텐츠 유형 혼합 시 사용",
+    "four_quadrant": "4개 항목 병렬 비교. cells[4] 각 셀 독립 콘텐츠. 리스크 매트릭스·4대 전략·시장 세그먼트 등. 각 셀 label + content_type + 2~4 항목",
+    "wide_table": "시나리오 매트릭스·민감도 분석·국가별 비교. 2~5행×5열 이상 전체폭 표. 열 헤더 명확 필수",
+    "process_flow": "투자 프로세스·규제 절차·딜 플로우. 4~6 스텝, 각 스텝 2~3 서브 항목. flow_type: horizontal",
+    "content_text": "정의·배경·정책 설명. bullet 3~6개, 각 bullet에 수치 또는 사실 근거 포함 필수. 수치 없으면 사용 금지",
+    "table_slide": "다국 비교·제품 스펙·순위. 5행×4열 이상, key_points 3~4개",
+    "content_chart": "시계열 성장 데이터. key_points 3~4개 필수. 단독 차트 사용 시",
+    "three_column_summary": "3대 축/요소 요약. 각 카드 3~4 bullet + 수치 1개 이상. 4개 이상이면 four_quadrant 사용",
+    "kpi_metrics": "Executive Summary 또는 섹션 인트로. 4개 KPI 전원 수치+단위+전년比",
+    "section_divider": "챕터 전환. 대형 번호 + 제목 + 한 줄 요약. best_practices에서 single 레이아웃 기반 섹션 구분 확인"
+  },
+  "note_box_patterns": {
+    "usage": "출처 표기, 개념 정의, 추정치 주석이 꼭 필요한 슬라이드에만 선택적 사용. best_practices 기준 0%이므로 남용 금지.",
+    "position": "슬라이드 하단 또는 우측 하단",
+    "types": [
+      "source",
+      "definition",
+      "caution",
+      "additional"
+    ]
+  },
+  "recommendation_structure": {
+    "pattern": "문제(수치 근거) → 원인 분석 → 해결책 → 기대 효과(수치 목표)",
+    "examples": [
+      "국내 태양광 단가 지속 하락(kWh당 80원 수준)에도 계통 접속 지연으로 신규 개발 보류 증가 → 접속 인프라 확충 및 규제 완화 시 연 2GW 이상 추가 개발 여력 확보",
+      "e-Commerce 성장으로 물류센터 공실률 3% 미만 유지 → 신규 공급 부재 + 임대료 상승 압력 지속 → 선매입·BTS 전략으로 5년 IRR 8~10% 달성 가능",
+      "서울 도심 오피스 공실 15% 초과 배경에서 호텔 컨버전 수요 증가 → 컨버전 비용 600억원 대비 운영 개시 후 3년 내 손익분기 달성 기대",
+      "데이터센터 전력 수요 급증으로 수도권 입지 확보 경쟁 심화 → 직접 전력구매계약(PPA) 체결 및 지방 분산 입지 전략으로 조달 리스크 헤지"
+    ],
+    "_derivation_note": "캐시 recommendation_patterns 전 파일 빈 배열. 참고파일 장르(인프라·부동산 섹터 투자리포트) 논리 구조 기반 재구성."
+  },
+  "data_driven_claim_examples": [
+    "글로벌 태양광 설치량 2022년 240GW 돌파, 전년 대비 35% 증가",
+    "국내 태양광 발전 비중 24.7%로 전체 신재생에너지 중 1위",
+    "유럽 철도 인프라 투자 연평균 성장률 6.9%, 아시아 7.4% 수준",
+    "코로케이션 데이터센터 시장 규모 전체의 35%, 5년 CAGR 18% 예상",
+    "국내 물류센터 공실률 2~3%대로 수급 타이트 유지",
+    "리테일 자산 Cap Rate 6~7%대, 오피스 대비 150~200bps 프리미엄",
+    "서울 코리빙 하우스 공실률 5% 미만, 임대료 전년 대비 8% 상승",
+    "호텔 컨버전 프로젝트 NOI 기준 수익률 기존 오피스 대비 15~20%p 개선"
+  ],
+  "section_structure_examples": [
+    {
+      "type": "인프라 섹터 리포트",
+      "sections": [
+        "표지",
+        "Executive Summary / 핵심 요약",
+        "시장 개요 및 정의",
+        "글로벌 시장 현황",
+        "국내 시장 현황",
+        "섹터별 세부 분석",
+        "투자 현황 및 비교",
+        "시사점 및 전망",
+        "마무리"
+      ]
+    },
+    {
+      "type": "부동산 유형 리포트",
+      "sections": [
+        "표지",
+        "목차",
+        "자산 유형 정의 및 특성",
+        "수요-공급 현황",
+        "주요 거래 사례",
+        "임대차 및 재무 현황",
+        "투자 리스크 분석",
+        "시사점 및 투자 제언",
+        "마무리"
+      ]
+    },
+    {
+      "type": "마켓 리포트 (분기·정기)",
+      "sections": [
+        "표지",
+        "Executive Summary",
+        "시장 환경 요약",
+        "섹터별 현황 (수요·공급·공실·임대료)",
+        "주요 거래 데이터",
+        "Cap Rate 및 가격 추이",
+        "전망 및 시사점"
+      ]
+    }
+  ],
+  "chart_preferences": {
+    "market_size_growth": "bar(연도별 누적 또는 그룹) 또는 line(성장 추이)",
+    "market_share": "bar(국가별·기업별 비중) — pie 지양",
+    "supply_pipeline": "bar(연도별 공급량) + line overlay(누적 공급)",
+    "financial_return": "waterfall(수익 구조 분해) 또는 bar(시나리오 비교)",
+    "sensitivity_analysis": "table_slide(매트릭스 형태) — chart보다 표 선호",
+    "chart_slide_ratio": 0.35,
+    "_note": "전체 슬라이드의 약 35%에 차트 배치 목표. 표와 차트를 동일 슬라이드에 병치하는 비율 높음(table_chart_combo 활용)"
+  },
+  "writing_guidelines": {
+    "tone": "objective_analytical — 사실 기반, 단정적 표현. '~로 보인다' 등 불확실 표현 지양",
+    "per_slide_research": "슬라이드 1장당 최소 웹 서치 2회 실행",
+    "citation_rule": "모든 수치에 출처(기관명+연도) 필수",
+    "comparison_rule": "글로벌-국내 비교 가능 시 반드시 병기",
+    "recommendation_rule": "제언은 문제→원인→해결→수치목표 4단 구조",
+    "preferred_expressions": [
+      "~로 집계됨 / ~로 확인됨",
+      "~에 달하며 / ~을 기록하며",
+      "~가 주요 원인으로 작용",
+      "~대비 X%p 상승/하락",
+      "~을 배경으로 수요 확대 지속"
+    ],
+    "avoid": [
+      "~로 보인다(근거 없는 경우)",
+      "일반론적 서술",
+      "수치 없는 bullet",
+      "단순 현황 나열형 헤드메시지(예: '시장 현황')"
+    ]
+  }
+}

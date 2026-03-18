@@ -1,0 +1,1439 @@
+================================================================================
+FILE: template_test1.pptx
+================================================================================
+Slide size: 17610138 x 9906000 EMU  (19.259 x 10.833 inches)
+
+================================================================================
+TASK 1: ALL TEXT CONTENT BY SLIDE
+================================================================================
+
+--- SLIDE 1 (layout: 중간목차표지) ---
+  Shape: "Picture 12" | type=PICTURE
+    pos: L=802075 T=9230718 W=1990122 H=585774
+    (no text)
+  Shape: "TextBox 17" | type=TEXT_BOX
+    pos: L=884238 T=1091403 W=4106862 H=369332
+    TEXT: {{company}}/ {{series}}
+  Shape: "TextBox 4" | type=TEXT_BOX
+    pos: L=884238 T=2586253 W=7705725 H=1413528
+    TEXT: {{title}}
+    TEXT: | {{subtitle}}
+  Shape: "Rectangle 1" | type=AUTO_SHAPE
+    pos: L=884239 T=8041747 W=7103326 H=646331
+    (no text)
+  Shape: "표 2" | type=TABLE
+    pos: L=884238 T=8044394 W=7705725 H=940824
+    TEXT: [CELL] {{company}}
+    TEXT: [CELL] {{name list}}
+  Shape: "그림 2" | type=PICTURE [OFF-CANVAS]
+    pos: L=1926141 T=10316485 W=6662234 H=4259313
+    (no text)
+  Shape: "그림 6" | type=PICTURE [OFF-CANVAS]
+    pos: L=8588374 T=-10662 W=9021763 H=9916661
+    (no text)
+
+--- SLIDE 2 (layout: 3_본문서식) ---
+  Shape: "직사각형 8" | type=AUTO_SHAPE
+    pos: L=8591935 T=0 W=9018204 H=9905848
+    (no text)
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=6597735 H=944874
+    TEXT: [CELL] Intro
+  Shape: "Table 4" | type=TABLE
+    pos: L=9018205 T=1172295 W=7697969 H=7558790
+    TEXT: [CELL] 01
+    TEXT: [CELL] {{section_title}}
+    TEXT: [CELL] 1)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 3p
+    TEXT: [CELL] 2)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 4p
+    TEXT: [CELL] 3)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 5p
+    TEXT: [CELL] 02
+    TEXT: [CELL] {{section_title}}
+    TEXT: [CELL] 1)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 8p
+    TEXT: [CELL] 2)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 9p
+    TEXT: [CELL] 3)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 11p
+    TEXT: [CELL] 03
+    TEXT: [CELL] {{section_title}}
+    TEXT: [CELL] 1)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 16p
+    TEXT: [CELL] 2)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 18P
+    TEXT: [CELL] 02
+    TEXT: [CELL] {{section_title}}
+    TEXT: [CELL] 1)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 8p
+    TEXT: [CELL] 2)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 9p
+    TEXT: [CELL] 3)
+    TEXT: [CELL] {{toc}}
+    TEXT: [CELL] 11p
+  Shape: "Table 6" | type=TABLE
+    pos: L=847725 T=1633108 W=7276515 H=7381874
+    TEXT: [CELL] {{Head Message}}
+    TEXT: [CELL] {{bullet}}
+    TEXT: [CELL] {{Head Message}}
+    TEXT: [CELL] {{bullet}}
+    TEXT: [CELL] {{Head Message}}
+    TEXT: [CELL] {{bullet}}
+  Shape: "슬라이드 번호 개체 틀 1" | type=TEXT_BOX
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+
+--- SLIDE 3 (layout: 중간목차표지) ---
+  Shape: "그림 7" | type=PICTURE [OFF-CANVAS]
+    pos: L=8588374 T=-10662 W=9021763 H=9916661
+    (no text)
+  Shape: "직사각형 3" | type=AUTO_SHAPE
+    pos: L=8589961 T=0 W=9020175 H=9906000
+    (no text)
+  Shape: "표 15" | type=TABLE
+    pos: L=884238 T=2232982 W=7705723 H=1280156
+    TEXT: [CELL] {{section_number}}
+{{section title}}
+  Shape: "Picture 12" | type=PICTURE
+    pos: L=802075 T=9230718 W=1990122 H=585774
+    (no text)
+  Shape: "표 8" | type=TABLE
+    pos: L=847725 T=5549900 W=7742236 H=2120264
+    TEXT: [CELL] 1)
+    TEXT: [CELL] {{toc_1}}
+    TEXT: [CELL] 2)
+    TEXT: [CELL] {{chapter_01_List_02}}
+    TEXT: [CELL] 3)
+    TEXT: [CELL] {{chapter_01_List_03}}
+
+--- SLIDE 4 (layout: 3_본문서식) ---
+  Shape: "Chart 5" | type=CHART
+    pos: L=847725 T=4071137 W=7802698 H=5068054
+    (no text)
+  Shape: "Picture 4" | type=PICTURE [OFF-CANVAS]
+    pos: L=18032804 T=6035549 W=7592881 H=5073515
+    (no text)
+  Shape: "표 21" | type=TABLE
+    pos: L=847725 T=2212680 W=15890875 H=374587
+    TEXT: [CELL] {{bullet}}
+  Shape: "TextBox 6" | type=TEXT_BOX
+    pos: L=847725 T=1784350 W=5668725 H=369332
+    TEXT: {{head_message}}
+  Shape: "TextBox 8" | type=TEXT_BOX
+    pos: L=885116 T=3546732 W=5196775 H=338554
+    TEXT: {{chart_01_title}}
+  Shape: "TextBox 4" | type=TEXT_BOX
+    pos: L=9056688 T=3549971 W=5196775 H=338554
+    TEXT: {{chart_02 title}}
+  Shape: "TextBox 43" | type=TEXT_BOX [OFF-CANVAS]
+    pos: L=885116 T=-2594988 W=5196775 H=338554
+    TEXT: 최근 20년간 서울 오피스 공급 추이 / 임대료 인상율 (둔화)
+  Shape: "Picture 2" | type=PICTURE [OFF-CANVAS]
+    pos: L=-9978129 T=437642 W=6997383 H=4939329
+    (no text)
+  Shape: "직사각형 42" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=-4316752 T=-1974623 W=3831233 H=2003090
+    TEXT: 공실 률?? 최근 증가 추세?
+    TEXT: Cbd가 제일 높나?
+    TEXT: 프라임 외 증가하나?cv
+  Shape: "TextBox 45" | type=TEXT_BOX [OFF-CANVAS]
+    pos: L=1771567 T=10212856 W=14570242 H=1200329
+    TEXT: 다만 매각의 '허들'이 되고 있는 공실을 호텔 컨버전 전략으로 극복하는 방안이 새로운 해법으로 떠올랐다. IB업계 관계자는 "호텔 컨버전 이후 설비투자(CAPEX) 대비 수익률을 맞출 수 있을 것으로 예상된다"고 분석했다.출처 : 뉴스퀘스트(https://www.newsquest.co.kr)
+  Shape: "그림 9" | type=PICTURE [OFF-CANVAS]
+    pos: L=-8561657 T=5775877 W=8236378 H=4130123
+    (no text)
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=847725 T=9030151 W=3801036 H=230832
+    TEXT: {{Data_Refernence}}
+  Shape: "그림 12" | type=PICTURE [OFF-CANVAS]
+    pos: L=18083045 T=473606 W=10637630 H=5510139
+    (no text)
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=9056688 T=9030151 W=3801036 H=230832
+    TEXT: {{Data_Refernence}}
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=6110437 T=3550719 W=2443014 H=261610
+    TEXT: (단위 : %)
+  Shape: "TextBox 1" | type=TEXT_BOX
+    pos: L=7551108 T=6635368 W=1759580 H=274897
+    TEXT: 7.0%
+  Shape: "TextBox 1" | type=TEXT_BOX
+    pos: L=7551108 T=7249008 W=1759580 H=274897
+    TEXT: 4.5%
+  Shape: "TextBox 1" | type=TEXT_BOX
+    pos: L=7551108 T=7759318 W=1759580 H=274897
+    TEXT: 4.2%
+  Shape: "직사각형 44" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=5996772 T=10421817 W=2290248 H=679698
+    TEXT: 서울 평균 SOLID로 
+    TEXT: 추가할까 
+  Shape: "차트 7" | type=CHART
+    pos: L=9056687 T=4179221 W=7681913 H=4842542
+    (no text)
+  Shape: "TextBox 1" | type=TEXT_BOX
+    pos: L=1645261 T=7588949 W=2378586 H=523220
+    TEXT: 2017 – 2020
+    TEXT: 마곡업무지구 신규 공급
+  Shape: "Shape 50" | type=AUTO_SHAPE
+    pos: L=13914628 T=6120363 W=1635069 H=1153769
+    (no text)
+  Shape: "TextBox 1" | type=TEXT_BOX
+    pos: L=13590423 T=5842547 W=1759580 H=923330
+    TEXT: 신규 공급
+    TEXT: 약 75만평
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=14294317 T=3540616 W=2443014 H=261610
+    TEXT: (단위 : 평)
+  Shape: "직사각형 44" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=10608061 T=10931265 W=5064418 H=538278
+    TEXT: 공급 포화– 공실 리스크 우려 – 거래 둔화
+  Shape: "화살표: 오른쪽 60" | type=AUTO_SHAPE
+    pos: L=2636959 T=7276604 W=345936 H=248885
+    (no text)
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+
+--- SLIDE 5 (layout: 3_본문서식) ---
+  Shape: "직사각형 41" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17681968 T=3033751 W=11455400 H=722460
+    TEXT: 호텔 공급은코로나 영향으로 수요 대비 최근 공백, 그래서 development site가 아닌 운영 목적 거래 비중증가
+  Shape: "직사각형 44" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17976871 T=5353910 W=1821097 H=1549872
+    TEXT: 매출 증가
+  Shape: "Table 6" | type=TABLE [OFF-CANVAS]
+    pos: L=9760844 T=10219208 W=10069965 H=5137230
+    TEXT: [CELL] Transaction Year
+    TEXT: [CELL] Property Name
+    TEXT: [CELL] Buyer
+    TEXT: [CELL] Purpose
+    TEXT: [CELL] 2021
+    TEXT: [CELL] Mercure Ambassador Seoul Hongdae
+    TEXT: [CELL] Hyundai Asset Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Le Méridien Seoul, Myeongdong
+    TEXT: [CELL] Mastern Investment Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Tmark Grand Hotel, Myeongdong
+    TEXT: [CELL] IGIS Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Holiday Inn Express
+    TEXT: [CELL] Keppel Investment Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] 2022
+    TEXT: [CELL] SEOUL Dragon City
+    TEXT: [CELL] Shinhan Seobu T&D REIT
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Glad Live Gangnam
+    TEXT: [CELL] TERRA&PARTNERS
+    TEXT: [CELL] Development
+    TEXT: [CELL] Itaewon Crown Hotel
+    TEXT: [CELL] Hana Alternative Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Millennium Hilton Seoul
+    TEXT: [CELL] IGIS Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Prima Hotel Cheongdam
+    TEXT: [CELL] MIRAEIN
+    TEXT: [CELL] Development
+    TEXT: [CELL] Staz Hotel
+    TEXT: [CELL] ISTERN Investment & Development
+    TEXT: [CELL] Development
+    TEXT: [CELL] Novotel Ambassador Doksan
+    TEXT: [CELL] IRDV
+    TEXT: [CELL] Development
+    TEXT: [CELL] New Kukje Hotel
+    TEXT: [CELL] GRE Partners Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] 2023
+    TEXT: [CELL] Grand Hyatt Seoul
+    TEXT: [CELL] BlueCove Investment
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Nine Tree by Parnas Seoul Myeongdong II
+    TEXT: [CELL] CDL
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Nine Tree By Parnas Seoul Dongdaemun
+    TEXT: [CELL] Shinhan Seobu T&D REIT
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Travelodge Myeongdong Namsan
+    TEXT: [CELL] CAPSTONE Asset Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Aventree Hotel Jongno
+    TEXT: [CELL] The Crown Prima
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Ibis Ambassador Busan Haeundae
+    TEXT: [CELL] Sono International
+    TEXT: [CELL] Operation
+    TEXT: [CELL] 2024
+    TEXT: [CELL] Conrad Seoul
+    TEXT: [CELL] ARA KOREA (REF), (SMBC)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Shilla Stay Gwanghwamun
+    TEXT: [CELL] Shinhan REITs Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] L7 Gangnam
+    TEXT: [CELL] LOTTE AMC
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Tmark Hotel Myeongdong
+    TEXT: [CELL] Gravity Asset Management(Angelo Gordon)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] LOTTE City Hotel Guro
+    TEXT: [CELL] IGIS Asset Management(GIC)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Four Points by Sheraton Josun Seoul Station
+    TEXT: [CELL] KB Asset Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] 2025
+    TEXT: [CELL] Four Points by Sheraton Josun Seoul Myeong-dong
+    TEXT: [CELL] Pacific Asset Management (Pref. Bidder)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Courtyard by Marriott Seoul Namdaemun
+    TEXT: [CELL] Heungkuk REITs Management (Pref. Bidder)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Shilla Stay Mapo
+    TEXT: [CELL] Shinhan REITs Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Shilla Stay Seodaemun
+    TEXT: [CELL] KB Asset Management (Pref. Bidder)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Mercure Ambassador Seoul Hongdae
+    TEXT: [CELL] JB Asset Management(Sotetsu, Goldman Sachs)
+    TEXT: [CELL] Operation
+  Shape: "Group 8" | type=GROUP
+    pos: L=8879609 T=4066788 W=7846290 H=4954977
+    (no text)
+  Shape: "직사각형 39" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17681968 T=2068639 W=7392614 H=722460
+    TEXT:  공공에서 숙박시설 개발 유도 지원 정책 / 투자자들의 호텔 투자 증가
+  Shape: "TextBox 1" | type=TEXT_BOX
+    pos: L=11629289 T=6296151 W=3034920 H=646331
+    TEXT: 운영 목적 거래 증가
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+  Shape: "Chart 12" | type=CHART
+    pos: L=542362 T=3974764 W=8046013 H=5410843
+    (no text)
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=6144092 T=3540616 W=2443014 H=261610
+    TEXT: (단위 : 천원)
+  Shape: "표 3" | type=TABLE
+    pos: L=847725 T=2212680 W=15890875 H=374587
+    TEXT: [CELL] {{bullet}}
+  Shape: "TextBox 5" | type=TEXT_BOX
+    pos: L=847725 T=1784350 W=5668725 H=369332
+    TEXT: {{head_message}}
+  Shape: "TextBox 7" | type=TEXT_BOX
+    pos: L=885116 T=3546732 W=5196775 H=338554
+    TEXT: {{chart_01_title}}
+  Shape: "TextBox 8" | type=TEXT_BOX
+    pos: L=9056688 T=3549971 W=5196775 H=338554
+    TEXT: {{chart_02 title}}
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=847725 T=9030151 W=3801036 H=230832
+    TEXT: {{Data_Refernence}}
+  Shape: "Title 6" | type=TEXT_BOX
+    pos: L=9056688 T=9030151 W=3801036 H=230832
+    TEXT: {{Data_Refernence}}
+
+--- SLIDE 6 (layout: 3_본문서식) ---
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "TextBox 8" | type=TEXT_BOX
+    pos: L=885116 T=3546732 W=5196775 H=338554
+    TEXT: {{text_title}}
+  Shape: "TextBox 7" | type=TEXT_BOX
+    pos: L=9073940 T=3545548 W=5196775 H=338554
+    TEXT: {{text_title}}
+  Shape: "화살표: 오른쪽 12" | type=AUTO_SHAPE
+    pos: L=956757 T=7085494 W=7373709 H=183772
+    (no text)
+  Shape: "타원 13" | type=AUTO_SHAPE
+    pos: L=1356768 T=6920608 W=543919 H=549309
+    (no text)
+  Shape: "타원 14" | type=AUTO_SHAPE
+    pos: L=2548014 T=6920608 W=543919 H=549309
+    (no text)
+  Shape: "타원 17" | type=AUTO_SHAPE
+    pos: L=3739260 T=6920608 W=543919 H=549309
+    (no text)
+  Shape: "타원 22" | type=AUTO_SHAPE
+    pos: L=4930507 T=6920608 W=543919 H=549309
+    (no text)
+  Shape: "타원 23" | type=AUTO_SHAPE
+    pos: L=6121753 T=6920608 W=543919 H=549309
+    (no text)
+  Shape: "타원 24" | type=AUTO_SHAPE
+    pos: L=7312999 T=6920608 W=543919 H=549309
+    (no text)
+  Shape: "TextBox 27" | type=TEXT_BOX
+    pos: L=1008947 T=7563933 W=1247819 H=523220
+    TEXT: {{node_title_1}}
+  Shape: "TextBox 28" | type=TEXT_BOX
+    pos: L=2094189 T=7563933 W=1443416 H=307777
+    TEXT: {{node_title_2}}
+  Shape: "TextBox 29" | type=TEXT_BOX
+    pos: L=3286683 T=7563933 W=1443416 H=307777
+    TEXT: {{node_title_3}}
+  Shape: "TextBox 30" | type=TEXT_BOX
+    pos: L=4176305 T=7563933 W=2049139 H=307777
+    TEXT: {{node_title_4}}
+  Shape: "TextBox 31" | type=TEXT_BOX
+    pos: L=5368779 T=7563933 W=2049139 H=307777
+    TEXT: {{node_title_5}}
+  Shape: "TextBox 32" | type=TEXT_BOX
+    pos: L=6561242 T=7563933 W=2049139 H=307777
+    TEXT: {{node_title_6}}
+  Shape: "표 33" | type=TABLE
+    pos: L=1046840 T=8135809 W=1188000 H=293688
+    TEXT: [CELL] {{node_text_1}}
+  Shape: "표 34" | type=TABLE
+    pos: L=2230145 T=8119860 W=1188000 H=345685
+    TEXT: [CELL] {{node_text_2}}
+  Shape: "표 35" | type=TABLE
+    pos: L=3410790 T=8119860 W=1188000 H=345685
+    TEXT: [CELL] {{node_text_3}}
+  Shape: "표 36" | type=TABLE
+    pos: L=4510623 T=8119860 W=1380502 H=345685
+    TEXT: [CELL] {{node_text_4}}
+  Shape: "표 37" | type=TABLE
+    pos: L=5698623 T=8119860 W=1396670 H=345685
+    TEXT: [CELL] {{node_text_5}}
+  Shape: "표 38" | type=TABLE
+    pos: L=6990958 T=8119860 W=1188000 H=345685
+    TEXT: [CELL] {{node_text_6}}
+  Shape: "직사각형 39" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17892244 T=7909864 W=7964531 H=1696596
+    TEXT: 보통 운용사에서 컨버전 가능성 있는 자산 매각 시 설계사 검토 받음
+    TEXT: 컨버전 자산은 현장 투어 시 호텔 회사 데리고 옴 (운용사+오퍼레이터 조합)
+    TEXT: 이거 들었는디 개념에서 쓸만하려나
+  Shape: "직사각형 40" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=21093709 T=1194861 W=2979739 H=722460
+    TEXT: 자산 매각 시
+    TEXT: 업사이드 포텐셜로 제안
+  Shape: "직사각형 41" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17929705 T=4153953 W=4573778 H=1605675
+    TEXT: <포지셔닝 도식화>
+    TEXT: /철거 후 재건축 
+    TEXT: /기존 호텔 리뉴얼
+    TEXT: 컨버전
+  Shape: "직사각형 42" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=18064668 T=6179332 W=4438815 H=1436711
+    TEXT: - 운영사의 컨버전 가능성 검토
+    TEXT: - 건축설계사무소 검토
+    TEXT: - 호텔 운영사  컨택
+  Shape: "직사각형 43" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=24307864 T=1194861 W=2979739 H=722460
+    TEXT: 매입 입장
+    TEXT: 밸류애드 전략 중 하나
+  Shape: "직사각형 44" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17892244 T=1194861 W=2979739 H=722460
+    TEXT: 입지 및 시장 환경 변화
+    TEXT: 분석해서 반영한 결과
+  Shape: "TextBox 46" | type=TEXT_BOX [OFF-CANVAS]
+    pos: L=-2618520 T=7127154 W=2294230 H=2031325
+    TEXT: 컨버전이란 오래된 건물의 용도를 바꿔 새로 활용하는 것으로, 오피스를 호텔로, 호텔을 주거시설 등으로 바꾸는 것을 말합니
+  Shape: "표 86" | type=TABLE
+    pos: L=9054738 T=6897687 W=7671163 H=2124078
+    TEXT: [CELL] {{header_1}}
+    TEXT: [CELL] {{row1_col1}}
+    TEXT: [CELL] {{bullet}}
+    TEXT: [CELL] {{row1_col2}}
+    TEXT: [CELL] {{bullet}}
+  Shape: "TextBox 115" | type=TEXT_BOX
+    pos: L=17610138 T=2488403 W=4762879 H=646331
+    TEXT: 글로벌 럭셔리 브랜드도 국내 진출중
+  Shape: "TextBox 124" | type=TEXT_BOX
+    pos: L=859893 T=6361789 W=5196775 H=338554
+    TEXT: {{text_title}}
+  Shape: "표 127" | type=TABLE
+    pos: L=2883366 T=3962521 W=5706597 H=374587
+    TEXT: [CELL] {{bullet}}
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+  Shape: "표 4" | type=TABLE
+    pos: L=847725 T=2212680 W=15890875 H=374587
+    TEXT: [CELL] {{bullet}}
+  Shape: "TextBox 5" | type=TEXT_BOX
+    pos: L=847725 T=1784350 W=5668725 H=369332
+    TEXT: {{head_message}}
+  Shape: "표 45" | type=TABLE
+    pos: L=847725 T=4114801 W=1971676 H=1809750
+    TEXT: [CELL] {{icon}}
+  Shape: "표 49" | type=TABLE
+    pos: L=9056688 T=3981571 W=5706597 H=374587
+    TEXT: [CELL] {{bullet}}
+
+--- SLIDE 7 (layout: 3_본문서식) ---
+  Shape: "직사각형 13" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=17904872 T=2723485 W=2723136 H=5511221
+    TEXT: 지도에 위치 표시 
+    TEXT: 범례 구분 (안정화/ 개발중/ 계획중)
+  Shape: "그룹 33" | type=GROUP [OFF-CANVAS]
+    pos: L=20769700 T=3368040 W=5873044 H=5252776
+    (no text)
+  Shape: "타원 60" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=24728936 T=7182602 W=212300 H=212066
+    TEXT: 10
+  Shape: "타원 61" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=23704174 T=5964358 W=212300 H=212066
+    TEXT: 1
+  Shape: "타원 62" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=23886954 T=5872491 W=212300 H=212066
+    TEXT: 2
+  Shape: "타원 63" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=22675331 T=6058497 W=212300 H=212066
+    TEXT: 11
+  Shape: "표 64" | type=TABLE
+    pos: L=851092 T=3513138 W=15873930 H=5508622
+    TEXT: [CELL] 권역
+    TEXT: [CELL] 기존 건물명
+    TEXT: [CELL] 위치
+    TEXT: [CELL] 연면적
+    TEXT: [CELL] 변경 시기
+    TEXT: [CELL] 호텔명 (등급)
+    TEXT: [CELL] 비고
+    TEXT: [CELL] CBD
+    TEXT: [CELL] KB국민은행본점빌딩
+(센터포인트 명동)
+    TEXT: [CELL] 중구 명동
+    TEXT: [CELL] 8,076 py
+    TEXT: [CELL] 2022
+    TEXT: [CELL] 스탠포드호텔 명동 (3성급)
+    TEXT: [CELL] 국민은행 본점 여의도 이전 후 2017년 TPG안젤로고든+마스터투자운용 컨소시엄이 2,412억원에 인수
+4년의 리노베이션 기간 이후 2022년 스탠포드 호텔 명동으로 개관.
+    TEXT: [CELL] KT서울중앙지사사옥
+    TEXT: [CELL] 중구 명동
+    TEXT: [CELL] 37,080 py
+    TEXT: [CELL] 2022
+    TEXT: [CELL] 르메르디앙 서울 명동 (5성급)
+목시 서울 명동 (3성급)
+    TEXT: [CELL] 기존 전화국 소요 없어짐에 따른 용도 변경, 소유사는 변동 없이 KT estate
+위탁운영사 해비치호텔앤드리조트, 메리어트 인터내셔널 소유의 르 메르디앙과 목시 듀얼 브랜드 구성
+    TEXT: [CELL] 서울센터빌딩
+    TEXT: [CELL] 중구 소공동
+    TEXT: [CELL] 3,600py
+    TEXT: [CELL] 2025. 12(E)
+    TEXT: [CELL] UH 컨티넨탈 서울 (3성급)
+    TEXT: [CELL] 2025년 7월 근린생활 숙박시설 용도 전환, 리모델링 건축허가 신청, 저층부 리테일 운영
+    TEXT: [CELL] 동대문 두산타워
+    TEXT: [CELL] 중구 광희동
+    TEXT: [CELL] 37,000 py
+    TEXT: [CELL] 2026년 이후
+    TEXT: [CELL] -
+    TEXT: [CELL] 마스턴투자운용 7월 매각 실패 후 추후 다시 매각 추진 계획
+이지스자산운용 호텔 컨버전 목적 인수 계속 추진중
+    TEXT: [CELL] 하나손해보험빌딩
+    TEXT: [CELL] 종로구 인의동
+    TEXT: [CELL] 5,172 py
+    TEXT: [CELL] 2026년 이후
+    TEXT: [CELL] -
+    TEXT: [CELL] 하나자산신탁 매각, Upside Potential로 호텔 컨버전 제안
+타이거대체투자운용 등 7곳 호텔 컨버전 전략으로 입찰 참여 -> 타이거대체투자운용 우협 선정
+    TEXT: [CELL] 서울스퀘어
+    TEXT: [CELL] 중구 소공동
+    TEXT: [CELL] 40,174 py
+    TEXT: [CELL] -
+    TEXT: [CELL] -
+    TEXT: [CELL] ARA코리아자산운용 매각, Upside Potential로 호텔 컨버전 제안
+한국투자리얼에셋운용 등 2곳 호텔 컨버전 전략으로 입찰 참여
+    TEXT: [CELL] 프리미어플레이스
+    TEXT: [CELL] 중구 무교동
+    TEXT: [CELL] 4,974 py
+    TEXT: [CELL] -
+    TEXT: [CELL] -
+    TEXT: [CELL] 싱가포르투자청(GIC) 매각, Upside Potential로 호텔 컨버전 제안
+캡스톤자산운용 등 7곳 호텔 컨버전 전략으로 입찰 참여  -> 머니투데이 우협 선정(사옥 활용)
+    TEXT: [CELL] K파이낸스타워
+    TEXT: [CELL] 중구 소공동
+    TEXT: [CELL] 4,326 py
+    TEXT: [CELL] -
+    TEXT: [CELL] -
+    TEXT: [CELL] 케펠자산운용 매각, Upside Potential로 호텔 컨버전 제안
+    TEXT: [CELL] GBD
+    TEXT: [CELL] SM그룹 강남사옥
+    TEXT: [CELL] 강남구 역삼동
+    TEXT: [CELL] 4,446 py
+    TEXT: [CELL] 2026(E)
+    TEXT: [CELL] 트레블로지 호텔 (3성급)
+    TEXT: [CELL] 2024년 블랙스톤-블루코브자산운용이 매입 후 컨버전 진행 중
+    TEXT: [CELL] others
+    TEXT: [CELL] K스퀘어 홍대
+    TEXT: [CELL] 마포구 동교동
+    TEXT: [CELL] 3,325 py
+    TEXT: [CELL] -
+    TEXT: [CELL] -
+    TEXT: [CELL] 코람코자산신탁 매각, Upside Potential로 호텔 컨버전 제안, 저층부 리테일 운영
+  Shape: "TextBox 67" | type=TEXT_BOX
+    pos: L=847725 T=9023247 W=5595297 H=230832
+    TEXT: * 호텔 등급 : 호텔업 등급결정사업 기준 
+  Shape: "표 72" | type=TABLE [OFF-CANVAS]
+    pos: L=1785021 T=10462949 W=14940000 H=799715
+    TEXT: [CELL] 명동 엠플라자
+    TEXT: [CELL] 중구 명동
+    TEXT: [CELL] 8,416 py
+    TEXT: [CELL] 2015
+    TEXT: [CELL] 솔라리아 니시테츠 호텔 서울 명동 (4성급)
+    TEXT: [CELL] 상층부 용도변경 후 개관, 저층부 리테일 운영
+    TEXT: [CELL] 인송빌딩
+    TEXT: [CELL] 중구 명동
+    TEXT: [CELL] 9,225 py
+    TEXT: [CELL] 2016
+    TEXT: [CELL] 티마크 그랜드호텔 명동 (4성급)
+    TEXT: [CELL] 20ㅇㅇㄴㅇㅇㅁ 
+2022년 폐점 후 2024년 IHG를 운영사로 ‘VOCO 서울 명동’ 리뉴얼 개관
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "그림 8" | type=PICTURE [OFF-CANVAS]
+    pos: L=5966972 T=12468819 W=5638800 H=1752600
+    (no text)
+  Shape: "표 1" | type=TABLE
+    pos: L=847725 T=2212680 W=15890875 H=374587
+    TEXT: [CELL] {{bullet}}
+  Shape: "TextBox 3" | type=TEXT_BOX
+    pos: L=847725 T=1784350 W=5668725 H=369332
+    TEXT: {{head_message}}
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+
+--- SLIDE 8 (layout: 3_본문서식) ---
+  Shape: "Picture 2" | type=PICTURE
+    pos: L=9056687 T=2227305 W=3177355 H=4213892
+    (no text)
+  Shape: "그림 4" | type=PICTURE
+    pos: L=847724 T=2220013 W=3178175 H=4061774
+    (no text)
+  Shape: "표 16" | type=TABLE
+    pos: L=848544 T=2227306 W=3177355 H=4339708
+    TEXT: [CELL] {{image_caption}}
+  Shape: "표 23" | type=TABLE
+    pos: L=12453435 T=2228222 W=4266000 H=4345200
+    TEXT: [CELL] KT중앙지사사옥
+    TEXT: [CELL] 르 메르디앙·목시 명동
+    TEXT: [CELL] 규모
+    TEXT: [CELL] 지상 9~15층(르 메르디앙) / 지상 5~8층(목시)
+    TEXT: [CELL] 객실수
+    TEXT: [CELL] 200실 / 205실
+    TEXT: [CELL] 등급
+    TEXT: [CELL] 5성급 / 3성급
+    TEXT: [CELL] 개관
+    TEXT: [CELL] 2022.11.25
+    TEXT: [CELL] 주요 시설
+    TEXT: [CELL] 레스토랑, 클럽 라운지, 바, 수영장, 피트니스 센터, 컨퍼런스 룸, 24시간 셀프 키친
+    TEXT: [CELL] 리테일
+    TEXT: [CELL] O
+    TEXT: [CELL] 주소
+    TEXT: [CELL] 서울특별시 중구 명동8나길 38 (충무로1가)
+  Shape: "표 2" | type=TABLE
+    pos: L=854075 T=1755474 W=7741996 H=455486
+    TEXT: [CELL] {{left_title}}
+  Shape: "표 3" | type=TABLE
+    pos: L=841375 T=6897688 W=7767395 H=1814966
+    TEXT: [CELL] {{bullet}}
+  Shape: "표 5" | type=TABLE
+    pos: L=9056688 T=1755474 W=7741996 H=455486
+    TEXT: [CELL] {{right_title}}
+  Shape: "그림 7" | type=PICTURE [OFF-CANVAS]
+    pos: L=18426768 T=382299 W=4132765 H=1646364
+    (no text)
+  Shape: "표 8" | type=TABLE
+    pos: L=4314580 T=2227307 W=4266776 H=4345200
+    TEXT: [CELL] KB국민은행본점빌딩
+    TEXT: [CELL] 스탠포드호텔 명동
+    TEXT: [CELL] 규모
+    TEXT: [CELL] 지상 9~18층(19층 예정)
+    TEXT: [CELL] 객실수
+    TEXT: [CELL] 총 243실
+    TEXT: [CELL] 등급
+    TEXT: [CELL] 3성급
+    TEXT: [CELL] 개관
+    TEXT: [CELL] 2022.01.21
+    TEXT: [CELL] 주요 시설
+    TEXT: [CELL] 프론트, 레스토랑, 베이커리 카페, 바, 미팅 룸, 
+피트니스 룸, 옥상 테라스
+    TEXT: [CELL] 리테일
+    TEXT: [CELL] 애플스토어, 병원(피부과, 내과, 치과), 약국
+    TEXT: [CELL] 주소
+    TEXT: [CELL] 서울특별시 중구 남대문로 84 (남대문로2가)
+  Shape: "그림 27" | type=PICTURE
+    pos: L=5581650 T=2842072 W=1680179 H=1021548
+    (no text)
+  Shape: "표 28" | type=TABLE [OFF-CANVAS]
+    pos: L=17694482 T=4110711 W=7237496 H=6455347
+    TEXT: [CELL] 복합시설 (판매시설, 묵시호텔, 르메르디앙 호텔)
+전화국 건물의 필요가 없어짐에 따라 용도변경. 특히 KT는 2010년부터 주요 도심 전화국 부지를 호텔과 같은 시설로 재개발/변동.
+코로나 팬데믹때 주춤했던 호텔 수요가 2022년 이후 회복하면서  
+통신자산->숙박시설로 성공적으로 전환, 2022년 개관
+
+
+위치: 서울 중구 명동8나길 38- 명동 중심상권에 자리해 관광객 접근성 높음 
+4호선 명동역 도보 3분 거리, 1호선 시청역 도보 13분 거리, 2호선 을지로입구역 도보 10분
+
+규모: 지상 15층 405실 (4층 공용로비, 5-8층 묵시 호텔 205실 3성급, 9-15층 르메르디앙 호텔  200실 5성급) 
+
+주요시설: 호텔 관련 시설 (레스토랑, 라운지, 수영장 및 피트니스 센터, 바, 24시간 셀프 키친) + 상업시설 (리테일 매장)
+
+운영: KT estate 소유 – 메리어트 인터내셔널이 르메르디앙+ 묵시 듀얼 위탁운영
+현재 해당 자산 매각 검토중  확정 X.
+  Shape: "그림 13" | type=PICTURE
+    pos: L=12822117 T=2971548 W=2031655 H=293461
+    (no text)
+  Shape: "그림 15" | type=PICTURE
+    pos: L=15018872 T=3368675 W=1337494 H=477676
+    (no text)
+  Shape: "표 32" | type=TABLE
+    pos: L=9071202 T=6883174 W=7648233 H=1065212
+    TEXT: [CELL] {{bullet}}
+  Shape: "표 11" | type=TABLE
+    pos: L=9056688 T=2233714 W=3177355 H=4339708
+    TEXT: [CELL] {{image_caption}}
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+
+--- SLIDE 9 (layout: 3_본문서식) ---
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "표 21" | type=TABLE
+    pos: L=847725 T=2208493 W=7741996 H=1044747
+    TEXT: [CELL] .
+  Shape: "표 17" | type=TABLE
+    pos: L=7097485 T=2216149 W=9628415 H=6813688
+    TEXT: [CELL] Louisiana National Bank
+    TEXT: [CELL] WATERMARK Baton Rouge, Autograph Collection
+    TEXT: [CELL] 규모
+    TEXT: [CELL] 12층
+    TEXT: [CELL] 객실수
+    TEXT: [CELL] 144실
+    TEXT: [CELL] 등급
+    TEXT: [CELL] 4성급
+    TEXT: [CELL] 개관
+    TEXT: [CELL] 2016.10.14
+    TEXT: [CELL] 주요 시설
+    TEXT: [CELL] 컨퍼런스 센터, 비즈니스 센터, 레스토랑(2곳), 바, 라운지
+    TEXT: [CELL] 주소
+    TEXT: [CELL] 150 3rd St, Baton Rouge, LA 70801, United States
+    TEXT: [CELL] 배경
+    TEXT: [CELL] 재택근무 영향 및 80~90년대 오피스 과잉 공급으로 노후화 및 수요 감소, 오피스 공실률 상승
+배턴루지 도심 오피스 공실률 약 14%로 높아 비효율 자산 활용이 필요했던 시기
+인센티브 프로그램을 제공하며 컨버전 및 리모델링을 권장하는 제도적 뒷받침
+루이지애나주 : 로컬커뮤니티 민간 투자 장려 목적, 역사적 건물 복원 세액 공제, 지정 지역 상업용 부동산 최대 25% renovation 비용 환급, 특정 요건 충족 시 최대 35%
+연방 : 소득창출 역사적 건물 복원 지원, renovation 비용 20% 소득세 공제
+    TEXT: [CELL] 전략
+    TEXT: [CELL] 도시형 호텔은 객실내 발코니 요건이 없어, 외관 변경 없이 자산간 용도 전환 용이
+2층 객실 내 법적 요구 창문 부재는 16피트 높이 천장에 원격 채광창 설치하여 건축법 요건 충족
+건물 외관을 훼손하지 않고 보존한 프로젝트로 연방 및 루이지애나 주정부의 세액공제를 모두 받아 상당한 건설 비용 절감 효과
+  Shape: "표 3" | type=TABLE [OFF-CANVAS]
+    pos: L=-7293385 T=10281555 W=7000875 H=7415467
+    TEXT: [CELL] 옛 미드랜드 뱅크 본점-> 복합 호텔+멤버스클럽
+1924년 준공후 1992년부터 HSBC가 사용하던 영국 MidLank Bank 건물-> 2007년도 비워지고 약 4년간의 리노베이션을 거쳐 2017년 The Ned 호텔로 개관. 주말에 한산한 전통금융지구에 활기를 불어넣는 역할. 
+금융지구 공동화 문제+ 역사적 건축 보존 이슈 해결한 사례. 2008년 금융 이후 도심오피스 수요가 정체된 시기에 시티오브런던 내 유휴 건물을 호텔로 바꾸는 움직임이 있었음. 해당 건물은 Grade I 여서 재임대하기 어려웠음 (규제, 역사적/문화적/건축물에 지정하는 등급, 허가 승인 필수). Post pandemic + laws on esg rating E 추후 rating C로 esg 규제 완화예정
+
+
+위치: 시티오브런던 금융지구 (No. 27 Poultry). Bank 지하철역과 도보 2분 거리. 맞은 편에 BOE 영국 중앙은행 위치. 
+규모: 대형 럭셔리 호텔, 지상 8층 (연면적 29,450 sq m), 객실 252실 
+
+주요시설: 회원제 클럽시설+9개 레스토랑 및 바 (영국 특급호텔 중에서도 식음업장 수가 많은 편), 옥상 루프탑 수영장, 기존 지하 금고 자리엔 스파와 실내 수영장
+
+운영: Soho House & Co 소유 운영+ 시델 그룹과 합작
+
+타임라인
+HSBC은행-> 2006년 러시아 투자자 인수-> 2012년 소호하우스+시델이 5000만 파운드에 재인수 
+대대적 리노베이션 약 2억여 파운드를 들여 외관은 보존, 내부 개조
+  Shape: "Picture 2" | type=PICTURE [OFF-CANVAS]
+    pos: L=-8858780 T=198472 W=5238750 H=7934325
+    (no text)
+  Shape: "그림 4" | type=PICTURE [OFF-CANVAS]
+    pos: L=-9637648 T=-733425 W=4688526 H=5686425
+    (no text)
+  Shape: "TextBox 6" | type=TEXT_BOX [OFF-CANVAS]
+    pos: L=1183106 T=10471661 W=12312314 H=369332
+    TEXT: https://www.elliottwood.co.uk/featured/the-ned
+  Shape: "TextBox 8" | type=TEXT_BOX [OFF-CANVAS]
+    pos: L=1157789 T=12472424 W=12312314 H=369332
+    TEXT: https://www.savills.us/blog/article/379782/commercial-property/the-rise-of-office-to-hotel-conversions
+  Shape: "TextBox 5" | type=TEXT_BOX [OFF-CANVAS]
+    pos: L=1183106 T=14103855 W=12312314 H=369332
+    TEXT: Grade I 다시 찾기
+  Shape: "표 7" | type=TABLE [OFF-CANVAS]
+    pos: L=1157789 T=11153592 W=7741996 H=1334707
+    TEXT: [CELL] 런던 호텔 객실 부족 (코로나 감염 위험 큰 국가에서 입국하는 사람 호텔에서 격리조치를 위해 영국정부가 일부호텔과 장기계약 – 약 15,000개 객실 사용 불가)
+하이브리드 업무 환경 + esg 요건으로 b등급 사무실 수요 부진
+지난 18개월간 런던 중심부 매물로 나온 사무실 40%는 호텔 또는 아파트호텔 재개발을 위한 매입
+  Shape: "직사각형 12" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=2017278 T=-2987526 W=8037075 H=1573919
+    TEXT: 노후화된 건물 -> 비용과 기간 적게 들여서 내부 리모델링만
+    TEXT: 고급 호텔체인 들여와서 성공사례
+    TEXT: 컨버전의 개념 강조
+  Shape: "표 26" | type=TABLE [OFF-CANVAS]
+    pos: L=18005393 T=6179143 W=6435757 H=2527220
+    TEXT: [CELL] 역사적 건축물을 재생하는 ‘ShinPuhKan’ 프로젝트를 통해 기존 전화국을 호텔로 전환하고 신축 상업동을 결합해, 호텔·리테일·문화공간이 공존하는 형태로 탄생
+보존형 컨버전 전략을 택해 일본 관광청의 숙박 활성화 정책과 ESG 방향과 일치
+개발 NTT Urban Development / 운영 Ace Hotel (Seibu Prince Hotels Worldwide) / 설계 Kengo Kuma  + COMMUNE 공동
+  Shape: "표 27" | type=TABLE [OFF-CANVAS]
+    pos: L=18005393 T=2269320 W=7673980 H=3254947
+    TEXT: [CELL] ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+  Shape: "표 2" | type=TABLE [OFF-CANVAS]
+    pos: L=17916525 T=5524267 W=7741996 H=455486
+    TEXT: [CELL] 교토 에이스호텔
+  Shape: "AutoShape 2" | type=AUTO_SHAPE
+    pos: L=8651875 T=4800600 W=304800 H=304800
+    (no text)
+  Shape: "그림 14" | type=PICTURE
+    pos: L=861390 T=2228134 W=5898778 H=6801700
+    (no text)
+  Shape: "표 9" | type=TABLE
+    pos: L=854075 T=1755474 W=7741996 H=455486
+    TEXT: [CELL] {{left_title}}
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+
+--- SLIDE 10 (layout: 3_본문서식) ---
+  Shape: "슬라이드 번호 개체 틀 1" | type=PLACEHOLDER
+    pos: L=12763620 T=9289383 W=3962281 H=527403
+    (no text)
+  Shape: "직사각형 2" | type=AUTO_SHAPE
+    pos: L=7893424 T=6731656 W=7059706 H=457236
+    TEXT: {{index_head_message}}  |  {{head message}}
+  Shape: "직사각형 10" | type=AUTO_SHAPE
+    pos: L=7893424 T=1833098 W=7059706 H=457236
+    TEXT: {{index_head_message}}  |  {{head message}}
+  Shape: "직사각형 11" | type=AUTO_SHAPE
+    pos: L=7893424 T=4282377 W=7059706 H=457236
+    TEXT: {{index_head_message}}  |  {{head message}}
+  Shape: "TextBox 13" | type=TEXT_BOX
+    pos: L=7893423 T=7382734 W=8832477 H=701410
+    TEXT: {{bullet}}
+  Shape: "TextBox 17" | type=TEXT_BOX
+    pos: L=7893423 T=4933455 W=8832477 H=701410
+    TEXT: {{bullet}}
+  Shape: "TextBox 18" | type=TEXT_BOX
+    pos: L=7893423 T=2484176 W=8832477 H=378245
+    TEXT: {{bullet}}
+  Shape: "직사각형 22" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=7342539 T=10962587 W=4827052 H=493450
+    TEXT: 금리도 안정화. 비용 감소
+  Shape: "직사각형 23" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=12783086 T=10979821 W=4827052 H=493450
+    TEXT: 글로벌 럭셔리 브랜드 유치
+  Shape: "직사각형 24" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=7342539 T=11753120 W=4827052 H=493450
+    TEXT: 리테일 테넌트, 컨텐츠….
+  Shape: "직사각형 25" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=12783086 T=10195603 W=4827052 H=493450
+    TEXT: 호텔 포지셔닝.. 4성급. 
+  Shape: "직사각형 26" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=7342539 T=10017088 W=4827052 H=493450
+    TEXT: 비용 최소화capex, 수익 극대화
+  Shape: "직사각형 27" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=12783086 T=11772920 W=4827052 H=493450
+    TEXT: 어메니티 구성, 운영 비용 최대
+  Shape: "직사각형 28" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=1768717 T=10195603 W=4827052 H=493450
+    TEXT: 용도변경 등 법적 절차 수월하게
+  Shape: "직사각형 29" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=1768717 T=10992217 W=4827052 H=493450
+    TEXT: 건축, 엔지니어링 고려사항
+  Shape: "직사각형 30" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=12783086 T=12589972 W=4827052 H=493450
+    TEXT: 입지 선정 – 관광지, k컬쳐 연계
+  Shape: "직사각형 31" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=7342539 T=12527526 W=4827052 H=493450
+    TEXT: 입지 선정 – 관광지, k컬쳐 연계
+  Shape: "직사각형 22" | type=AUTO_SHAPE [OFF-CANVAS]
+    pos: L=19169692 T=2325637 W=3390266 H=1956740
+    TEXT: 내용 우선 써봄
+  Shape: "Picture 8" | type=PICTURE
+    pos: L=854653 T=1764544 W=6487886 H=6876227
+    (no text)
+  Shape: "표 15" | type=TABLE
+    pos: L=884478 T=520392 W=15841423 H=944871
+    TEXT: [CELL] {{section number}}
+{{section name}}
+    TEXT: [CELL] 오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion
+
+--- SLIDE 11 (layout: 3_본문서식) ---
+  Shape: "표 15" | type=TABLE
+    pos: L=890816 T=525463 W=7697559 H=944868
+    TEXT: [CELL] Contact
+  Shape: "TextBox 6" | type=TEXT_BOX
+    pos: L=848407 T=1666936 W=15864003 H=400042
+    TEXT: {{team_name}}
+  Shape: "표 15" | type=TABLE
+    pos: L=848405 T=4069383 W=6348391 H=623126
+    TEXT: [CELL] {{university}} {{major}}
+    TEXT: [CELL] {{mail_adress}}
+  Shape: "표 15" | type=TABLE
+    pos: L=847725 T=3513138 W=3599054 H=914396
+    TEXT: [CELL] {{name}}
+    TEXT: [CELL] {{company}}
+  Shape: "표 15" | type=TABLE
+    pos: L=847725 T=6861175 W=6348391 H=623126
+    TEXT: [CELL] {{university}} {{major}}
+    TEXT: [CELL] {{mail_adress}}
+  Shape: "표 15" | type=TABLE
+    pos: L=847045 T=6304930 W=3599054 H=914396
+    TEXT: [CELL] {{name}}
+    TEXT: [CELL] {{company}}
+  Shape: "표 15" | type=TABLE
+    pos: L=9058048 T=4069383 W=6348391 H=623126
+    TEXT: [CELL] {{university}} {{major}}
+    TEXT: [CELL] {{mail_adress}}
+  Shape: "표 15" | type=TABLE
+    pos: L=9057368 T=3513138 W=3599054 H=914396
+    TEXT: [CELL] {{name}}
+    TEXT: [CELL] {{company}}
+  Shape: "표 19" | type=TABLE
+    pos: L=9057368 T=6861175 W=6348391 H=623126
+    TEXT: [CELL] {{university}} {{major}}
+    TEXT: [CELL] {{mail_adress}}
+  Shape: "표 15" | type=TABLE
+    pos: L=9056688 T=6304930 W=3599054 H=914396
+    TEXT: [CELL] {{name}}
+    TEXT: [CELL] {{company}}
+
+================================================================================
+TASK 2: OFF-CANVAS SHAPES SUMMARY
+================================================================================
+
+  SLIDE 1 | "그림 2" | type=PICTURE
+    L=1926141 T=10316485 W=6662234 H=4259313
+    (no text)
+
+  SLIDE 1 | "그림 6" | type=PICTURE
+    L=8588374 T=-10662 W=9021763 H=9916661
+    (no text)
+
+  SLIDE 3 | "그림 7" | type=PICTURE
+    L=8588374 T=-10662 W=9021763 H=9916661
+    (no text)
+
+  SLIDE 4 | "Picture 4" | type=PICTURE
+    L=18032804 T=6035549 W=7592881 H=5073515
+    (no text)
+
+  SLIDE 4 | "TextBox 43" | type=TEXT_BOX
+    L=885116 T=-2594988 W=5196775 H=338554
+    TEXT: 최근 20년간 서울 오피스 공급 추이 / 임대료 인상율 (둔화)
+
+  SLIDE 4 | "Picture 2" | type=PICTURE
+    L=-9978129 T=437642 W=6997383 H=4939329
+    (no text)
+
+  SLIDE 4 | "직사각형 42" | type=AUTO_SHAPE
+    L=-4316752 T=-1974623 W=3831233 H=2003090
+    TEXT: 공실 률?? 최근 증가 추세?
+    TEXT: Cbd가 제일 높나?
+    TEXT: 프라임 외 증가하나?cv
+
+  SLIDE 4 | "TextBox 45" | type=TEXT_BOX
+    L=1771567 T=10212856 W=14570242 H=1200329
+    TEXT: 다만 매각의 '허들'이 되고 있는 공실을 호텔 컨버전 전략으로 극복하는 방안이 새로운 해법으로 떠올랐다. IB업계 관계자는 "호텔 컨버전 이후 설비투자(CAPEX) 대비 수익률을 맞출 수 있을 것으로 예상된다"고 분석했다.출처 : 뉴스퀘스트(https://www.newsquest.co.kr)
+
+  SLIDE 4 | "그림 9" | type=PICTURE
+    L=-8561657 T=5775877 W=8236378 H=4130123
+    (no text)
+
+  SLIDE 4 | "그림 12" | type=PICTURE
+    L=18083045 T=473606 W=10637630 H=5510139
+    (no text)
+
+  SLIDE 4 | "직사각형 44" | type=AUTO_SHAPE
+    L=5996772 T=10421817 W=2290248 H=679698
+    TEXT: 서울 평균 SOLID로 
+    TEXT: 추가할까 
+
+  SLIDE 4 | "직사각형 44" | type=AUTO_SHAPE
+    L=10608061 T=10931265 W=5064418 H=538278
+    TEXT: 공급 포화– 공실 리스크 우려 – 거래 둔화
+
+  SLIDE 5 | "직사각형 41" | type=AUTO_SHAPE
+    L=17681968 T=3033751 W=11455400 H=722460
+    TEXT: 호텔 공급은코로나 영향으로 수요 대비 최근 공백, 그래서 development site가 아닌 운영 목적 거래 비중증가
+
+  SLIDE 5 | "직사각형 44" | type=AUTO_SHAPE
+    L=17976871 T=5353910 W=1821097 H=1549872
+    TEXT: 매출 증가
+
+  SLIDE 5 | "Table 6" | type=TABLE
+    L=9760844 T=10219208 W=10069965 H=5137230
+    TEXT: [CELL] Transaction Year
+    TEXT: [CELL] Property Name
+    TEXT: [CELL] Buyer
+    TEXT: [CELL] Purpose
+    TEXT: [CELL] 2021
+    TEXT: [CELL] Mercure Ambassador Seoul Hongdae
+    TEXT: [CELL] Hyundai Asset Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Le Méridien Seoul, Myeongdong
+    TEXT: [CELL] Mastern Investment Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Tmark Grand Hotel, Myeongdong
+    TEXT: [CELL] IGIS Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Holiday Inn Express
+    TEXT: [CELL] Keppel Investment Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] 2022
+    TEXT: [CELL] SEOUL Dragon City
+    TEXT: [CELL] Shinhan Seobu T&D REIT
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Glad Live Gangnam
+    TEXT: [CELL] TERRA&PARTNERS
+    TEXT: [CELL] Development
+    TEXT: [CELL] Itaewon Crown Hotel
+    TEXT: [CELL] Hana Alternative Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Millennium Hilton Seoul
+    TEXT: [CELL] IGIS Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] Prima Hotel Cheongdam
+    TEXT: [CELL] MIRAEIN
+    TEXT: [CELL] Development
+    TEXT: [CELL] Staz Hotel
+    TEXT: [CELL] ISTERN Investment & Development
+    TEXT: [CELL] Development
+    TEXT: [CELL] Novotel Ambassador Doksan
+    TEXT: [CELL] IRDV
+    TEXT: [CELL] Development
+    TEXT: [CELL] New Kukje Hotel
+    TEXT: [CELL] GRE Partners Asset Management
+    TEXT: [CELL] Development
+    TEXT: [CELL] 2023
+    TEXT: [CELL] Grand Hyatt Seoul
+    TEXT: [CELL] BlueCove Investment
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Nine Tree by Parnas Seoul Myeongdong II
+    TEXT: [CELL] CDL
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Nine Tree By Parnas Seoul Dongdaemun
+    TEXT: [CELL] Shinhan Seobu T&D REIT
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Travelodge Myeongdong Namsan
+    TEXT: [CELL] CAPSTONE Asset Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Aventree Hotel Jongno
+    TEXT: [CELL] The Crown Prima
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Ibis Ambassador Busan Haeundae
+    TEXT: [CELL] Sono International
+    TEXT: [CELL] Operation
+    TEXT: [CELL] 2024
+    TEXT: [CELL] Conrad Seoul
+    TEXT: [CELL] ARA KOREA (REF), (SMBC)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Shilla Stay Gwanghwamun
+    TEXT: [CELL] Shinhan REITs Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] L7 Gangnam
+    TEXT: [CELL] LOTTE AMC
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Tmark Hotel Myeongdong
+    TEXT: [CELL] Gravity Asset Management(Angelo Gordon)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] LOTTE City Hotel Guro
+    TEXT: [CELL] IGIS Asset Management(GIC)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Four Points by Sheraton Josun Seoul Station
+    TEXT: [CELL] KB Asset Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] 2025
+    TEXT: [CELL] Four Points by Sheraton Josun Seoul Myeong-dong
+    TEXT: [CELL] Pacific Asset Management (Pref. Bidder)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Courtyard by Marriott Seoul Namdaemun
+    TEXT: [CELL] Heungkuk REITs Management (Pref. Bidder)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Shilla Stay Mapo
+    TEXT: [CELL] Shinhan REITs Management
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Shilla Stay Seodaemun
+    TEXT: [CELL] KB Asset Management (Pref. Bidder)
+    TEXT: [CELL] Operation
+    TEXT: [CELL] Mercure Ambassador Seoul Hongdae
+    TEXT: [CELL] JB Asset Management(Sotetsu, Goldman Sachs)
+    TEXT: [CELL] Operation
+
+  SLIDE 5 | "직사각형 39" | type=AUTO_SHAPE
+    L=17681968 T=2068639 W=7392614 H=722460
+    TEXT:  공공에서 숙박시설 개발 유도 지원 정책 / 투자자들의 호텔 투자 증가
+
+  SLIDE 6 | "직사각형 39" | type=AUTO_SHAPE
+    L=17892244 T=7909864 W=7964531 H=1696596
+    TEXT: 보통 운용사에서 컨버전 가능성 있는 자산 매각 시 설계사 검토 받음
+    TEXT: 컨버전 자산은 현장 투어 시 호텔 회사 데리고 옴 (운용사+오퍼레이터 조합)
+    TEXT: 이거 들었는디 개념에서 쓸만하려나
+
+  SLIDE 6 | "직사각형 40" | type=AUTO_SHAPE
+    L=21093709 T=1194861 W=2979739 H=722460
+    TEXT: 자산 매각 시
+    TEXT: 업사이드 포텐셜로 제안
+
+  SLIDE 6 | "직사각형 41" | type=AUTO_SHAPE
+    L=17929705 T=4153953 W=4573778 H=1605675
+    TEXT: <포지셔닝 도식화>
+    TEXT: /철거 후 재건축 
+    TEXT: /기존 호텔 리뉴얼
+    TEXT: 컨버전
+
+  SLIDE 6 | "직사각형 42" | type=AUTO_SHAPE
+    L=18064668 T=6179332 W=4438815 H=1436711
+    TEXT: - 운영사의 컨버전 가능성 검토
+    TEXT: - 건축설계사무소 검토
+    TEXT: - 호텔 운영사  컨택
+
+  SLIDE 6 | "직사각형 43" | type=AUTO_SHAPE
+    L=24307864 T=1194861 W=2979739 H=722460
+    TEXT: 매입 입장
+    TEXT: 밸류애드 전략 중 하나
+
+  SLIDE 6 | "직사각형 44" | type=AUTO_SHAPE
+    L=17892244 T=1194861 W=2979739 H=722460
+    TEXT: 입지 및 시장 환경 변화
+    TEXT: 분석해서 반영한 결과
+
+  SLIDE 6 | "TextBox 46" | type=TEXT_BOX
+    L=-2618520 T=7127154 W=2294230 H=2031325
+    TEXT: 컨버전이란 오래된 건물의 용도를 바꿔 새로 활용하는 것으로, 오피스를 호텔로, 호텔을 주거시설 등으로 바꾸는 것을 말합니
+
+  SLIDE 7 | "직사각형 13" | type=AUTO_SHAPE
+    L=17904872 T=2723485 W=2723136 H=5511221
+    TEXT: 지도에 위치 표시 
+    TEXT: 범례 구분 (안정화/ 개발중/ 계획중)
+
+  SLIDE 7 | "그룹 33" | type=GROUP
+    L=20769700 T=3368040 W=5873044 H=5252776
+    (no text)
+
+  SLIDE 7 | "타원 60" | type=AUTO_SHAPE
+    L=24728936 T=7182602 W=212300 H=212066
+    TEXT: 10
+
+  SLIDE 7 | "타원 61" | type=AUTO_SHAPE
+    L=23704174 T=5964358 W=212300 H=212066
+    TEXT: 1
+
+  SLIDE 7 | "타원 62" | type=AUTO_SHAPE
+    L=23886954 T=5872491 W=212300 H=212066
+    TEXT: 2
+
+  SLIDE 7 | "타원 63" | type=AUTO_SHAPE
+    L=22675331 T=6058497 W=212300 H=212066
+    TEXT: 11
+
+  SLIDE 7 | "표 72" | type=TABLE
+    L=1785021 T=10462949 W=14940000 H=799715
+    TEXT: [CELL] 명동 엠플라자
+    TEXT: [CELL] 중구 명동
+    TEXT: [CELL] 8,416 py
+    TEXT: [CELL] 2015
+    TEXT: [CELL] 솔라리아 니시테츠 호텔 서울 명동 (4성급)
+    TEXT: [CELL] 상층부 용도변경 후 개관, 저층부 리테일 운영
+    TEXT: [CELL] 인송빌딩
+    TEXT: [CELL] 중구 명동
+    TEXT: [CELL] 9,225 py
+    TEXT: [CELL] 2016
+    TEXT: [CELL] 티마크 그랜드호텔 명동 (4성급)
+    TEXT: [CELL] 20ㅇㅇㄴㅇㅇㅁ 
+2022년 폐점 후 2024년 IHG를 운영사로 ‘VOCO 서울 명동’ 리뉴얼 개관
+
+  SLIDE 7 | "그림 8" | type=PICTURE
+    L=5966972 T=12468819 W=5638800 H=1752600
+    (no text)
+
+  SLIDE 8 | "그림 7" | type=PICTURE
+    L=18426768 T=382299 W=4132765 H=1646364
+    (no text)
+
+  SLIDE 8 | "표 28" | type=TABLE
+    L=17694482 T=4110711 W=7237496 H=6455347
+    TEXT: [CELL] 복합시설 (판매시설, 묵시호텔, 르메르디앙 호텔)
+전화국 건물의 필요가 없어짐에 따라 용도변경. 특히 KT는 2010년부터 주요 도심 전화국 부지를 호텔과 같은 시설로 재개발/변동.
+코로나 팬데믹때 주춤했던 호텔 수요가 2022년 이후 회복하면서  
+통신자산->숙박시설로 성공적으로 전환, 2022년 개관
+
+
+위치: 서울 중구 명동8나길 38- 명동 중심상권에 자리해 관광객 접근성 높음 
+4호선 명동역 도보 3분 거리, 1호선 시청역 도보 13분 거리, 2호선 을지로입구역 도보 10분
+
+규모: 지상 15층 405실 (4층 공용로비, 5-8층 묵시 호텔 205실 3성급, 9-15층 르메르디앙 호텔  200실 5성급) 
+
+주요시설: 호텔 관련 시설 (레스토랑, 라운지, 수영장 및 피트니스 센터, 바, 24시간 셀프 키친) + 상업시설 (리테일 매장)
+
+운영: KT estate 소유 – 메리어트 인터내셔널이 르메르디앙+ 묵시 듀얼 위탁운영
+현재 해당 자산 매각 검토중  확정 X.
+
+  SLIDE 9 | "표 3" | type=TABLE
+    L=-7293385 T=10281555 W=7000875 H=7415467
+    TEXT: [CELL] 옛 미드랜드 뱅크 본점-> 복합 호텔+멤버스클럽
+1924년 준공후 1992년부터 HSBC가 사용하던 영국 MidLank Bank 건물-> 2007년도 비워지고 약 4년간의 리노베이션을 거쳐 2017년 The Ned 호텔로 개관. 주말에 한산한 전통금융지구에 활기를 불어넣는 역할. 
+금융지구 공동화 문제+ 역사적 건축 보존 이슈 해결한 사례. 2008년 금융 이후 도심오피스 수요가 정체된 시기에 시티오브런던 내 유휴 건물을 호텔로 바꾸는 움직임이 있었음. 해당 건물은 Grade I 여서 재임대하기 어려웠음 (규제, 역사적/문화적/건축물에 지정하는 등급, 허가 승인 필수). Post pandemic + laws on esg rating E 추후 rating C로 esg 규제 완화예정
+
+
+위치: 시티오브런던 금융지구 (No. 27 Poultry). Bank 지하철역과 도보 2분 거리. 맞은 편에 BOE 영국 중앙은행 위치. 
+규모: 대형 럭셔리 호텔, 지상 8층 (연면적 29,450 sq m), 객실 252실 
+
+주요시설: 회원제 클럽시설+9개 레스토랑 및 바 (영국 특급호텔 중에서도 식음업장 수가 많은 편), 옥상 루프탑 수영장, 기존 지하 금고 자리엔 스파와 실내 수영장
+
+운영: Soho House & Co 소유 운영+ 시델 그룹과 합작
+
+타임라인
+HSBC은행-> 2006년 러시아 투자자 인수-> 2012년 소호하우스+시델이 5000만 파운드에 재인수 
+대대적 리노베이션 약 2억여 파운드를 들여 외관은 보존, 내부 개조
+
+  SLIDE 9 | "Picture 2" | type=PICTURE
+    L=-8858780 T=198472 W=5238750 H=7934325
+    (no text)
+
+  SLIDE 9 | "그림 4" | type=PICTURE
+    L=-9637648 T=-733425 W=4688526 H=5686425
+    (no text)
+
+  SLIDE 9 | "TextBox 6" | type=TEXT_BOX
+    L=1183106 T=10471661 W=12312314 H=369332
+    TEXT: https://www.elliottwood.co.uk/featured/the-ned
+
+  SLIDE 9 | "TextBox 8" | type=TEXT_BOX
+    L=1157789 T=12472424 W=12312314 H=369332
+    TEXT: https://www.savills.us/blog/article/379782/commercial-property/the-rise-of-office-to-hotel-conversions
+
+  SLIDE 9 | "TextBox 5" | type=TEXT_BOX
+    L=1183106 T=14103855 W=12312314 H=369332
+    TEXT: Grade I 다시 찾기
+
+  SLIDE 9 | "표 7" | type=TABLE
+    L=1157789 T=11153592 W=7741996 H=1334707
+    TEXT: [CELL] 런던 호텔 객실 부족 (코로나 감염 위험 큰 국가에서 입국하는 사람 호텔에서 격리조치를 위해 영국정부가 일부호텔과 장기계약 – 약 15,000개 객실 사용 불가)
+하이브리드 업무 환경 + esg 요건으로 b등급 사무실 수요 부진
+지난 18개월간 런던 중심부 매물로 나온 사무실 40%는 호텔 또는 아파트호텔 재개발을 위한 매입
+
+  SLIDE 9 | "직사각형 12" | type=AUTO_SHAPE
+    L=2017278 T=-2987526 W=8037075 H=1573919
+    TEXT: 노후화된 건물 -> 비용과 기간 적게 들여서 내부 리모델링만
+    TEXT: 고급 호텔체인 들여와서 성공사례
+    TEXT: 컨버전의 개념 강조
+
+  SLIDE 9 | "표 26" | type=TABLE
+    L=18005393 T=6179143 W=6435757 H=2527220
+    TEXT: [CELL] 역사적 건축물을 재생하는 ‘ShinPuhKan’ 프로젝트를 통해 기존 전화국을 호텔로 전환하고 신축 상업동을 결합해, 호텔·리테일·문화공간이 공존하는 형태로 탄생
+보존형 컨버전 전략을 택해 일본 관광청의 숙박 활성화 정책과 ESG 방향과 일치
+개발 NTT Urban Development / 운영 Ace Hotel (Seibu Prince Hotels Worldwide) / 설계 Kengo Kuma  + COMMUNE 공동
+
+  SLIDE 9 | "표 27" | type=TABLE
+    L=18005393 T=2269320 W=7673980 H=3254947
+    TEXT: [CELL] ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+
+  SLIDE 9 | "표 2" | type=TABLE
+    L=17916525 T=5524267 W=7741996 H=455486
+    TEXT: [CELL] 교토 에이스호텔
+
+  SLIDE 10 | "직사각형 22" | type=AUTO_SHAPE
+    L=7342539 T=10962587 W=4827052 H=493450
+    TEXT: 금리도 안정화. 비용 감소
+
+  SLIDE 10 | "직사각형 23" | type=AUTO_SHAPE
+    L=12783086 T=10979821 W=4827052 H=493450
+    TEXT: 글로벌 럭셔리 브랜드 유치
+
+  SLIDE 10 | "직사각형 24" | type=AUTO_SHAPE
+    L=7342539 T=11753120 W=4827052 H=493450
+    TEXT: 리테일 테넌트, 컨텐츠….
+
+  SLIDE 10 | "직사각형 25" | type=AUTO_SHAPE
+    L=12783086 T=10195603 W=4827052 H=493450
+    TEXT: 호텔 포지셔닝.. 4성급. 
+
+  SLIDE 10 | "직사각형 26" | type=AUTO_SHAPE
+    L=7342539 T=10017088 W=4827052 H=493450
+    TEXT: 비용 최소화capex, 수익 극대화
+
+  SLIDE 10 | "직사각형 27" | type=AUTO_SHAPE
+    L=12783086 T=11772920 W=4827052 H=493450
+    TEXT: 어메니티 구성, 운영 비용 최대
+
+  SLIDE 10 | "직사각형 28" | type=AUTO_SHAPE
+    L=1768717 T=10195603 W=4827052 H=493450
+    TEXT: 용도변경 등 법적 절차 수월하게
+
+  SLIDE 10 | "직사각형 29" | type=AUTO_SHAPE
+    L=1768717 T=10992217 W=4827052 H=493450
+    TEXT: 건축, 엔지니어링 고려사항
+
+  SLIDE 10 | "직사각형 30" | type=AUTO_SHAPE
+    L=12783086 T=12589972 W=4827052 H=493450
+    TEXT: 입지 선정 – 관광지, k컬쳐 연계
+
+  SLIDE 10 | "직사각형 31" | type=AUTO_SHAPE
+    L=7342539 T=12527526 W=4827052 H=493450
+    TEXT: 입지 선정 – 관광지, k컬쳐 연계
+
+  SLIDE 10 | "직사각형 22" | type=AUTO_SHAPE
+    L=19169692 T=2325637 W=3390266 H=1956740
+    TEXT: 내용 우선 써봄
+
+--- Checking MASTER and LAYOUTS ---
+  MASTER[0] | "TextBox 8" | type=TEXT_BOX
+    L=-2777778 T=-178289
+    TEXT: <양식통일>
+    TEXT: 제목 27p
+    TEXT: 중제목 18p 
+    TEXT: 소제목 16p
+    TEXT: 본문 14p
+    TEXT: 각주/출처 9p
+    TEXT: 표 구분 14p
+    TEXT: 표 내용 12p
+    TEXT: 줄간격 1.5
+  MASTER[0] | "직사각형 1" | type=AUTO_SHAPE
+    L=1066800 T=-1266883
+  MASTER[0] | "직사각형 2" | type=AUTO_SHAPE
+    L=2133600 T=-1266883
+  MASTER[0] | "직사각형 3" | type=AUTO_SHAPE
+    L=3200400 T=-1266883
+  MASTER[0] | "직사각형 4" | type=AUTO_SHAPE
+    L=4267200 T=-1266883
+  MASTER[0] | "직사각형 5" | type=AUTO_SHAPE
+    L=5334000 T=-1266883
+  MASTER[0] | "직사각형 6" | type=AUTO_SHAPE
+    L=0 T=-1266883
+  MASTER[0] | "직사각형 7" | type=AUTO_SHAPE
+    L=10118548 T=-3333750
+    TEXT: <표 제작 색통일 팁>
+    TEXT: 1. 테이블디자인 -> 모든 테투리 X
+    TEXT: 2. 도형 채우기 -> 예시 색에 맞게
+    TEXT: 3. 위쪽/아래쪽 테두리, 1pt, 펜색 황갈색(팔레트 4번째)
+    TEXT: 4. 색 채운 부분 안쪽 테두리, 0.5pt, 펜색 흰색
+    TEXT: 5. 색 안채운 부분 안쪽 테두리, 0.5pt, 펜색 황갈색 (팔레트 4번째)
+  MASTER[0] | "TextBox 26" | type=TEXT_BOX
+    L=0 T=-2011485
+    TEXT: 제목, 중제목
+  MASTER[0] | "TextBox 27" | type=TEXT_BOX
+    L=2133600 T=-1734486
+    TEXT: 소제목
+  MASTER[0] | "TextBox 29" | type=TEXT_BOX
+    L=4267199 T=-1734486
+    TEXT: 표테두리
+  MASTER[0] | "TextBox 30" | type=TEXT_BOX
+    L=5334000 T=-1734486
+    TEXT: 표채우기
+  MASTER[0] | "TextBox 31" | type=TEXT_BOX
+    L=3200398 T=-1734486
+    TEXT: 표채우기
+  MASTER[0] | "TextBox 32" | type=TEXT_BOX
+    L=1066800 T=-1734486
+    TEXT: 배경
+  MASTER[0] | "직사각형 33" | type=AUTO_SHAPE
+    L=7325354 T=-1266883
+  MASTER[0] | "TextBox 34" | type=TEXT_BOX
+    L=7325354 T=-1734486
+    TEXT: 본문
+  MASTER[0] | "직사각형 35" | type=AUTO_SHAPE
+    L=8402310 T=-1266883
+  MASTER[0] | "TextBox 36" | type=TEXT_BOX
+    L=8392155 T=-1734486
+    TEXT: 각주
+  MASTER[0] | "표 37" | type=TABLE
+    L=16377103 T=-2671217
+    TEXT: [CELL] 12pt
+    TEXT: [CELL] 12pt
+    TEXT: [CELL] 14pt (bold)
+    TEXT: [CELL] 12pt
+    TEXT: [CELL] 12pt
+    TEXT: [CELL] 12pt
+    TEXT: [CELL] 12pt
+  MASTER[0] | "TextBox 38" | type=TEXT_BOX
+    L=16377103 T=-3172761
+    TEXT: <표 제작 예시>
+  LAYOUT "3_본문서식" | "그림 3" | type=PICTURE
+    L=6589273 T=10301551
+
+
+================================================================================
+FILE: template_test1 - 복사본.pptx
+================================================================================
+ERROR: Package not found at 'C:/Side project/ppt generator/outputs/template_test1 - 㕛尖본.pptx'
+Traceback (most recent call last):
+  File "<string>", line 117, in <module>
+    analyze_pptx('C:/Side project/ppt generator/outputs/template_test1 - \u355b\u5c16\ubcf8.pptx', 'template_test1 - 복사본.pptx')
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 13, in analyze_pptx
+    prs = Presentation(filepath)
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\api.py", line 31, in Presentation
+    presentation_part = Package.open(pptx).main_document_part
+                        ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\package.py", line 82, in open
+    return cls(pkg_file)._load()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\package.py", line 160, in _load
+    pkg_xml_rels, parts = _PackageLoader.load(self._pkg_file, cast("Package", self))
+                          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\package.py", line 190, in load
+    return cls(pkg_file, package)._load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\package.py", line 194, in _load
+    parts, xml_rels = self._parts, self._xml_rels
+                      ^^^^^^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\util.py", line 191, in __get__
+    value = self._fget(obj)
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\package.py", line 222, in _parts
+    content_types = self._content_types
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\util.py", line 191, in __get__
+    value = self._fget(obj)
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\package.py", line 207, in _content_types
+    return _ContentTypeMap.from_xml(self._package_reader[CONTENT_TYPES_URI])
+                                    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\serialized.py", line 38, in __getitem__
+    return self._blob_reader[pack_uri]
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\util.py", line 191, in __get__
+    value = self._fget(obj)
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\serialized.py", line 52, in _blob_reader
+    return _PhysPkgReader.factory(self._pkg_file)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\imake\AppData\Local\Programs\Python\Python313\Lib\site-packages\pptx\opc\serialized.py", line 144, in factory
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+pptx.exc.PackageNotFoundError: Package not found at 'C:/Side project/ppt generator/outputs/template_test1 - 㕛尖본.pptx'

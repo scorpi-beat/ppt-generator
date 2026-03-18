@@ -1,0 +1,1297 @@
+======================================================================
+FILE: C:\Side project\ppt generator\outputs\template_test1.pptx
+SLIDE SIZE: 17610138 x 9906000 EMU  |  1386.63 x 780.0 pt
+NUMBER OF SLIDES: 11
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 1
+  Layout name: 중간목차표지
+  Number of shapes: 7
+
+  Shape [0] 'Picture 12'
+    Type: PICTURE (13)
+    Position: L=802075 T=9230718 W=1990122 H=585774 EMU
+             L=63.16pt T=726.83pt W=156.7pt H=46.12pt
+
+  Shape [1] 'TextBox 17'
+    Type: TEXT_BOX (17)
+    Position: L=884238 T=1091403 W=4106862 H=369332 EMU
+             L=69.63pt T=85.94pt W=323.37pt H=29.08pt
+    Text: "{{Company name}}/ {{series name}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [2] 'TextBox 4'
+    Type: TEXT_BOX (17)
+    Position: L=884238 T=2586253 W=7705725 H=1413528 EMU
+             L=69.63pt T=203.64pt W=606.75pt H=111.3pt
+    Text: "{{title}}[NL]| {{sub title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [3] 'Rectangle 1'
+    Type: AUTO_SHAPE (1)
+    Position: L=884239 T=8041747 W=7103326 H=646331 EMU
+             L=69.63pt T=633.21pt W=559.32pt H=50.89pt
+    Fill: BACKGROUND (5)
+
+  Shape [4] '표 2'
+    Type: TABLE (19)
+    Position: L=884238 T=8044394 W=7705725 H=940824 EMU
+             L=69.63pt T=633.42pt W=606.75pt H=74.08pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['{{Company name}}']
+
+  Shape [5] '그림 2'
+    Type: PICTURE (13)
+    Position: L=1926141 T=10316485 W=6662234 H=4259313 EMU
+             L=151.66pt T=812.32pt W=524.59pt H=335.38pt
+
+  Shape [6] '그림 6'
+    Type: PICTURE (13)
+    Position: L=8588374 T=-10662 W=9021763 H=9916661 EMU
+             L=676.25pt T=-0.84pt W=710.38pt H=780.84pt
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 2
+  Layout name: 3_본문서식
+  Number of shapes: 5
+
+  Shape [0] '직사각형 8'
+    Type: AUTO_SHAPE (1)
+    Position: L=8591935 T=0 W=9018204 H=9905848 EMU
+             L=676.53pt T=0.0pt W=710.09pt H=779.99pt
+    Fill: SOLID (1)
+
+  Shape [1] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=6597735 H=944874 EMU
+             L=69.64pt T=40.98pt W=519.51pt H=74.4pt
+    TABLE: 3 rows x 3 cols
+    Headers: ['Intro', '', '']
+
+  Shape [2] 'Table 4'
+    Type: TABLE (19)
+    Position: L=9018205 T=1172295 W=7697969 H=7561258 EMU
+             L=710.09pt T=92.31pt W=606.14pt H=595.37pt
+    TABLE: 23 rows x 4 cols
+    Headers: ['', '', '', '']
+
+  Shape [3] 'Table 6'
+    Type: TABLE (19)
+    Position: L=847725 T=1633108 W=7276515 H=7381874 EMU
+             L=66.75pt T=128.59pt W=572.95pt H=581.25pt
+    TABLE: 7 rows x 2 cols
+    Headers: ['{{Head Message}}', '']
+
+  Shape [4] '슬라이드 번호 개체 틀 1'
+    Type: TEXT_BOX (17)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Text: "1"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 3
+  Layout name: 중간목차표지
+  Number of shapes: 5
+
+  Shape [0] '그림 7'
+    Type: PICTURE (13)
+    Position: L=8588374 T=-10662 W=9021763 H=9916661 EMU
+             L=676.25pt T=-0.84pt W=710.38pt H=780.84pt
+
+  Shape [1] '직사각형 3'
+    Type: AUTO_SHAPE (1)
+    Position: L=8589961 T=0 W=9020175 H=9906000 EMU
+             L=676.37pt T=0.0pt W=710.25pt H=780.0pt
+    Fill: SOLID (1)
+
+  Shape [2] '표 15'
+    Type: TABLE (19)
+    Position: L=884238 T=2232982 W=7705723 H=1280156 EMU
+             L=69.63pt T=175.83pt W=606.75pt H=100.8pt
+    TABLE: 2 rows x 2 cols
+    Headers: ['{{section_number}}\n{{section title}}', '']
+
+  Shape [3] 'Picture 12'
+    Type: PICTURE (13)
+    Position: L=802075 T=9230718 W=1990122 H=585774 EMU
+             L=63.16pt T=726.83pt W=156.7pt H=46.12pt
+
+  Shape [4] '표 8'
+    Type: TABLE (19)
+    Position: L=847725 T=5549900 W=7742236 H=2120264 EMU
+             L=66.75pt T=437.0pt W=609.62pt H=166.95pt
+    TABLE: 4 rows x 2 cols
+    Headers: ['1)', '{{chapter_01_List_01}}']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 4
+  Layout name: 3_본문서식
+  Number of shapes: 28
+
+  Shape [0] 'Chart 5'
+    Type: CHART (3)
+    Position: L=847725 T=4071137 W=7802698 H=5068054 EMU
+             L=66.75pt T=320.56pt W=614.39pt H=399.06pt
+    CHART: type=LINE (4)
+
+  Shape [1] 'Picture 4'
+    Type: PICTURE (13)
+    Position: L=18032804 T=6035549 W=7592881 H=5073515 EMU
+             L=1419.91pt T=475.24pt W=597.86pt H=399.49pt
+
+  Shape [2] '표 21'
+    Type: TABLE (19)
+    Position: L=847725 T=2212680 W=15890875 H=374587 EMU
+             L=66.75pt T=174.23pt W=1251.25pt H=29.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullet}}']
+
+  Shape [3] 'TextBox 6'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=1784350 W=5668725 H=369332 EMU
+             L=66.75pt T=140.5pt W=446.36pt H=29.08pt
+    Text: "{{head_message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [4] 'TextBox 8'
+    Type: TEXT_BOX (17)
+    Position: L=885116 T=3546732 W=5196775 H=338554 EMU
+             L=69.69pt T=279.27pt W=409.19pt H=26.66pt
+    Text: "{{chart_01_title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [5] 'TextBox 4'
+    Type: TEXT_BOX (17)
+    Position: L=9056688 T=3549971 W=5196775 H=338554 EMU
+             L=713.13pt T=279.53pt W=409.19pt H=26.66pt
+    Text: "{{chart_02 title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [6] 'TextBox 43'
+    Type: TEXT_BOX (17)
+    Position: L=885116 T=-2594988 W=5196775 H=338554 EMU
+             L=69.69pt T=-204.33pt W=409.19pt H=26.66pt
+    Text: "최근 20년간 서울 오피스 공급 추이 / 임대료 인상율 (둔화)"
+
+  Shape [7] 'Picture 2'
+    Type: PICTURE (13)
+    Position: L=-9978129 T=437642 W=6997383 H=4939329 EMU
+             L=-785.68pt T=34.46pt W=550.98pt H=388.92pt
+
+  Shape [8] '직사각형 42'
+    Type: AUTO_SHAPE (1)
+    Position: L=-4316752 T=-1974623 W=3831233 H=2003090 EMU
+             L=-339.9pt T=-155.48pt W=301.67pt H=157.72pt
+    Text: "공실 률?? 최근 증가 추세?[NL]Cbd가 제일 높나?[NL]프라임 외 증가하나?cv"
+
+  Shape [9] 'TextBox 45'
+    Type: TEXT_BOX (17)
+    Position: L=1771567 T=10212856 W=14570242 H=1200329 EMU
+             L=139.49pt T=804.16pt W=1147.26pt H=94.51pt
+    Text: "다만 매각의 '허들'이 되고 있는 공실을 호텔 컨버전 전략으로 극복하는 방안이 새로운 해법으로 떠올랐다. IB업계 관계자는 "호텔 컨버전 이후 설비투자(CAPEX) 대비 수익률을 맞출 수 있을 것으로 예상된다"고 분석했다.출처 : 뉴스퀘스트(https://www.newsquest.co.kr)"
+    Fill: BACKGROUND (5)
+
+  Shape [10] '그림 9'
+    Type: PICTURE (13)
+    Position: L=-8561657 T=5775877 W=8236378 H=4130123 EMU
+             L=-674.15pt T=454.79pt W=648.53pt H=325.21pt
+
+  Shape [11] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=9030151 W=3801036 H=230832 EMU
+             L=66.75pt T=711.04pt W=299.29pt H=18.18pt
+    Text: "{{Data_Refernence}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [12] '그림 12'
+    Type: PICTURE (13)
+    Position: L=18083045 T=473606 W=10637630 H=5510139 EMU
+             L=1423.86pt T=37.29pt W=837.61pt H=433.87pt
+
+  Shape [13] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=9056688 T=9030151 W=3801036 H=230832 EMU
+             L=713.13pt T=711.04pt W=299.29pt H=18.18pt
+    Text: "{{Data_Refernence}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [14] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=6110437 T=3550719 W=2443014 H=261610 EMU
+             L=481.14pt T=279.58pt W=192.36pt H=20.6pt
+    Text: "(단위 : %)"
+    Fill: BACKGROUND (5)
+
+  Shape [15] 'TextBox 1'
+    Type: TEXT_BOX (17)
+    Position: L=7551108 T=6635368 W=1759580 H=274897 EMU
+             L=594.58pt T=522.47pt W=138.55pt H=21.65pt
+    Text: "7.0%"
+    Fill: BACKGROUND (5)
+
+  Shape [16] 'TextBox 1'
+    Type: TEXT_BOX (17)
+    Position: L=7551108 T=7249008 W=1759580 H=274897 EMU
+             L=594.58pt T=570.79pt W=138.55pt H=21.65pt
+    Text: "4.5%"
+    Fill: BACKGROUND (5)
+
+  Shape [17] 'TextBox 1'
+    Type: TEXT_BOX (17)
+    Position: L=7551108 T=7759318 W=1759580 H=274897 EMU
+             L=594.58pt T=610.97pt W=138.55pt H=21.65pt
+    Text: "4.2%"
+    Fill: BACKGROUND (5)
+
+  Shape [18] '직사각형 44'
+    Type: AUTO_SHAPE (1)
+    Position: L=5996772 T=10421817 W=2290248 H=679698 EMU
+             L=472.19pt T=820.62pt W=180.33pt H=53.52pt
+    Text: "서울 평균 SOLID로 [NL]추가할까"
+    Fill: SOLID (1)
+
+  Shape [19] '차트 7'
+    Type: CHART (3)
+    Position: L=9056687 T=4179221 W=7681913 H=4842542 EMU
+             L=713.12pt T=329.07pt W=604.88pt H=381.3pt
+    CHART: type=COLUMN_CLUSTERED (51)
+
+  Shape [20] 'TextBox 1'
+    Type: TEXT_BOX (17)
+    Position: L=1645261 T=7588949 W=2378586 H=523220 EMU
+             L=129.55pt T=597.56pt W=187.29pt H=41.2pt
+    Text: "2017 – 2020[NL]마곡업무지구 신규 공급"
+    Fill: BACKGROUND (5)
+
+  Shape [21] 'Shape 50'
+    Type: AUTO_SHAPE (1)
+    Position: L=13914628 T=6120363 W=1635069 H=1153769 EMU
+             L=1095.64pt T=481.92pt W=128.75pt H=90.85pt
+    Fill: GRADIENT (3)
+
+  Shape [22] 'TextBox 1'
+    Type: TEXT_BOX (17)
+    Position: L=13590423 T=5842547 W=1759580 H=923330 EMU
+             L=1070.11pt T=460.04pt W=138.55pt H=72.7pt
+    Text: "신규 공급[NL]약 75만평"
+    Fill: BACKGROUND (5)
+
+  Shape [23] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=14294317 T=3540616 W=2443014 H=261610 EMU
+             L=1125.54pt T=278.79pt W=192.36pt H=20.6pt
+    Text: "(단위 : 평)"
+    Fill: BACKGROUND (5)
+
+  Shape [24] '직사각형 44'
+    Type: AUTO_SHAPE (1)
+    Position: L=10608061 T=10931265 W=5064418 H=538278 EMU
+             L=835.28pt T=860.73pt W=398.77pt H=42.38pt
+    Text: "공급 포화– 공실 리스크 우려 – 거래 둔화"
+
+  Shape [25] '화살표: 오른쪽 60'
+    Type: AUTO_SHAPE (1)
+    Position: L=2636959 T=7276604 W=345936 H=248885 EMU
+             L=207.63pt T=572.96pt W=27.24pt H=19.6pt
+    Fill: GRADIENT (3)
+
+  Shape [26] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "3"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [27] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'content_chart (has chart)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 5
+  Layout name: 3_본문서식
+  Number of shapes: 16
+
+  Shape [0] '직사각형 41'
+    Type: AUTO_SHAPE (1)
+    Position: L=17681968 T=3033751 W=11455400 H=722460 EMU
+             L=1392.28pt T=238.88pt W=902.0pt H=56.89pt
+    Text: "호텔 공급은코로나 영향으로 수요 대비 최근 공백, 그래서 development site가 아닌 운영 목적 거래 비중증가"
+
+  Shape [1] '직사각형 44'
+    Type: AUTO_SHAPE (1)
+    Position: L=17976871 T=5353910 W=1821097 H=1549872 EMU
+             L=1415.5pt T=421.57pt W=143.39pt H=122.04pt
+    Text: "매출 증가"
+
+  Shape [2] 'Table 6'
+    Type: TABLE (19)
+    Position: L=9760844 T=10219208 W=10069965 H=5137230 EMU
+             L=768.57pt T=804.66pt W=792.91pt H=404.51pt
+    TABLE: 30 rows x 4 cols
+    Headers: ['Transaction Year', 'Property Name', 'Buyer', 'Purpose']
+
+  Shape [3] 'Group 8'
+    Type: GROUP (6)
+    Position: L=8879609 T=4066788 W=7846290 H=4954977 EMU
+             L=699.18pt T=320.22pt W=617.82pt H=390.16pt
+
+  Shape [4] '직사각형 39'
+    Type: AUTO_SHAPE (1)
+    Position: L=17681968 T=2068639 W=7392614 H=722460 EMU
+             L=1392.28pt T=162.88pt W=582.1pt H=56.89pt
+    Text: "공공에서 숙박시설 개발 유도 지원 정책 / 투자자들의 호텔 투자 증가"
+
+  Shape [5] 'TextBox 1'
+    Type: TEXT_BOX (17)
+    Position: L=11629289 T=6296151 W=3034920 H=646331 EMU
+             L=915.69pt T=495.76pt W=238.97pt H=50.89pt
+    Text: "운영 목적 거래 증가"
+    Fill: BACKGROUND (5)
+
+  Shape [6] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "4"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [7] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  Shape [8] 'Chart 12'
+    Type: CHART (3)
+    Position: L=542362 T=3974764 W=8046013 H=5410843 EMU
+             L=42.71pt T=312.97pt W=633.54pt H=426.05pt
+    CHART: type=COLUMN_STACKED (52)
+
+  Shape [9] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=6144092 T=3540616 W=2443014 H=261610 EMU
+             L=483.79pt T=278.79pt W=192.36pt H=20.6pt
+    Text: "(단위 : 천원)"
+    Fill: BACKGROUND (5)
+
+  Shape [10] '표 3'
+    Type: TABLE (19)
+    Position: L=847725 T=2212680 W=15890875 H=374587 EMU
+             L=66.75pt T=174.23pt W=1251.25pt H=29.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullet}}']
+
+  Shape [11] 'TextBox 5'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=1784350 W=5668725 H=369332 EMU
+             L=66.75pt T=140.5pt W=446.36pt H=29.08pt
+    Text: "{{head_message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [12] 'TextBox 7'
+    Type: TEXT_BOX (17)
+    Position: L=885116 T=3546732 W=5196775 H=338554 EMU
+             L=69.69pt T=279.27pt W=409.19pt H=26.66pt
+    Text: "{{chart_01_title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [13] 'TextBox 8'
+    Type: TEXT_BOX (17)
+    Position: L=9056688 T=3549971 W=5196775 H=338554 EMU
+             L=713.13pt T=279.53pt W=409.19pt H=26.66pt
+    Text: "{{chart_02 title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [14] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=9030151 W=3801036 H=230832 EMU
+             L=66.75pt T=711.04pt W=299.29pt H=18.18pt
+    Text: "{{Data_Refernence}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [15] 'Title 6'
+    Type: TEXT_BOX (17)
+    Position: L=9056688 T=9030151 W=3801036 H=230832 EMU
+             L=713.13pt T=711.04pt W=299.29pt H=18.18pt
+    Text: "{{Data_Refernence}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'content_chart (has chart)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 6
+  Layout name: 3_본문서식
+  Number of shapes: 38
+
+  Shape [0] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "5"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [1] 'TextBox 8'
+    Type: TEXT_BOX (17)
+    Position: L=885116 T=3546732 W=5196775 H=338554 EMU
+             L=69.69pt T=279.27pt W=409.19pt H=26.66pt
+    Text: "{{text_title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [2] 'TextBox 7'
+    Type: TEXT_BOX (17)
+    Position: L=9073940 T=3545548 W=5196775 H=338554 EMU
+             L=714.48pt T=279.18pt W=409.19pt H=26.66pt
+    Text: "{{text_title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [3] '화살표: 오른쪽 12'
+    Type: AUTO_SHAPE (1)
+    Position: L=956757 T=7085494 W=7373709 H=183772 EMU
+             L=75.34pt T=557.91pt W=580.61pt H=14.47pt
+    Fill: SOLID (1)
+
+  Shape [4] '타원 13'
+    Type: AUTO_SHAPE (1)
+    Position: L=1356768 T=6920608 W=543919 H=549309 EMU
+             L=106.83pt T=544.93pt W=42.83pt H=43.25pt
+    Fill: SOLID (1)
+
+  Shape [5] '타원 14'
+    Type: AUTO_SHAPE (1)
+    Position: L=2548014 T=6920608 W=543919 H=549309 EMU
+             L=200.63pt T=544.93pt W=42.83pt H=43.25pt
+    Fill: SOLID (1)
+
+  Shape [6] '타원 17'
+    Type: AUTO_SHAPE (1)
+    Position: L=3739260 T=6920608 W=543919 H=549309 EMU
+             L=294.43pt T=544.93pt W=42.83pt H=43.25pt
+    Fill: SOLID (1)
+
+  Shape [7] '타원 22'
+    Type: AUTO_SHAPE (1)
+    Position: L=4930507 T=6920608 W=543919 H=549309 EMU
+             L=388.23pt T=544.93pt W=42.83pt H=43.25pt
+    Fill: SOLID (1)
+
+  Shape [8] '타원 23'
+    Type: AUTO_SHAPE (1)
+    Position: L=6121753 T=6920608 W=543919 H=549309 EMU
+             L=482.03pt T=544.93pt W=42.83pt H=43.25pt
+    Fill: SOLID (1)
+
+  Shape [9] '타원 24'
+    Type: AUTO_SHAPE (1)
+    Position: L=7312999 T=6920608 W=543919 H=549309 EMU
+             L=575.83pt T=544.93pt W=42.83pt H=43.25pt
+    Fill: SOLID (1)
+
+  Shape [10] 'TextBox 27'
+    Type: TEXT_BOX (17)
+    Position: L=1008947 T=7563933 W=1247819 H=523220 EMU
+             L=79.44pt T=595.59pt W=98.25pt H=41.2pt
+    Text: "{{node_title_1}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [11] 'TextBox 28'
+    Type: TEXT_BOX (17)
+    Position: L=2094189 T=7563933 W=1443416 H=307777 EMU
+             L=164.9pt T=595.59pt W=113.65pt H=24.23pt
+    Text: "{{node_title_2}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [12] 'TextBox 29'
+    Type: TEXT_BOX (17)
+    Position: L=3286683 T=7563933 W=1443416 H=307777 EMU
+             L=258.79pt T=595.59pt W=113.65pt H=24.23pt
+    Text: "{{node_title_3}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [13] 'TextBox 30'
+    Type: TEXT_BOX (17)
+    Position: L=4176305 T=7563933 W=2049139 H=307777 EMU
+             L=328.84pt T=595.59pt W=161.35pt H=24.23pt
+    Text: "{{node_title_4}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [14] 'TextBox 31'
+    Type: TEXT_BOX (17)
+    Position: L=5368779 T=7563933 W=2049139 H=307777 EMU
+             L=422.74pt T=595.59pt W=161.35pt H=24.23pt
+    Text: "{{node_title_5}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [15] 'TextBox 32'
+    Type: TEXT_BOX (17)
+    Position: L=6561242 T=7563933 W=2049139 H=307777 EMU
+             L=516.63pt T=595.59pt W=161.35pt H=24.23pt
+    Text: "{{node_title_6}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [16] '표 33'
+    Type: TABLE (19)
+    Position: L=1046840 T=8135809 W=1188000 H=293688 EMU
+             L=82.43pt T=640.61pt W=93.54pt H=23.13pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{node_text_1}}']
+
+  Shape [17] '표 34'
+    Type: TABLE (19)
+    Position: L=2230145 T=8119860 W=1188000 H=345685 EMU
+             L=175.6pt T=639.36pt W=93.54pt H=27.22pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{node_text_2}}']
+
+  Shape [18] '표 35'
+    Type: TABLE (19)
+    Position: L=3410790 T=8119860 W=1188000 H=345685 EMU
+             L=268.57pt T=639.36pt W=93.54pt H=27.22pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{node_text_3}}']
+
+  Shape [19] '표 36'
+    Type: TABLE (19)
+    Position: L=4510623 T=8119860 W=1380502 H=345685 EMU
+             L=355.17pt T=639.36pt W=108.7pt H=27.22pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{node_text_4}}']
+
+  Shape [20] '표 37'
+    Type: TABLE (19)
+    Position: L=5698623 T=8119860 W=1396670 H=345685 EMU
+             L=448.71pt T=639.36pt W=109.97pt H=27.22pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{node_text_5}}']
+
+  Shape [21] '표 38'
+    Type: TABLE (19)
+    Position: L=6990958 T=8119860 W=1188000 H=345685 EMU
+             L=550.47pt T=639.36pt W=93.54pt H=27.22pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{node_text_6}}']
+
+  Shape [22] '직사각형 39'
+    Type: AUTO_SHAPE (1)
+    Position: L=17892244 T=7909864 W=7964531 H=1696596 EMU
+             L=1408.84pt T=622.82pt W=627.13pt H=133.59pt
+    Text: "보통 운용사에서 컨버전 가능성 있는 자산 매각 시 설계사 검토 받음[NL]컨버전 자산은 현장 투어 시 호텔 회사 데리고 옴 (운용사+오퍼레이터 조합)[NL]이거 들었는디 개념에서 쓸만하려나"
+
+  Shape [23] '직사각형 40'
+    Type: AUTO_SHAPE (1)
+    Position: L=21093709 T=1194861 W=2979739 H=722460 EMU
+             L=1660.92pt T=94.08pt W=234.63pt H=56.89pt
+    Text: "자산 매각 시[NL]업사이드 포텐셜로 제안"
+
+  Shape [24] '직사각형 41'
+    Type: AUTO_SHAPE (1)
+    Position: L=17929705 T=4153953 W=4573778 H=1605675 EMU
+             L=1411.79pt T=327.08pt W=360.14pt H=126.43pt
+    Text: "<포지셔닝 도식화>[NL]/철거 후 재건축 [NL]/기존 호텔 리뉴얼[NL]컨버전"
+
+  Shape [25] '직사각형 42'
+    Type: AUTO_SHAPE (1)
+    Position: L=18064668 T=6179332 W=4438815 H=1436711 EMU
+             L=1422.41pt T=486.56pt W=349.51pt H=113.13pt
+    Text: "- 운영사의 컨버전 가능성 검토[NL]- 건축설계사무소 검토[NL]- 호텔 운영사  컨택"
+
+  Shape [26] '직사각형 43'
+    Type: AUTO_SHAPE (1)
+    Position: L=24307864 T=1194861 W=2979739 H=722460 EMU
+             L=1914.01pt T=94.08pt W=234.63pt H=56.89pt
+    Text: "매입 입장[NL]밸류애드 전략 중 하나"
+
+  Shape [27] '직사각형 44'
+    Type: AUTO_SHAPE (1)
+    Position: L=17892244 T=1194861 W=2979739 H=722460 EMU
+             L=1408.84pt T=94.08pt W=234.63pt H=56.89pt
+    Text: "입지 및 시장 환경 변화[NL]분석해서 반영한 결과"
+
+  Shape [28] 'TextBox 46'
+    Type: TEXT_BOX (17)
+    Position: L=-2618520 T=7127154 W=2294230 H=2031325 EMU
+             L=-206.18pt T=561.19pt W=180.65pt H=159.95pt
+    Text: "컨버전이란 오래된 건물의 용도를 바꿔 새로 활용하는 것으로, 오피스를 호텔로, 호텔을 주거시설 등으로 바꾸는 것을 말합니"
+    Fill: BACKGROUND (5)
+
+  Shape [29] '표 86'
+    Type: TABLE (19)
+    Position: L=9054738 T=6897687 W=7671163 H=2124078 EMU
+             L=712.97pt T=543.12pt W=604.03pt H=167.25pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{header_1}}', '{{row1_col1}}', '{{bullets}}']
+
+  Shape [30] 'TextBox 115'
+    Type: TEXT_BOX (17)
+    Position: L=17610138 T=2488403 W=4762879 H=646331 EMU
+             L=1386.63pt T=195.94pt W=375.03pt H=50.89pt
+    Text: "글로벌 럭셔리 브랜드도 국내 진출중"
+    Fill: BACKGROUND (5)
+
+  Shape [31] 'TextBox 124'
+    Type: TEXT_BOX (17)
+    Position: L=859893 T=6361789 W=5196775 H=338554 EMU
+             L=67.71pt T=500.93pt W=409.19pt H=26.66pt
+    Text: "{{text_title}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [32] '표 127'
+    Type: TABLE (19)
+    Position: L=2883366 T=3962521 W=5706597 H=374587 EMU
+             L=227.04pt T=312.01pt W=449.34pt H=29.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullets}}']
+
+  Shape [33] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  Shape [34] '표 4'
+    Type: TABLE (19)
+    Position: L=847725 T=2212680 W=15890875 H=374587 EMU
+             L=66.75pt T=174.23pt W=1251.25pt H=29.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullet}}']
+
+  Shape [35] 'TextBox 5'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=1784350 W=5668725 H=369332 EMU
+             L=66.75pt T=140.5pt W=446.36pt H=29.08pt
+    Text: "{{head_message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [36] '표 45'
+    Type: TABLE (19)
+    Position: L=847725 T=4114801 W=1971676 H=1809750 EMU
+             L=66.75pt T=324.0pt W=155.25pt H=142.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{icon}}']
+
+  Shape [37] '표 49'
+    Type: TABLE (19)
+    Position: L=9056688 T=3981571 W=5706597 H=374587 EMU
+             L=713.13pt T=313.51pt W=449.34pt H=29.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullets}}']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 7
+  Layout name: 3_본문서식
+  Number of shapes: 14
+
+  Shape [0] '직사각형 13'
+    Type: AUTO_SHAPE (1)
+    Position: L=17904872 T=2723485 W=2723136 H=5511221 EMU
+             L=1409.83pt T=214.45pt W=214.42pt H=433.95pt
+    Text: "지도에 위치 표시 [NL]범례 구분 (안정화/ 개발중/ 계획중)"
+
+  Shape [1] '그룹 33'
+    Type: GROUP (6)
+    Position: L=20769700 T=3368040 W=5873044 H=5252776 EMU
+             L=1635.41pt T=265.2pt W=462.44pt H=413.6pt
+
+  Shape [2] '타원 60'
+    Type: AUTO_SHAPE (1)
+    Position: L=24728936 T=7182602 W=212300 H=212066 EMU
+             L=1947.16pt T=565.56pt W=16.72pt H=16.7pt
+    Text: "10"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [3] '타원 61'
+    Type: AUTO_SHAPE (1)
+    Position: L=23704174 T=5964358 W=212300 H=212066 EMU
+             L=1866.47pt T=469.63pt W=16.72pt H=16.7pt
+    Text: "1"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [4] '타원 62'
+    Type: AUTO_SHAPE (1)
+    Position: L=23886954 T=5872491 W=212300 H=212066 EMU
+             L=1880.86pt T=462.4pt W=16.72pt H=16.7pt
+    Text: "2"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [5] '타원 63'
+    Type: AUTO_SHAPE (1)
+    Position: L=22675331 T=6058497 W=212300 H=212066 EMU
+             L=1785.46pt T=477.05pt W=16.72pt H=16.7pt
+    Text: "11"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [6] '표 64'
+    Type: TABLE (19)
+    Position: L=851092 T=3513138 W=15873930 H=5508622 EMU
+             L=67.02pt T=276.63pt W=1249.92pt H=433.75pt
+    TABLE: 11 rows x 7 cols
+    Headers: ['권역', '기존 건물명', '위치', '연면적', '변경 시기', '호텔명 (등급)', '비고']
+
+  Shape [7] 'TextBox 67'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=9023247 W=5595297 H=230832 EMU
+             L=66.75pt T=710.49pt W=440.57pt H=18.18pt
+    Text: "* 호텔 등급 : 호텔업 등급결정사업 기준"
+    Fill: BACKGROUND (5)
+
+  Shape [8] '표 72'
+    Type: TABLE (19)
+    Position: L=1785021 T=10462949 W=14940000 H=799715 EMU
+             L=140.55pt T=823.85pt W=1176.38pt H=62.97pt
+    TABLE: 2 rows x 6 cols
+    Headers: ['명동 엠플라자', '중구 명동', '8,416 py', '2015', '솔라리아 니시테츠 호텔 서울 명동 (4성급)', '상층부 용도변경 후 개관, 저층부 리테일 운영']
+
+  Shape [9] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "6"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [10] '그림 8'
+    Type: PICTURE (13)
+    Position: L=5966972 T=12468819 W=5638800 H=1752600 EMU
+             L=469.84pt T=981.8pt W=444.0pt H=138.0pt
+
+  Shape [11] '표 1'
+    Type: TABLE (19)
+    Position: L=847725 T=2212680 W=15890875 H=374587 EMU
+             L=66.75pt T=174.23pt W=1251.25pt H=29.5pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullet}}']
+
+  Shape [12] 'TextBox 3'
+    Type: TEXT_BOX (17)
+    Position: L=847725 T=1784350 W=5668725 H=369332 EMU
+             L=66.75pt T=140.5pt W=446.36pt H=29.08pt
+    Text: "{{head_message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [13] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 8
+  Layout name: 3_본문서식
+  Number of shapes: 17
+
+  Shape [0] 'Picture 2'
+    Type: PICTURE (13)
+    Position: L=9056687 T=2227305 W=3177355 H=4213892 EMU
+             L=713.12pt T=175.38pt W=250.19pt H=331.8pt
+
+  Shape [1] '그림 4'
+    Type: PICTURE (13)
+    Position: L=847724 T=2220013 W=3178175 H=4061774 EMU
+             L=66.75pt T=174.8pt W=250.25pt H=319.82pt
+
+  Shape [2] '표 16'
+    Type: TABLE (19)
+    Position: L=848544 T=2227306 W=3177355 H=4339708 EMU
+             L=66.81pt T=175.38pt W=250.19pt H=341.71pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['']
+
+  Shape [3] '표 23'
+    Type: TABLE (19)
+    Position: L=12453435 T=2228222 W=4266000 H=4345200 EMU
+             L=980.59pt T=175.45pt W=335.91pt H=342.14pt
+    TABLE: 9 rows x 3 cols
+    Headers: ['KT중앙지사사옥', '', '르 메르디앙·목시 명동']
+
+  Shape [4] '표 2'
+    Type: TABLE (19)
+    Position: L=854075 T=1755474 W=7741996 H=454660 EMU
+             L=67.25pt T=138.23pt W=609.61pt H=35.8pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{case_01_title}}']
+
+  Shape [5] '표 3'
+    Type: TABLE (19)
+    Position: L=841375 T=6897688 W=7767395 H=1814966 EMU
+             L=66.25pt T=543.13pt W=611.61pt H=142.91pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullets}}']
+
+  Shape [6] '표 5'
+    Type: TABLE (19)
+    Position: L=9056688 T=1755474 W=7741996 H=454660 EMU
+             L=713.13pt T=138.23pt W=609.61pt H=35.8pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{case_02_title}}']
+
+  Shape [7] '그림 7'
+    Type: PICTURE (13)
+    Position: L=18426768 T=382299 W=4132765 H=1646364 EMU
+             L=1450.93pt T=30.1pt W=325.41pt H=129.63pt
+
+  Shape [8] '표 8'
+    Type: TABLE (19)
+    Position: L=4314580 T=2227307 W=4266776 H=4345200 EMU
+             L=339.73pt T=175.38pt W=335.97pt H=342.14pt
+    TABLE: 9 rows x 3 cols
+    Headers: ['KB국민은행본점빌딩', '', '스탠포드호텔 명동']
+
+  Shape [9] '그림 27'
+    Type: PICTURE (13)
+    Position: L=5581650 T=2842072 W=1680179 H=1021548 EMU
+             L=439.5pt T=223.79pt W=132.3pt H=80.44pt
+
+  Shape [10] '표 28'
+    Type: TABLE (19)
+    Position: L=17694482 T=4110711 W=7237496 H=6455347 EMU
+             L=1393.27pt T=323.68pt W=569.88pt H=508.3pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['복합시설 (판매시설, 묵시호텔, 르메르디앙 호텔)\n전화국 건물의 필요가 없어짐에 따라 용도변경. 특히 KT는 2010년부터 주요 도심 전화국 부지를 호텔과 같은 시설로 재개발/변동.\n코로나 팬데믹때 주춤했던 호텔 수요가 2022년 이후 회복하면서  \n통신자산->숙박시설로 성공적으로 전환, 2022년 개관\n\n\n위치: 서울 중구 명동8나길 38- 명동 중심상권에 자리해 관광객 접근성 높음 \n4호선 명동역 도보 3분 거리, 1호선 시청역 도보 13분 거리, 2호선 을지로입구역 도보 10분\n\n규모: 지상 15층 405실 (4층 공용로비, 5-8층 묵시 호텔 205실 3성급, 9-15층 르메르디앙 호텔  200실 5성급) \n\n주요시설: 호텔 관련 시설 (레스토랑, 라운지, 수영장 및 피트니스 센터, 바, 24시간 셀프 키친) + 상업시설 (리테일 매장)\n\n운영: KT estate 소유 – 메리어트 인터내셔널이 르메르디앙+ 묵시 듀얼 위탁운영\n현재 해당 자산 매각 검토중  확정 X.']
+
+  Shape [11] '그림 13'
+    Type: PICTURE (13)
+    Position: L=12822117 T=2971548 W=2031655 H=293461 EMU
+             L=1009.62pt T=233.98pt W=159.97pt H=23.11pt
+
+  Shape [12] '그림 15'
+    Type: PICTURE (13)
+    Position: L=15018872 T=3368675 W=1337494 H=477676 EMU
+             L=1182.59pt T=265.25pt W=105.31pt H=37.61pt
+
+  Shape [13] '표 32'
+    Type: TABLE (19)
+    Position: L=9071202 T=6883174 W=7648233 H=1065212 EMU
+             L=714.27pt T=541.98pt W=602.22pt H=83.87pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{bullets}}']
+
+  Shape [14] '표 11'
+    Type: TABLE (19)
+    Position: L=9056688 T=2233714 W=3177355 H=4339708 EMU
+             L=713.13pt T=175.88pt W=250.19pt H=341.71pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['']
+
+  Shape [15] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "7"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [16] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 9
+  Layout name: 3_본문서식
+  Number of shapes: 18
+
+  Shape [0] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "8"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [1] '표 21'
+    Type: TABLE (19)
+    Position: L=847725 T=2208493 W=7741996 H=1044747 EMU
+             L=66.75pt T=173.9pt W=609.61pt H=82.26pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['.']
+
+  Shape [2] '표 17'
+    Type: TABLE (19)
+    Position: L=7097485 T=2216149 W=9628415 H=6813688 EMU
+             L=558.86pt T=174.5pt W=758.14pt H=536.51pt
+    TABLE: 9 rows x 3 cols
+    Headers: ['Louisiana National Bank', '', 'WATERMARK Baton Rouge, Autograph Collection']
+
+  Shape [3] '표 3'
+    Type: TABLE (19)
+    Position: L=-7293385 T=10281555 W=7000875 H=7415467 EMU
+             L=-574.28pt T=809.57pt W=551.25pt H=583.9pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['옛 미드랜드 뱅크 본점-> 복합 호텔+멤버스클럽\n1924년 준공후 1992년부터 HSBC가 사용하던 영국 MidLank Bank 건물-> 2007년도 비워지고 약 4년간의 리노베이션을 거쳐 2017년 The Ned 호텔로 개관. 주말에 한산한 전통금융지구에 활기를 불어넣는 역할. \n금융지구 공동화 문제+ 역사적 건축 보존 이슈 해결한 사례. 2008년 금융 이후 도심오피스 수요가 정체된 시기에 시티오브런던 내 유휴 건물을 호텔로 바꾸는 움직임이 있었음. 해당 건물은 Grade I 여서 재임대하기 어려웠음 (규제, 역사적/문화적/건축물에 지정하는 등급, 허가 승인 필수). Post pandemic + laws on esg rating E 추후 rating C로 esg 규제 완화예정\n\n\n위치: 시티오브런던 금융지구 (No. 27 Poultry). Bank 지하철역과 도보 2분 거리. 맞은 편에 BOE 영국 중앙은행 위치. \n규모: 대형 럭셔리 호텔, 지상 8층 (연면적 29,450 sq m), 객실 252실 \n\n주요시설: 회원제 클럽시설+9개 레스토랑 및 바 (영국 특급호텔 중에서도 식음업장 수가 많은 편), 옥상 루프탑 수영장, 기존 지하 금고 자리엔 스파와 실내 수영장\n\n운영: Soho House & Co 소유 운영+ 시델 그룹과 합작\n\n타임라인\nHSBC은행-> 2006년 러시아 투자자 인수-> 2012년 소호하우스+시델이 5000만 파운드에 재인수 \n대대적 리노베이션 약 2억여 파운드를 들여 외관은 보존, 내부 개조']
+
+  Shape [4] 'Picture 2'
+    Type: PICTURE (13)
+    Position: L=-8858780 T=198472 W=5238750 H=7934325 EMU
+             L=-697.54pt T=15.63pt W=412.5pt H=624.75pt
+
+  Shape [5] '그림 4'
+    Type: PICTURE (13)
+    Position: L=-9637648 T=-733425 W=4688526 H=5686425 EMU
+             L=-758.87pt T=-57.75pt W=369.18pt H=447.75pt
+
+  Shape [6] 'TextBox 6'
+    Type: TEXT_BOX (17)
+    Position: L=1183106 T=10471661 W=12312314 H=369332 EMU
+             L=93.16pt T=824.54pt W=969.47pt H=29.08pt
+    Text: "https://www.elliottwood.co.uk/featured/the-ned"
+    Fill: BACKGROUND (5)
+
+  Shape [7] 'TextBox 8'
+    Type: TEXT_BOX (17)
+    Position: L=1157789 T=12472424 W=12312314 H=369332 EMU
+             L=91.16pt T=982.08pt W=969.47pt H=29.08pt
+    Text: "https://www.savills.us/blog/article/379782/commercial-property/the-rise-of-office-to-hotel-conversions"
+    Fill: BACKGROUND (5)
+
+  Shape [8] 'TextBox 5'
+    Type: TEXT_BOX (17)
+    Position: L=1183106 T=14103855 W=12312314 H=369332 EMU
+             L=93.16pt T=1110.54pt W=969.47pt H=29.08pt
+    Text: "Grade I 다시 찾기"
+    Fill: BACKGROUND (5)
+
+  Shape [9] '표 7'
+    Type: TABLE (19)
+    Position: L=1157789 T=11153592 W=7741996 H=1334707 EMU
+             L=91.16pt T=878.24pt W=609.61pt H=105.1pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['런던 호텔 객실 부족 (코로나 감염 위험 큰 국가에서 입국하는 사람 호텔에서 격리조치를 위해 영국정부가 일부호텔과 장기계약 – 약 15,000개 객실 사용 불가)\n하이브리드 업무 환경 + esg 요건으로 b등급 사무실 수요 부진\n지난 18개월간 런던 중심부 매물로 나온 사무실 40%는 호텔 또는 아파트호텔 재개발을 위한 매입']
+
+  Shape [10] '직사각형 12'
+    Type: AUTO_SHAPE (1)
+    Position: L=2017278 T=-2987526 W=8037075 H=1573919 EMU
+             L=158.84pt T=-235.24pt W=632.84pt H=123.93pt
+    Text: "노후화된 건물 -> 비용과 기간 적게 들여서 내부 리모델링만[NL]고급 호텔체인 들여와서 성공사례[NL]컨버전의 개념 강조"
+
+  Shape [11] '표 26'
+    Type: TABLE (19)
+    Position: L=18005393 T=6179143 W=6435757 H=2527220 EMU
+             L=1417.75pt T=486.55pt W=506.75pt H=198.99pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['역사적 건축물을 재생하는 ‘ShinPuhKan’ 프로젝트를 통해 기존 전화국을 호텔로 전환하고 신축 상업동을 결합해, 호텔·리테일·문화공간이 공존하는 형태로 탄생\n보존형 컨버전 전략을 택해 일본 관광청의 숙박 활성화 정책과 ESG 방향과 일치\n개발 NTT Urban Development / 운영 Ace Hotel (Seibu Prince Hotels Worldwide) / 설계 Kengo Kuma  + COMMUNE 공동']
+
+  Shape [12] '표 27'
+    Type: TABLE (19)
+    Position: L=18005393 T=2269320 W=7673980 H=3254947 EMU
+             L=1417.75pt T=178.69pt W=604.25pt H=256.3pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ\nㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ\nㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ\nㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ']
+
+  Shape [13] '표 2'
+    Type: TABLE (19)
+    Position: L=17916525 T=5524267 W=7741996 H=453708 EMU
+             L=1410.75pt T=434.98pt W=609.61pt H=35.73pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['교토 에이스호텔']
+
+  Shape [14] 'AutoShape 2'
+    Type: AUTO_SHAPE (1)
+    Position: L=8651875 T=4800600 W=304800 H=304800 EMU
+             L=681.25pt T=378.0pt W=24.0pt H=24.0pt
+    Fill: BACKGROUND (5)
+
+  Shape [15] '그림 14'
+    Type: PICTURE (13)
+    Position: L=861390 T=2228134 W=5898778 H=6801700 EMU
+             L=67.83pt T=175.44pt W=464.47pt H=535.57pt
+
+  Shape [16] '표 9'
+    Type: TABLE (19)
+    Position: L=854075 T=1755474 W=7741996 H=454660 EMU
+             L=67.25pt T=138.23pt W=609.61pt H=35.8pt
+    TABLE: 1 rows x 1 cols
+    Headers: ['{{case_01_title}}']
+
+  Shape [17] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 10
+  Layout name: 3_본문서식
+  Number of shapes: 20
+
+  Shape [0] '슬라이드 번호 개체 틀 1'
+    Type: PLACEHOLDER (14)
+    Position: L=12763620 T=9289383 W=3962281 H=527403 EMU
+             L=1005.01pt T=731.45pt W=311.99pt H=41.53pt
+    Placeholder: type=SLIDE_NUMBER (13)  idx=12
+    Text: "9"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+
+  Shape [1] '직사각형 2'
+    Type: AUTO_SHAPE (1)
+    Position: L=7893424 T=6731656 W=7059706 H=457236 EMU
+             L=621.53pt T=530.05pt W=555.88pt H=36.0pt
+    Text: "{{index_head_message}}  |  {{head message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [2] '직사각형 10'
+    Type: AUTO_SHAPE (1)
+    Position: L=7893424 T=1833098 W=7059706 H=457236 EMU
+             L=621.53pt T=144.34pt W=555.88pt H=36.0pt
+    Text: "{{index_head_message}}  |  {{head message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [3] '직사각형 11'
+    Type: AUTO_SHAPE (1)
+    Position: L=7893424 T=4282377 W=7059706 H=457236 EMU
+             L=621.53pt T=337.2pt W=555.88pt H=36.0pt
+    Text: "{{index_head_message}}  |  {{head message}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [4] 'TextBox 13'
+    Type: TEXT_BOX (17)
+    Position: L=7893423 T=7382734 W=8832477 H=701410 EMU
+             L=621.53pt T=581.32pt W=695.47pt H=55.23pt
+    Text: "{{bullets}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [5] 'TextBox 17'
+    Type: TEXT_BOX (17)
+    Position: L=7893423 T=4933455 W=8832477 H=701410 EMU
+             L=621.53pt T=388.46pt W=695.47pt H=55.23pt
+    Text: "{{bullets}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [6] 'TextBox 18'
+    Type: TEXT_BOX (17)
+    Position: L=7893423 T=2484176 W=8832477 H=378245 EMU
+             L=621.53pt T=195.6pt W=695.47pt H=29.78pt
+    Text: "{{bullets}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [7] '직사각형 22'
+    Type: AUTO_SHAPE (1)
+    Position: L=7342539 T=10962587 W=4827052 H=493450 EMU
+             L=578.15pt T=863.2pt W=380.08pt H=38.85pt
+    Text: "금리도 안정화. 비용 감소"
+    Fill: SOLID (1)
+
+  Shape [8] '직사각형 23'
+    Type: AUTO_SHAPE (1)
+    Position: L=12783086 T=10979821 W=4827052 H=493450 EMU
+             L=1006.54pt T=864.55pt W=380.08pt H=38.85pt
+    Text: "글로벌 럭셔리 브랜드 유치"
+    Fill: SOLID (1)
+
+  Shape [9] '직사각형 24'
+    Type: AUTO_SHAPE (1)
+    Position: L=7342539 T=11753120 W=4827052 H=493450 EMU
+             L=578.15pt T=925.44pt W=380.08pt H=38.85pt
+    Text: "리테일 테넌트, 컨텐츠…."
+    Fill: SOLID (1)
+
+  Shape [10] '직사각형 25'
+    Type: AUTO_SHAPE (1)
+    Position: L=12783086 T=10195603 W=4827052 H=493450 EMU
+             L=1006.54pt T=802.8pt W=380.08pt H=38.85pt
+    Text: "호텔 포지셔닝.. 4성급."
+
+  Shape [11] '직사각형 26'
+    Type: AUTO_SHAPE (1)
+    Position: L=7342539 T=10017088 W=4827052 H=493450 EMU
+             L=578.15pt T=788.75pt W=380.08pt H=38.85pt
+    Text: "비용 최소화capex, 수익 극대화"
+
+  Shape [12] '직사각형 27'
+    Type: AUTO_SHAPE (1)
+    Position: L=12783086 T=11772920 W=4827052 H=493450 EMU
+             L=1006.54pt T=927.0pt W=380.08pt H=38.85pt
+    Text: "어메니티 구성, 운영 비용 최대"
+    Fill: SOLID (1)
+
+  Shape [13] '직사각형 28'
+    Type: AUTO_SHAPE (1)
+    Position: L=1768717 T=10195603 W=4827052 H=493450 EMU
+             L=139.27pt T=802.8pt W=380.08pt H=38.85pt
+    Text: "용도변경 등 법적 절차 수월하게"
+
+  Shape [14] '직사각형 29'
+    Type: AUTO_SHAPE (1)
+    Position: L=1768717 T=10992217 W=4827052 H=493450 EMU
+             L=139.27pt T=865.53pt W=380.08pt H=38.85pt
+    Text: "건축, 엔지니어링 고려사항"
+    Fill: SOLID (1)
+
+  Shape [15] '직사각형 30'
+    Type: AUTO_SHAPE (1)
+    Position: L=12783086 T=12589972 W=4827052 H=493450 EMU
+             L=1006.54pt T=991.34pt W=380.08pt H=38.85pt
+    Text: "입지 선정 – 관광지, k컬쳐 연계"
+    Fill: SOLID (1)
+
+  Shape [16] '직사각형 31'
+    Type: AUTO_SHAPE (1)
+    Position: L=7342539 T=12527526 W=4827052 H=493450 EMU
+             L=578.15pt T=986.42pt W=380.08pt H=38.85pt
+    Text: "입지 선정 – 관광지, k컬쳐 연계"
+    Fill: SOLID (1)
+
+  Shape [17] '직사각형 22'
+    Type: AUTO_SHAPE (1)
+    Position: L=19169692 T=2325637 W=3390266 H=1956740 EMU
+             L=1509.42pt T=183.12pt W=266.95pt H=154.07pt
+    Text: "내용 우선 써봄"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: SOLID (1)
+
+  Shape [18] 'Picture 8'
+    Type: PICTURE (13)
+    Position: L=854653 T=1764544 W=6487886 H=6876227 EMU
+             L=67.3pt T=138.94pt W=510.86pt H=541.44pt
+
+  Shape [19] '표 15'
+    Type: TABLE (19)
+    Position: L=884478 T=520392 W=15841423 H=944871 EMU
+             L=69.64pt T=40.98pt W=1247.36pt H=74.4pt
+    TABLE: 2 rows x 3 cols
+    Headers: ['{{section number}}\n{{section name}}', '', '오피스 자산의 호텔 컨버전 | Office-to-Hotel Conversion']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+
+──────────────────────────────────────────────────────────────────────
+SLIDE 11
+  Layout name: 3_본문서식
+  Number of shapes: 10
+
+  Shape [0] '표 15'
+    Type: TABLE (19)
+    Position: L=890816 T=525463 W=7697559 H=944868 EMU
+             L=70.14pt T=41.38pt W=606.11pt H=74.4pt
+    TABLE: 3 rows x 2 cols
+    Headers: ['Contact', '']
+
+  Shape [1] 'TextBox 6'
+    Type: TEXT_BOX (17)
+    Position: L=848407 T=1666936 W=15864003 H=400042 EMU
+             L=66.8pt T=131.25pt W=1249.13pt H=31.5pt
+    Text: "{{Team name}}"
+    *** PLACEHOLDER-LIKE TEXT DETECTED ***
+    Fill: BACKGROUND (5)
+
+  Shape [2] '표 15'
+    Type: TABLE (19)
+    Position: L=848405 T=4069383 W=6348391 H=623126 EMU
+             L=66.8pt T=320.42pt W=499.87pt H=49.07pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['{{university}} {{major}}']
+
+  Shape [3] '표 15'
+    Type: TABLE (19)
+    Position: L=847725 T=3513138 W=3599054 H=914396 EMU
+             L=66.75pt T=276.63pt W=283.39pt H=72.0pt
+    TABLE: 1 rows x 2 cols
+    Headers: ['{{name}}', '{{Company name}}']
+
+  Shape [4] '표 15'
+    Type: TABLE (19)
+    Position: L=847725 T=6861175 W=6348391 H=623126 EMU
+             L=66.75pt T=540.25pt W=499.87pt H=49.07pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['{{university}} {{major}}']
+
+  Shape [5] '표 15'
+    Type: TABLE (19)
+    Position: L=847045 T=6304930 W=3599054 H=914396 EMU
+             L=66.7pt T=496.45pt W=283.39pt H=72.0pt
+    TABLE: 1 rows x 2 cols
+    Headers: ['{{name}}', '{{Company name}}']
+
+  Shape [6] '표 15'
+    Type: TABLE (19)
+    Position: L=9058048 T=4069383 W=6348391 H=623126 EMU
+             L=713.23pt T=320.42pt W=499.87pt H=49.07pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['{{university}} {{major}}']
+
+  Shape [7] '표 15'
+    Type: TABLE (19)
+    Position: L=9057368 T=3513138 W=3599054 H=914396 EMU
+             L=713.18pt T=276.63pt W=283.39pt H=72.0pt
+    TABLE: 1 rows x 2 cols
+    Headers: ['{{name}}', '{{Company name}}']
+
+  Shape [8] '표 19'
+    Type: TABLE (19)
+    Position: L=9057368 T=6861175 W=6348391 H=623126 EMU
+             L=713.18pt T=540.25pt W=499.87pt H=49.07pt
+    TABLE: 2 rows x 1 cols
+    Headers: ['{{university}} {{major}}']
+
+  Shape [9] '표 15'
+    Type: TABLE (19)
+    Position: L=9056688 T=6304930 W=3599054 H=914396 EMU
+             L=713.13pt T=496.45pt W=283.39pt H=72.0pt
+    TABLE: 1 rows x 2 cols
+    Headers: ['{{name}}', '{{Company name}}']
+
+  >> LAYOUT MAPPING CANDIDATES: ['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+
+======================================================================
+LAYOUT MAPPING SUMMARY
+======================================================================
+  Slide  1 | layout='중간목차표지' | shapes= 7 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  2 | layout='3_본문서식' | shapes= 5 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  3 | layout='중간목차표지' | shapes= 5 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  4 | layout='3_본문서식' | shapes=28 | candidates=['table_slide (has table)', 'content_chart (has chart)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  5 | layout='3_본문서식' | shapes=16 | candidates=['table_slide (has table)', 'content_chart (has chart)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  6 | layout='3_본문서식' | shapes=38 | candidates=['table_slide (has table)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  7 | layout='3_본문서식' | shapes=14 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  8 | layout='3_본문서식' | shapes=17 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide  9 | layout='3_본문서식' | shapes=18 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide 10 | layout='3_본문서식' | shapes=20 | candidates=['table_slide (has table)', 'three_column_summary (shapes across 3 thirds)', 'roadmap_timeline (many shapes, possible timeline)']
+  Slide 11 | layout='3_본문서식' | shapes=10 | candidates=['table_slide (has table)', 'roadmap_timeline (many shapes, possible timeline)']

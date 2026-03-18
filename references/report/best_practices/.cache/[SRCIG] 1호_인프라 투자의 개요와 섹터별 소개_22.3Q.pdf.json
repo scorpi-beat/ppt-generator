@@ -1,0 +1,156 @@
+{
+  "version": "v2",
+  "file_name": "[SRCIG] 1호_인프라 투자의 개요와 섹터별 소개_22.3Q.pdf",
+  "file_hash": "c9147e8a4b336f3eac2166c1eac69601",
+  "file_type": "pdf",
+  "subfolder": "best_practices",
+  "target_type": "report",
+  "type_usage_hints": {
+    "style_extract": true,
+    "logic_extract": true,
+    "guidance": "양식+내용 모두 우수. 헤드메시지 패턴, bullet 밀도, 표/차트 배치, 섹션 논리, 좌우 분할 비율, Note박스 패턴을 최우선으로 학습하라."
+  },
+  "content": {
+    "total_pages": 32,
+    "avg_bullets_per_page": 1.7,
+    "avg_chars_per_page": 7,
+    "avg_data_points_per_page": 0.2,
+    "table_page_ratio": 0.59,
+    "two_column_page_ratio": 0.03,
+    "note_box_page_ratio": 0.0,
+    "layout_distribution": {
+      "single": 20,
+      "single_right": 6,
+      "single_left": 5,
+      "two_column": 1
+    },
+    "head_message_samples": [
+      "물류등기타 수자원 지역및도시 산업단지"
+    ],
+    "section_headers": [],
+    "sample_data_points": [
+      "11%",
+      "7%",
+      "12%",
+      "30%",
+      "6%"
+    ],
+    "common_table_structure": {
+      "avg_rows": 0.1,
+      "avg_cols": 5.1,
+      "max_rows": 1,
+      "max_cols": 19
+    },
+    "pages_detail": [
+      {
+        "page": 1,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 0,
+        "table_structures": [],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 2,
+        "char_count": 9,
+        "line_count": 5,
+        "bullet_count": 5,
+        "table_count": 0,
+        "table_structures": [],
+        "data_points": 0,
+        "layout_split": "single_left",
+        "has_note_box": false
+      },
+      {
+        "page": 3,
+        "char_count": 5,
+        "line_count": 3,
+        "bullet_count": 3,
+        "table_count": 0,
+        "table_structures": [],
+        "data_points": 0,
+        "layout_split": "single_left",
+        "has_note_box": false
+      },
+      {
+        "page": 4,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 0,
+        "table_structures": [],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 5,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 0,
+        "table_structures": [],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 6,
+        "char_count": 11,
+        "line_count": 6,
+        "bullet_count": 6,
+        "table_count": 0,
+        "table_structures": [],
+        "data_points": 0,
+        "layout_split": "single_right",
+        "has_note_box": false
+      },
+      {
+        "page": 7,
+        "char_count": 27,
+        "line_count": 11,
+        "bullet_count": 11,
+        "table_count": 4,
+        "table_structures": [
+          {
+            "rows": 1,
+            "cols": 2
+          },
+          {
+            "rows": 0,
+            "cols": 19
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single_left",
+        "has_note_box": false
+      },
+      {
+        "page": 8,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 1,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 4
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      }
+    ]
+  },
+  "logic_patterns": {
+    "head_message_samples": [],
+    "section_structure": [],
+    "recommendation_patterns": [],
+    "data_driven_claim_samples": [],
+    "narrative_style": "conclusion_first"
+  }
+}

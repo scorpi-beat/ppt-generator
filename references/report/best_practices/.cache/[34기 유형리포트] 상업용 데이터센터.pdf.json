@@ -1,0 +1,186 @@
+{
+  "version": "v2",
+  "file_name": "[34기 유형리포트] 상업용 데이터센터.pdf",
+  "file_hash": "8effd237ac5ca596e15869e6f7838a44",
+  "file_type": "pdf",
+  "subfolder": "best_practices",
+  "target_type": "report",
+  "type_usage_hints": {
+    "style_extract": true,
+    "logic_extract": true,
+    "guidance": "양식+내용 모두 우수. 헤드메시지 패턴, bullet 밀도, 표/차트 배치, 섹션 논리, 좌우 분할 비율, Note박스 패턴을 최우선으로 학습하라."
+  },
+  "content": {
+    "total_pages": 25,
+    "avg_bullets_per_page": 2.6,
+    "avg_chars_per_page": 7,
+    "avg_data_points_per_page": 0.0,
+    "table_page_ratio": 0.88,
+    "two_column_page_ratio": 0.12,
+    "note_box_page_ratio": 0.0,
+    "layout_distribution": {
+      "single": 12,
+      "single_right": 7,
+      "single_left": 3,
+      "two_column": 3
+    },
+    "head_message_samples": [],
+    "section_headers": [],
+    "sample_data_points": [],
+    "common_table_structure": {
+      "avg_rows": 0.4,
+      "avg_cols": 3.9,
+      "max_rows": 3,
+      "max_cols": 17
+    },
+    "pages_detail": [
+      {
+        "page": 1,
+        "char_count": 24,
+        "line_count": 2,
+        "bullet_count": 0,
+        "table_count": 1,
+        "table_structures": [
+          {
+            "rows": 1,
+            "cols": 2
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single_left",
+        "has_note_box": false
+      },
+      {
+        "page": 2,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 1,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 2
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 3,
+        "char_count": 1,
+        "line_count": 1,
+        "bullet_count": 0,
+        "table_count": 1,
+        "table_structures": [
+          {
+            "rows": 1,
+            "cols": 2
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single_right",
+        "has_note_box": false
+      },
+      {
+        "page": 4,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 2,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 2
+          },
+          {
+            "rows": 0,
+            "cols": 3
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 5,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 1,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 5
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 6,
+        "char_count": 0,
+        "line_count": 0,
+        "bullet_count": 0,
+        "table_count": 2,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 5
+          },
+          {
+            "rows": 0,
+            "cols": 5
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single",
+        "has_note_box": false
+      },
+      {
+        "page": 7,
+        "char_count": 29,
+        "line_count": 15,
+        "bullet_count": 15,
+        "table_count": 2,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 4
+          },
+          {
+            "rows": 2,
+            "cols": 3
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "two_column",
+        "has_note_box": false
+      },
+      {
+        "page": 8,
+        "char_count": 5,
+        "line_count": 3,
+        "bullet_count": 3,
+        "table_count": 1,
+        "table_structures": [
+          {
+            "rows": 0,
+            "cols": 3
+          }
+        ],
+        "data_points": 0,
+        "layout_split": "single_left",
+        "has_note_box": false
+      }
+    ]
+  },
+  "logic_patterns": {
+    "head_message_samples": [],
+    "section_structure": [],
+    "recommendation_patterns": [],
+    "data_driven_claim_samples": [],
+    "narrative_style": "conclusion_first"
+  }
+}

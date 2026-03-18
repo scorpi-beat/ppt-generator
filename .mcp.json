@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"],
+      "description": "웹 페이지 및 URL 콘텐츠 가져오기 — content-writer의 리서치용"
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "description": "세션 간 지식 그래프 유지 — 리서치 데이터, 기업 정보, 시장 데이터 저장"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "description": "복잡한 다단계 추론 — IRR 분석, SWOT, 투자 논리 전개에 활용"
+    }
+  }
+}

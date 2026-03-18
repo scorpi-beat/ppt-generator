@@ -1,0 +1,18 @@
+node_modules/
+
+# 생성된 결과물 (draft JSON과 style JSON은 포함, 나머지 제외)
+outputs/*.pptx
+outputs/*.html
+outputs/*.png
+outputs/pilot_png/
+outputs/analysis_*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

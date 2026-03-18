@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "type": "report",
+    "topic": "해상풍력발전: 대체투자 인프라자산으로서의 투자 매력도 분석과 제언",
+    "slug": "offshore_wind_invest",
+    "language": "ko",
+    "tone": "objective_analytical",
+    "narrative_arc": "evidence_first",
+    "color_palette": {
+      "name": "BCG Forest",
+      "primary": "#1D3C2F",
+      "accent": "#00876A",
+      "support": "#F2C94C",
+      "neutral": "#F5F5F2",
+      "text": "#1A1A1A"
+    },
+    "created_at": "2026-03-18",
+    "sources": [
+      "GWEC, 'Global Offshore Wind Report 2025' (gwec.net)",
+      "IEA, 'Renewables 2025' (iea.org)",
+      "Lazard, 'Levelized Cost of Energy+ June 2025' (lazard.com)",
+      "Cambridge Associates, 'Infrastructure Trends, Performance, and Portfolio Impact' (2025)",
+      "Orrick, 'Global Offshore Wind Report: 2026 Edition' (orrick.com)",
+      "WindEurope, 'Wind Energy in Europe: 2024 Statistics' (windeurope.org)",
+      "EIA, 'Annual Energy Outlook 2025 — LCOE Report' (eia.gov)",
+      "기후에너지환경부, '해상풍력 인프라 확충 및 보급 계획' (2026.3)",
+      "해양수산부, '해상풍력특별법 제정안 국무회의 의결' (2025.3)",
+      "에너지경제연구원, 국내 해상풍력 현황 자료 (keei.re.kr)",
+      "Ørsted, 'Annual Report 2023–2024' — 미국 사업 손상차손 공시",
+      "Westwood Energy, 'Five Offshore Wind Themes to Watch in 2026' (westwoodenergy.com)",
+      "Norton Rose Fulbright, 'Renewables Valuations August 2025' (projectfinance.law)"
+    ]
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "layout": "title_slide",
+      "title": "해상풍력발전: 대체투자 인프라자산으로서의 투자 매력도 분석",
+      "subtitle": "글로벌 시장 동향, 국내 규제 리스크, 기대수익률 및 포트폴리오 편입 전략",
+      "date": "2026. 3",
+      "author": ""
+    },
+    {
+      "slide_number": 2,
+      "layout": "kpi_metrics",
+      "head_message": "글로벌 해상풍력 시장은 2025년 434억 달러 규모이며, 2034년 누적 441GW로 성장이 전망되나 수익률 변동성 확대에 유의",
+      "title": "Executive Summary",
+      "metrics": [
+        {
+          "label": "글로벌 누적 설치",
+          "value": "83GW",
+          "delta": "+21% YoY",
+          "note": "2024년 말 기준, GWEC"
+        },
+        {
+          "label": "시장 규모",
+          "value": "$434억",
+          "delta": "+9.3% YoY",
+          "note": "2025년 기준, Research Nester"
+        },
+        {
+          "label": "인프라펀드 Net IRR",
+          "value": "6~15%",
+          "delta": "전통 인프라 대비 변동폭 확대",
+          "note": "Cambridge Associates 2025"
+        },
+        {
+          "label": "국내 사업허가",
+          "value": "27.1GW",
+          "delta": "실보급률 1% 미만",
+          "note": "KEEI, 해상풍력특별법 시행 예정"
+        }
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 3,
+      "layout": "section_divider",
+      "section_number": "I",
+      "title": "글로벌 해상풍력 시장 동향",
+      "subtitle": "시장 규모, 성장 전망, 지역별 투자 흐름"
+    },
+    {
+      "slide_number": 4,
+      "layout": "content_chart",
+      "head_message": "글로벌 해상풍력 누적 설치 용량은 2024년 83GW에서 2034년 441GW로 5.3배 성장이 전망됨",
+      "title": "I-1. 글로벌 시장 규모 및 성장 전망",
+      "chart": {
+        "chart_type": "bar",
+        "title": "글로벌 해상풍력 누적 설치 용량 추이 및 전망 (GW)",
+        "x_axis": "연도",
+        "y_axis": "누적 설치 용량 (GW)",
+        "data": [
+          {"label": "2019", "value": 29},
+          {"label": "2020", "value": 35},
+          {"label": "2021", "value": 54},
+          {"label": "2022", "value": 64.3},
+          {"label": "2024", "value": 83},
+          {"label": "2025E", "value": 89.2},
+          {"label": "2030F", "value": 238},
+          {"label": "2034F", "value": 441}
+        ],
+        "source": "GWEC Global Offshore Wind Report 2025, Orrick 2026 Edition"
+      },
+      "key_points": [
+        "2025~2034년 10년간 350GW 추가 설치 전망, 연간 설치량 CAGR 21% (GWEC)",
+        "연간 설치량 2025년 2배, 2027년 3배 증가 후 2030년 30GW/년, 2034년 55GW/년 도달",
+        "2024년 글로벌 경매 낙찰 56GW·건설 중 48GW로 모두 사상 최대 — 중장기 파이프라인 견조",
+        "2026년 글로벌 EPCI 투자액 $520억 전망, 중국 주도 (Westwood Energy)"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 5,
+      "layout": "two_column_compare",
+      "head_message": "중국이 글로벌 설치량의 52%를 차지하며 5년 연속 1위이나, 유럽은 성숙시장으로서 안정적 투자 환경을 제공",
+      "title": "I-2. 지역별 시장 현황과 투자 환경 비교",
+      "column_left": {
+        "title": "아시아태평양 (중국 중심)",
+        "items": [
+          "중국: 2025년 6GW 신규 설치, 누적 기준 전 세계의 52% 차지 (Orrick 2026)",
+          "대만: 아시아(중국 제외) 최대 시장, 누적 5위 진입",
+          "일본·한국: 부유식 해상풍력 중심 성장 전략 추진 중",
+          "아시아태평양 전체 비중: 글로벌 설치량의 32%"
+        ]
+      },
+      "column_right": {
+        "title": "유럽 (성숙시장)",
+        "items": [
+          "유럽 누적 37GW, 글로벌의 46% — 영국·독일·네덜란드 주도",
+          "2024년 신규 2.6GW (전년比 31% 감소, 건설·계통 지연 영향)",
+          "2025~2033년 연간 5.6~28.2GW 설치 전망 (WindEurope)",
+          "네덜란드: 보조금 없는 사업성 확보 달성 — 투자 성숙도 최고"
+        ]
+      },
+      "data_confidence": "high",
+      "source": "GWEC 2025, WindEurope 2024 Statistics, Orrick 2026 Edition"
+    },
+    {
+      "slide_number": 6,
+      "layout": "section_divider",
+      "section_number": "II",
+      "title": "인프라자산으로서의 투자 매력도",
+      "subtitle": "수익 구조, 타 인프라 대비 포지셔닝, 기관투자자 동향"
+    },
+    {
+      "slide_number": 7,
+      "layout": "table_slide",
+      "head_message": "해상풍력 인프라펀드 Net IRR은 6~15%로 전통 인프라 대비 높은 수익 잠재력을 보유하나, 분산폭이 넓어 선별 투자가 필수",
+      "title": "II-1. 인프라 자산군별 위험-수익 비교",
+      "table": {
+        "headers": ["자산군", "Net IRR 범위", "이용률/안정성", "주요 리스크", "투자 성숙도"],
+        "rows": [
+          ["해상풍력", "6~15%", "이용률 29~52% (2030년 58% 전망)", "건설비 초과·정책 변동·계통 접속", "성장기"],
+          ["태양광", "5~10%", "이용률 15~25%", "전력 포획률 하락(유럽 52%)", "성숙기"],
+          ["유료도로", "8~12%", "교통량 안정적", "경기 사이클 연동", "성숙기"],
+          ["데이터센터", "10~18%", "가동률 95%+", "전력 공급·부지 확보", "고성장기"],
+          ["배터리 ESS", "15~19%", "가격 차익 의존", "시장 변동성·기술 리스크", "초기"]
+        ],
+        "source": "Cambridge Associates 2025, Norton Rose Fulbright 2025, Repath 2025"
+      },
+      "key_points": [
+        "2020년 이전 재생에너지 인프라 IRR 10~15%에서 금리 상승 이후 신규 프로젝트 5~8%로 하락 (Repath)",
+        "인프라 섹터 전문 펀드 Net IRR 중앙값 10.4%, 다각화 펀드 9.6% (2009~2020 빈티지, Cambridge Associates)",
+        "태양광 자산 실적 기대치 대비 5% 미달, 풍력 5~10% 미달 — 투자 시 보수적 수익률 가정 필요"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 8,
+      "layout": "content_chart",
+      "head_message": "해상풍력 LCOE는 2026년 신규 프로젝트 기준 $40~50/MWh로 천연가스 발전과 경쟁 가능 수준에 도달",
+      "title": "II-2. 해상풍력 LCOE 추이와 경쟁 에너지원 비교",
+      "chart": {
+        "chart_type": "bar",
+        "title": "에너지원별 LCOE 비교 ($/MWh, 2025년 기준)",
+        "x_axis": "에너지원",
+        "y_axis": "LCOE ($/MWh)",
+        "series": [
+          {
+            "name": "하한",
+            "data": [
+              {"label": "해상풍력(글로벌)", "value": 40},
+              {"label": "해상풍력(미국)", "value": 88},
+              {"label": "천연가스(CC)", "value": 48},
+              {"label": "천연가스(피크)", "value": 149},
+              {"label": "원자력", "value": 141},
+              {"label": "태양광(유틸)", "value": 24}
+            ]
+          },
+          {
+            "name": "상한",
+            "data": [
+              {"label": "해상풍력(글로벌)", "value": 50},
+              {"label": "해상풍력(미국)", "value": 91},
+              {"label": "천연가스(CC)", "value": 107},
+              {"label": "천연가스(피크)", "value": 251},
+              {"label": "원자력", "value": 220},
+              {"label": "태양광(유틸)", "value": 96}
+            ]
+          }
+        ],
+        "source": "Lazard LCOE+ June 2025, EIA AEO 2025, Energy Solutions 2026"
+      },
+      "key_points": [
+        "글로벌 최적 입지 해상풍력 LCOE $40~50/MWh — 천연가스 CC($48~107)와 경쟁 가능",
+        "미국 해상풍력 LCOE $88~91/MWh로 상대적 고비용 — IRA 세액공제 불확실성이 주 원인",
+        "2025년 해상풍력 LCOE 전년比 23% 상승(EIA) — 정책 불확실성·공급망 지연 반영",
+        "이용률 55~60% 달성 시 LCOE 추가 하락 가능, 대형 터빈(15MW+) 기술이 핵심 동력"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 9,
+      "layout": "two_column_compare",
+      "head_message": "글로벌 연기금·기관투자자는 해상풍력을 핵심 인프라 자산으로 편입 중이며, 2026년 EPCI 투자액 $520억으로 사상 최대 전망",
+      "title": "II-3. 기관투자자의 해상풍력 투자 동향",
+      "column_left": {
+        "title": "주요 기관투자 사례 (2023~2025)",
+        "items": [
+          "Apollo: Ørsted Hornsea 3(2.9GW)에 $65억 투자 — 글로벌 최대 단일 풍력 PF 사례",
+          "PensionDanmark·PFA: 대형 인프라펀드를 통한 해상풍력 간접투자 확대",
+          "TRIG(The Renewables Infrastructure Group): H2 2025 실적 기반 배당수익률 7.8% 유지",
+          "네덜란드 APG: 유럽 해상풍력 포트폴리오 20억 유로 이상 보유"
+        ]
+      },
+      "column_right": {
+        "title": "투자 구조 변화 추세",
+        "items": [
+          "운영 자산(Brownfield) 선호 → 건설 리스크 회피, 안정적 캐시플로우 확보",
+          "PF 구조에서 기업투자(Corporate PPA) 병행 — 전력구매계약 장기화",
+          "세컨더리 거래 시장 성장: 운영 중 자산 매각·인수를 통한 유동성 확보",
+          "요구수익률 6%→8~10%로 상향 — 금리 상승 환경 반영 (Cambridge Associates)"
+        ]
+      },
+      "data_confidence": "high",
+      "source": "Orrick 2026, Cambridge Associates 2025, TRIG H2 2025 Earnings"
+    },
+    {
+      "slide_number": 10,
+      "layout": "section_divider",
+      "section_number": "III",
+      "title": "투자 리스크 분석",
+      "subtitle": "글로벌 리스크 요인, Ørsted 사례, 국내 규제 리스크"
+    },
+    {
+      "slide_number": 11,
+      "layout": "table_slide",
+      "head_message": "Ørsted은 2023~2024년 미국 사업에서 총 DKK 40.5조(약 $5.7B) 손상차손을 인식하며 해상풍력 투자 리스크의 경각심을 제고",
+      "title": "III-1. 글로벌 리스크 사례: Ørsted 미국 사업 손상차손",
+      "table": {
+        "headers": ["시점", "대상 프로젝트", "손상 규모", "주요 원인"],
+        "rows": [
+          ["2023 Q3", "Ocean Wind 1·2 (NJ)", "DKK 19.9B (~$2.8B)", "공급망 지연·자재비 상승·IRA 불확실성"],
+          ["2023 Q3", "Sunrise Wind 등 기타", "DKK 8.5B (~$1.2B)", "금리 상승에 따른 WACC 확대"],
+          ["2024 Q4", "미국 포트폴리오 전체", "DKK 4.3B (~$0.6B)", "10년 금리 75bp 상승, 할인율 재산정"],
+          ["2024 Q4", "해저 임차권(MD·NJ·DE)", "DKK 3.5B (~$0.5B)", "해상풍력 부지 가치 재평가"],
+          ["합계", "—", "DKK 40.5B (~$5.7B)", "—"]
+        ],
+        "source": "Ørsted Company Announcements 2023.10, 2025.01"
+      },
+      "key_points": [
+        "Equinor도 뉴욕 해상풍력 사업에서 $3억 손상 인식 (2023) — 업계 전반적 현상",
+        "CapEx 10% 초과 시 프로젝트 IRR 1~1.5%p 하락 (Orrick 2026)",
+        "미국 인허가 지연은 착공까지 3~5년 추가 소요 → 개발 자본 장기 잠김 리스크"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 12,
+      "layout": "content_text",
+      "head_message": "해상풍력 투자의 5대 핵심 리스크는 건설비 초과, 금리 변동, 정책 불확실성, 계통 접속, 기술 리스크로 분류됨",
+      "title": "III-2. 해상풍력 투자 리스크 매트릭스",
+      "body": [
+        "【건설비 초과 리스크】 글로벌 공급망 병목으로 터빈·하부구조물 비용 20~30% 상승. CapEx 10% 초과 시 IRR 1~1.5%p 하락. 대형 터빈(15MW+) 전환기에 설치선(WTIV) 부족이 병목 요인으로 작용",
+        "【금리·할인율 리스크】 2022~2024년 글로벌 금리 상승으로 WACC 6%→8% 수준 상향. 20~30년 장기 PF 구조에서 할인율 100bp 변동 시 자산가치 10~15% 변동. Ørsted 사례에서 10년 금리 75bp 상승이 DKK 4.3B 손상 유발",
+        "【정책·규제 리스크】 미국 IRA 세액공제(PTC·ITC) 존속 불확실성, 유럽 CfD 역경매 가격 하한 부재, 한국 해상풍력특별법 시행 초기 모호성(법조문 '할 수 있다' 60여 회). 정책 변동 시 수익률 2~3%p 하방 가능",
+        "【계통 접속 리스크】 유럽 2024년 신규 설치 31% 감소의 주 원인이 계통 접속 지연. 한국은 영·호남 집중 단지→수도권 송전 용량 부족. 계통 접속 지연 시 발전 수익 공백 1~3년 발생",
+        "【기술 리스크】 부유식 해상풍력 LCOE 여전히 고정식 대비 2~3배. 대형 터빈 초기 가동 시 블레이드 결함·가용률 저하 이력 존재. 해저케이블 손상 복구 비용 1건당 $5~20M"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 13,
+      "layout": "section_divider",
+      "section_number": "IV",
+      "title": "국내 해상풍력 투자 환경",
+      "subtitle": "해상풍력특별법, 규제 리스크, 국내 파이프라인"
+    },
+    {
+      "slide_number": 14,
+      "layout": "roadmap_timeline",
+      "head_message": "해상풍력특별법이 2026년 3월 시행되며, 정부 주도 계획입지 제도로 전환해 인허가 68개월→단축 목표",
+      "title": "IV-1. 해상풍력특별법 시행 로드맵",
+      "timeline": [
+        {
+          "period": "'25.2",
+          "title": "국회 본회의 통과",
+          "description": "해상풍력 보급 촉진 및 산업 육성에 관한 특별법 최종 의결"
+        },
+        {
+          "period": "'25.3",
+          "title": "법률 공포",
+          "description": "공포일로부터 1년 후 시행. 풍황계측기 신규 설치 제한 등 일부 즉시 시행"
+        },
+        {
+          "period": "'26.3",
+          "title": "본격 시행",
+          "description": "계획입지 제도 도입, 28개 인허가 의제처리, 공동접속설비 선투자 제도 가동"
+        },
+        {
+          "period": "'26년 중",
+          "title": "경쟁 입찰 시작",
+          "description": "군 작전성 검토 사전 완료 후 추진, 유효 경쟁률 2:1 이상 상향"
+        },
+        {
+          "period": "'30년",
+          "title": "연간 4GW 보급 기반",
+          "description": "항만 인프라 4GW/년 처리 체계 구축, 목포신항 중심 거점항만 확대"
+        }
+      ],
+      "data_confidence": "high",
+      "source": "해양수산부 2025.3, 기후에너지환경부 2026.3"
+    },
+    {
+      "slide_number": 15,
+      "layout": "two_column_compare",
+      "head_message": "해상풍력특별법은 인허가 68개월→의제처리로 단축을 기대하나, 법조문 모호성과 경과조치 불확실성이 투자 리스크로 잔존",
+      "title": "IV-2. 국내 규제 리스크: 기회와 불확실성",
+      "column_left": {
+        "title": "긍정적 변화 (기회)",
+        "items": [
+          "정부 주도 계획입지 제도 도입 — 사업자의 입지 발굴·주민 수용성 부담 해소",
+          "28개 법률 인허가 의제처리 — 현 68개월 소요 기간 대폭 단축 기대",
+          "한전 공동접속설비 선투자 의무화 — 계통 연계 비용 사업자 부담 경감",
+          "발전지구 지정 전 한전 계통연계 사전 확인 — 송전 불확실성 축소",
+          "2030년 항만 인프라 연간 4GW 처리 체계 목표 (기후에너지환경부)"
+        ]
+      },
+      "column_right": {
+        "title": "잔존 리스크 (불확실성)",
+        "items": [
+          "법조문 '할 수 있다' 표현 60여 회 — 강제성 부재로 실질 효과 미지수",
+          "공기업 예비타당성조사 면제, 공유수면 점사용료 차등 기준 미확정",
+          "기존 사업자 경과조치: 발전지구 편입 기준이 2030년 목표 달성 좌우",
+          "풍력발전 해역 군 작전성 검토 결과에 따라 개발 가능 면적 축소 가능",
+          "REC 가중치 2.5 유지 여부 불투명 — 전력시장 수익성 직결"
+        ]
+      },
+      "data_confidence": "high",
+      "source": "기후솔루션 2025, 율촌 2025, 기후에너지환경부 2026"
+    },
+    {
+      "slide_number": 16,
+      "layout": "table_slide",
+      "head_message": "국내 발전사업허가 27.1GW 중 실보급 124.5MW(1% 미만)이며, 전남 15.7GW(58%)에 집중되어 지역 편중 리스크 존재",
+      "title": "IV-3. 국내 해상풍력 파이프라인 현황",
+      "table": {
+        "headers": ["구분", "용량", "비중", "주요 프로젝트", "비고"],
+        "rows": [
+          ["전남(신안 중심)", "15.7GW", "58%", "신안우이 390MW, 영광칠해 1,020MW", "국내 최대 클러스터"],
+          ["전북(서남권)", "2.4GW", "9%", "서남해 실증 60MW 운영 중", "기 운영 경험 보유"],
+          ["울산·동남권", "6.0GW", "22%", "부유식 1.4GW 추진 중", "부유식 테스트베드"],
+          ["제주", "0.5GW+", "2%", "제주한림 100MW 건설 중", "국내 최대 단일 프로젝트"],
+          ["기타", "2.5GW", "9%", "—", "분산 소규모 단지"],
+          ["합계 (사업허가)", "27.1GW", "100%", "83개 프로젝트", "실보급 124.5MW (1% 미만)"]
+        ],
+        "source": "KEEI, 기후솔루션 2023, 현대건설 뉴스룸"
+      },
+      "key_points": [
+        "현대건설 파이프라인 총 5.6GW(약 12조 원) — 기획·시공·운영 전주기 관리 전략",
+        "제주한림(100MW): 두산에너빌리티 5.56MW 터빈 18기, 국산 기자재 80%+, 연 234GWh 생산 기대",
+        "발전사업허가→실보급 전환율 1% 미만 — 해상풍력특별법 시행이 전환율 개선의 핵심 변수"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 17,
+      "layout": "section_divider",
+      "section_number": "V",
+      "title": "기대수익률 분석 및 포트폴리오 편입 전략",
+      "subtitle": "시나리오별 IRR, 최적 편입 비중, 리스크 완화 전략"
+    },
+    {
+      "slide_number": 18,
+      "layout": "table_slide",
+      "head_message": "해상풍력 투자 기대 IRR은 보수적 6~8%, 기본 8~12%, 낙관적 12~15%이며, 운영 자산 투자가 리스크 대비 수익률 최적",
+      "title": "V-1. 시나리오별 기대수익률(IRR) 분석",
+      "table": {
+        "headers": ["시나리오", "투자 단계", "기대 IRR", "주요 가정", "리스크 수준"],
+        "rows": [
+          ["보수적", "Greenfield (개발 초기)", "6~8%", "CapEx 20% 초과, 금리 5%+, 정책 지연", "높음"],
+          ["기본", "Construction (건설 중기)", "8~12%", "CapEx 예산 내, CfD/PPA 확보, WACC 6~7%", "중간"],
+          ["낙관적", "Brownfield (운영 자산)", "12~15%", "이용률 50%+, 장기 PPA, 저금리 환경", "낮음"],
+          ["국내 특수", "Greenfield (특별법 이후)", "7~10% [추정]", "인허가 단축, REC 2.5 유지, 계통 확보", "중간~높음"]
+        ],
+        "source": "Cambridge Associates 2025, Norton Rose Fulbright 2025, Repath 2025"
+      },
+      "key_points": [
+        "Brownfield(운영) 자산은 건설 리스크 제거로 안정적 캐시플로우 확보 — 연기금·보험사에 적합",
+        "Greenfield 투자 시 CapEx 10% 초과 → IRR 1~1.5%p 하락, 인허가 3~5년 지연 → 자본 효율 저하",
+        "국내 해상풍력특별법 시행 이후 Greenfield IRR 7~10% 추정 — 정책 실행력이 핵심 변수 [추정]"
+      ],
+      "data_confidence": "medium",
+      "estimated_values": [
+        "국내 특수 시나리오 IRR 7~10%는 해상풍력특별법 완전 시행, REC 2.5 유지, 계통 선투자 전제 하의 추정치"
+      ]
+    },
+    {
+      "slide_number": 19,
+      "layout": "content_chart",
+      "head_message": "해상풍력의 인플레이션 헤지 속성과 장기 현금흐름 안정성은 전통 채권 대비 포트폴리오 분산 효과를 제공",
+      "title": "V-2. 포트폴리오 내 해상풍력의 역할",
+      "chart": {
+        "chart_type": "bar",
+        "title": "인프라 자산군별 인플레이션 연동성과 현금흐름 안정성",
+        "x_axis": "자산군",
+        "y_axis": "평가 점수 (5점 만점)",
+        "series": [
+          {
+            "name": "인플레이션 헤지",
+            "data": [
+              {"label": "해상풍력(CfD)", "value": 4.5},
+              {"label": "태양광(PPA)", "value": 4.0},
+              {"label": "유료도로", "value": 3.5},
+              {"label": "부동산(오피스)", "value": 3.0},
+              {"label": "채권(국채)", "value": 1.5}
+            ]
+          },
+          {
+            "name": "현금흐름 안정성",
+            "data": [
+              {"label": "해상풍력(CfD)", "value": 4.0},
+              {"label": "태양광(PPA)", "value": 4.0},
+              {"label": "유료도로", "value": 4.5},
+              {"label": "부동산(오피스)", "value": 3.0},
+              {"label": "채권(국채)", "value": 5.0}
+            ]
+          }
+        ],
+        "source": "Cambridge Associates 2025, 자체 분석"
+      },
+      "key_points": [
+        "CfD/PPA 기반 해상풍력은 20~30년 고정 수익 계약으로 장기 캐시플로우 예측 가능성 확보",
+        "전력 가격이 CPI 연동 계약 시 인플레이션 헤지 효과 — 실질 수익률 보존",
+        "전통 채권·주식과의 낮은 상관관계(0.1~0.3) — 포트폴리오 변동성 저감 효과",
+        "최적 편입 비중: 대체투자 전체의 10~20% (인프라 배분 내) 권장 [추정]"
+      ],
+      "data_confidence": "medium",
+      "estimated_values": [
+        "인플레이션 헤지·현금흐름 안정성 점수는 정성적 평가 기반 추정치",
+        "최적 편입 비중 10~20%는 글로벌 연기금 사례 기반 추정"
+      ]
+    },
+    {
+      "slide_number": 20,
+      "layout": "three_column_summary",
+      "head_message": "해상풍력 포트폴리오 편입 시 운영 자산 중심, 지역 분산, 단계적 확대의 3대 원칙을 준수할 것을 제언",
+      "title": "V-3. 포트폴리오 편입 전략 제언",
+      "columns": [
+        {
+          "title": "운영 자산 우선 편입",
+          "items": [
+            "Brownfield 자산 중심으로 건설 리스크 제거",
+            "CfD/PPA 확보된 자산 선별 — 15년+ 고정 수익 확보",
+            "세컨더리 시장 활용: 운영 중 자산 매입으로 즉시 캐시플로우",
+            "목표 IRR: 8~12% (운영 자산 기준)"
+          ]
+        },
+        {
+          "title": "지역 분산 투자",
+          "items": [
+            "유럽(성숙): 네덜란드·영국 CfD 자산 — 정책 안정성 최고",
+            "아시아(성장): 대만·한국 Greenfield — 높은 성장 프리미엄",
+            "미국(회복): IRA 세액공제 확정 시 선별적 진입",
+            "단일 국가·프로젝트 편중 회피 — Ørsted 사례 교훈"
+          ]
+        },
+        {
+          "title": "단계적 확대 전략",
+          "items": [
+            "1단계: 인프라펀드 간접투자(LP)로 시장 학습",
+            "2단계: 공동투자(Co-invest)로 개별 프로젝트 선별 참여",
+            "3단계: 직접 지분투자로 운영 자산 포트폴리오 구축",
+            "대체투자 내 해상풍력 비중 10~20% 목표 [추정]"
+          ]
+        }
+      ],
+      "data_confidence": "medium",
+      "estimated_values": [
+        "편입 비중 10~20%는 글로벌 연기금(PensionDanmark, APG 등) 사례 참조 추정"
+      ]
+    },
+    {
+      "slide_number": 21,
+      "layout": "section_divider",
+      "section_number": "VI",
+      "title": "종합 제언 및 전망",
+      "subtitle": "투자 의사결정 프레임워크와 향후 모니터링 포인트"
+    },
+    {
+      "slide_number": 22,
+      "layout": "two_column_compare",
+      "head_message": "해상풍력 투자 의사결정 시 4단계 검증 프레임워크(정책→비용→수익→포트폴리오)를 통한 체계적 접근이 필요",
+      "title": "VI-1. 투자 의사결정 프레임워크",
+      "column_left": {
+        "title": "검증 프레임워크 4단계",
+        "items": [
+          "① 정책 검증: CfD/PPA 계약 존재, 인허가 확보 수준, 규제 안정성 평가",
+          "② 비용 검증: CapEx 예산 신뢰도, 공급망 리스크, LCOE 수준 확인",
+          "③ 수익 검증: 이용률 실적, 전력시장 가격 전망, IRR 민감도 분석",
+          "④ 포트폴리오 검증: 기존 자산과의 상관관계, 분산 효과, 유동성 계획"
+        ]
+      },
+      "column_right": {
+        "title": "핵심 모니터링 지표",
+        "items": [
+          "GWEC 연간 설치량 전망 대비 실적 괴리율",
+          "글로벌 WACC 추이 (현 6~8%) 및 금리 방향성",
+          "한국 해상풍력특별법 하위 법령·고시 제정 진행률",
+          "Ørsted·Equinor 등 선도 사업자 분기 실적 및 추가 손상 여부",
+          "대형 터빈(15MW+) 양산 일정 및 WTIV 수급 현황"
+        ]
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 23,
+      "layout": "content_text",
+      "head_message": "해상풍력은 탄소중립 필수 인프라이자 장기 안정 수익 자산으로, 리스크 관리 하에 포트폴리오 핵심 자산으로 편입 가능",
+      "title": "VI-2. 종합 제언",
+      "body": [
+        "【시장 판단】 글로벌 해상풍력 시장은 2034년 441GW 달성 전망(GWEC)으로 구조적 성장이 확인되나, 2023~2024년 Ørsted 손상차손($5.7B) 사례에서 보듯 단기 수익률 변동성이 높아 보수적 가정 하의 투자 의사결정이 필수",
+        "【국내 환경】 해상풍력특별법(2026.3 시행)은 인허가 간소화·계통 선투자 등 구조적 개선을 기대하나, 법조문 모호성·경과조치 불확실성·군 작전성 검토 결과에 따른 개발 면적 축소 가능성이 잔존. 하위 법령 확정 시까지 국내 Greenfield 직접투자는 신중 접근 권고",
+        "【수익률 전망】 Brownfield 운영 자산 기준 IRR 8~12%, Greenfield 기준 6~8%(보수적)~12~15%(낙관적). 국내는 특별법 완전 가동 시 7~10% IRR 추정. 금리 100bp 변동 시 자산가치 10~15% 변동을 감안한 스트레스 테스트 필수",
+        "【편입 전략】 운영 자산 우선→지역 분산→단계적 확대의 3원칙 준수. 대체투자 내 해상풍력 비중 10~20%를 중기(3~5년) 목표로 설정하되, 인프라펀드 LP 참여로 시장 학습 후 직접투자 확대를 권고"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 24,
+      "layout": "closing_slide",
+      "title": "해상풍력은 대체투자 인프라의 차세대 핵심 자산",
+      "closing_message": "구조적 성장이 확인된 해상풍력은 인플레이션 헤지와 장기 안정 수익을 제공하는 인프라자산으로, 리스크 기반 선별 투자와 단계적 포트폴리오 편입을 통해 기관투자자의 대체투자 수익률 제고에 기여할 수 있다.",
+      "key_takeaways": [
+        "글로벌 해상풍력 시장 2034년 441GW·연간 $520억+ 투자 전망 — 인프라 자산군 내 최대 성장 섹터",
+        "운영 자산 IRR 8~12%, CfD/PPA 기반 장기 캐시플로우 — 연기금·보험사의 부채 매칭에 적합",
+        "국내 해상풍력특별법 시행(2026.3)으로 27.1GW 파이프라인 활성화 기대 — 하위 법령 확정이 투자 시점 결정의 핵심 변수"
+      ],
+      "disclaimer": "본 자료의 수치 데이터는 GWEC, IEA, Lazard, Cambridge Associates, WindEurope, 기후에너지환경부, KEEI 등 공개 자료를 기반으로 작성되었습니다. [추정] 표기 항목은 공개 데이터 기반 자체 추정치이며, 실제 투자 수익률과 차이가 있을 수 있습니다."
+    }
+  ]
+}

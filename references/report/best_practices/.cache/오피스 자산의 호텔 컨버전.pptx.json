@@ -1,0 +1,136 @@
+{
+  "version": "v2",
+  "file_name": "오피스 자산의 호텔 컨버전.pptx",
+  "file_hash": "d175a1ab512980138a0b8c70eaae258e",
+  "file_type": "pptx",
+  "subfolder": "best_practices",
+  "target_type": "report",
+  "type_usage_hints": {
+    "style_extract": true,
+    "logic_extract": true,
+    "guidance": "양식+내용 모두 우수. 헤드메시지 패턴, bullet 밀도, 표/차트 배치, 섹션 논리, 좌우 분할 비율, Note박스 패턴을 최우선으로 학습하라."
+  },
+  "content": {
+    "slide_dimensions_emu": {
+      "cx": 17610138,
+      "cy": 9906000
+    },
+    "slide_dimensions_pt": {
+      "cx": 1386.6,
+      "cy": 780.0
+    },
+    "total_slides": 46,
+    "top_fonts": [
+      "Pretendard ExtraLight",
+      "Pretendard",
+      "Pretendard Light",
+      "Calibre Light"
+    ],
+    "font_sizes_pt": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "top_colors": [
+      "#435254",
+      "#A5958C",
+      "#BCB8AF",
+      "#2D3734",
+      "#CFCBC0",
+      "#E4E0D4",
+      "#726159",
+      "#494238"
+    ],
+    "layout_distribution": {
+      "two_column": 33,
+      "single": 13
+    },
+    "two_column_slide_ratio": 0.72,
+    "avg_bullets_per_slide": 9.5,
+    "table_slide_count": 46,
+    "common_table_structure": {
+      "count": 193,
+      "avg_rows": 3.3,
+      "avg_cols": 2.4,
+      "header_colors": [
+        "#2158D9",
+        "#2D3734",
+        "#3C493F",
+        "#494238",
+        "#A5958C"
+      ]
+    },
+    "slides_detail": [
+      {
+        "texts_count": 7,
+        "bullet_count": 0,
+        "table_count": 1,
+        "split_type": "single",
+        "text_zones": 3,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 98,
+        "bullet_count": 12,
+        "table_count": 3,
+        "split_type": "single",
+        "text_zones": 2,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 8,
+        "bullet_count": 3,
+        "table_count": 2,
+        "split_type": "single",
+        "text_zones": 1,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 123,
+        "bullet_count": 5,
+        "table_count": 2,
+        "split_type": "two_column",
+        "text_zones": 19,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 85,
+        "bullet_count": 14,
+        "table_count": 3,
+        "split_type": "two_column",
+        "text_zones": 16,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 160,
+        "bullet_count": 1,
+        "table_count": 3,
+        "split_type": "two_column",
+        "text_zones": 16,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 181,
+        "bullet_count": 4,
+        "table_count": 10,
+        "split_type": "two_column",
+        "text_zones": 39,
+        "visual_zones": 0
+      },
+      {
+        "texts_count": 13,
+        "bullet_count": 5,
+        "table_count": 2,
+        "split_type": "single",
+        "text_zones": 1,
+        "visual_zones": 0
+      }
+    ]
+  },
+  "logic_patterns": {}
+}

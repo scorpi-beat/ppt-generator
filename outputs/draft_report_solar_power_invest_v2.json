@@ -1,0 +1,812 @@
+{
+  "meta": {
+    "type": "report",
+    "topic": "국내외 태양광 발전 인프라 투자 분석 및 제언",
+    "slug": "solar_power_invest_v2",
+    "language": "ko",
+    "tone": "objective_analytical",
+    "narrative_arc": "evidence_first",
+    "color_palette": {
+      "name": "SRC Brand",
+      "primary": "#627365",
+      "accent": "#2D3734",
+      "support": "#A09567",
+      "accent_blue": "#406D92",
+      "accent_salmon": "#D98F76",
+      "neutral": "#F2F2F2",
+      "text": "#232323"
+    },
+    "created_at": "2026-03-18",
+    "version": "v2",
+    "sources": [
+      "IEA, 'Renewables 2025' (iea.org)",
+      "IRENA, 'Renewable Capacity Statistics 2025' (irena.org)",
+      "BloombergNEF, 'New Energy Outlook 2025 / 1H 2026' (bnef.com)",
+      "Lazard, 'Levelized Cost of Energy+ 2025' (lazard.com)",
+      "Wood Mackenzie, 'Global Solar Power Market Forecast Q1 2026' (woodmac.com)",
+      "IEA, 'World Energy Outlook 2025' (iea.org)",
+      "IEA-PVPS, 'Snapshot 2025 / Trends in PV Applications 2025'",
+      "Cambridge Associates, 'Infrastructure Trends & Performance 2025'",
+      "Ember, 'How Cheap Is Battery Storage' (2025)",
+      "NREL, 'Cost Projections for Utility-Scale Battery Storage' (2025)",
+      "한국에너지공단, '신재생에너지 보급통계 2024-2025' (knrec.or.kr)",
+      "산업통상자원부, '제11차 전력수급기본계획' (2024.8)",
+      "산업통상자원부, '2030 재생에너지 100GW 보급 계획' (2025)",
+      "에너지경제연구원, '국내 태양광 LCOE 전망 시스템 구축' (2025)",
+      "해줌(haezoom), '2026년 태양광 SMP/REC 가격 동향'",
+      "PV Tech, 'Lazard US utility-scale solar PV LCOE $38-78/MWh' (2025)",
+      "Fortune, 'Negative Prices for Electricity in Europe' (2026.1)",
+      "Electrek, 'Battery Storage Hits $65/MWh' (2025.12)",
+      "SEIA, 'US Solar Market Insight Q4 2025'"
+    ]
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "layout": "title_slide",
+      "title": "국내외 태양광 발전 인프라 투자 분석 및 제언",
+      "subtitle": "글로벌 시장 동향 · LCOE 경쟁력 · ESS 연계 전략 · 국내 투자 환경 · 포트폴리오 전략",
+      "date": "2026. 3",
+      "author": "SRC Research"
+    },
+    {
+      "slide_number": 2,
+      "layout": "toc_slide",
+      "title": "목차",
+      "sections": [
+        {
+          "number": "I",
+          "title": "글로벌 태양광 시장 현황 및 전망",
+          "subsections": ["시장 규모 및 성장 전망", "기술 혁신과 비용 구조 변화"]
+        },
+        {
+          "number": "II",
+          "title": "인프라자산으로서의 투자 매력도",
+          "subsections": ["LCOE 경쟁력 및 에너지원별 비교", "수익 구조 및 계약 유형", "ESS 연계와 디스패처블 솔라"]
+        },
+        {
+          "number": "III",
+          "title": "투자 리스크 분석",
+          "subsections": ["전력가격·포획률 리스크", "정책·규제 리스크", "기술·운영 리스크"]
+        },
+        {
+          "number": "IV",
+          "title": "국내 태양광 투자 환경",
+          "subsections": ["국내 시장 현황 및 정책 목표", "RPS·FIT·PPA 제도 비교", "영농형·수상 태양광 파이프라인"]
+        },
+        {
+          "number": "V",
+          "title": "기대수익률 분석 및 포트폴리오 전략",
+          "subsections": ["시나리오별 IRR", "포트폴리오 편입 전략", "투자 실행 프레임워크"]
+        },
+        {
+          "number": "VI",
+          "title": "종합 제언",
+          "subsections": ["투자 의사결정 기준", "핵심 모니터링 지표"]
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "layout": "kpi_metrics",
+      "section_number": "Executive Summary",
+      "head_message": "글로벌 태양광 누적 설치 2024년 2,260GW 돌파, LCOE $38~78/MWh로 10년 연속 최저비용 에너지원 — ESS 연계 시 디스패처블 솔라 $57/MWh 실현",
+      "title": "Executive Summary",
+      "metrics": [
+        {
+          "label": "글로벌 누적 설치 (2024)",
+          "value": "2,260GW",
+          "delta": "중국 단독 1TW 돌파",
+          "note": "IEA-PVPS Snapshot 2025, IRENA 2025"
+        },
+        {
+          "label": "태양광 LCOE (유틸리티급)",
+          "value": "$38~78/MWh",
+          "delta": "10년 연속 최저비용 에너지원",
+          "note": "Lazard LCOE+ 2025"
+        },
+        {
+          "label": "국내 누적 설치 (2024)",
+          "value": "24.7GW",
+          "delta": "2030 목표 100GW 대비 25%",
+          "note": "한국에너지공단 2025, 산업부"
+        },
+        {
+          "label": "ESS 연계 LCOS",
+          "value": "$65/MWh",
+          "delta": "YoY -27%, 사상 최저",
+          "note": "BNEF 2025, Ember 2025"
+        }
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 4,
+      "layout": "section_divider",
+      "section_number": "I",
+      "title": "글로벌 태양광 시장 현황 및 전망",
+      "subtitle": "시장 규모, 성장 전망, 기술 혁신과 비용 구조 변화"
+    },
+    {
+      "slide_number": 5,
+      "layout": "composite_split",
+      "section_number": "I",
+      "head_message": "글로벌 태양광 2024년 신규 설치 553~601GW로 사상 최대 — 누적 2,260GW 돌파, 중국 357GW로 전체의 60% 차지하며 단독 1TW 초과",
+      "title": "I-1. 글로벌 태양광 시장 규모 및 성장 전망",
+      "main_zone": {
+        "position": "left",
+        "content_type": "chart",
+        "chart": {
+          "chart_type": "bar",
+          "title": "글로벌 태양광 연간 신규 설치 용량 추이 (GW)",
+          "x_axis": "연도",
+          "y_axis": "신규 설치 용량 (GW)",
+          "data": [
+            {"label": "2019", "value": 115},
+            {"label": "2020", "value": 135},
+            {"label": "2021", "value": 168},
+            {"label": "2022", "value": 240},
+            {"label": "2023", "value": 390},
+            {"label": "2024", "value": 577},
+            {"label": "2025E", "value": 650},
+            {"label": "2030F", "value": 1100}
+          ],
+          "source": "IEA-PVPS Snapshot 2025, IRENA 2025, IEA Renewables 2025"
+        }
+      },
+      "sub_zone_top": {
+        "position": "right_top",
+        "content_type": "bullets",
+        "bullets": [
+          "2024년 신규 설치 553~601GW — 전년比 47~54% 증가, 사상 최대 (IEA-PVPS 2025)",
+          "중국 357.3GW 단독 설치 — 전 세계의 60%, 누적 1TW 최초 돌파 (IRENA 2025)",
+          "EU 62.6GW·미국 47.1GW·인도 31.9GW — 상위 4개국이 전체의 85% 이상 차지",
+          "IEA 전망: 태양광 누적 용량 2026년 천연가스, 2027년 석탄 초과 (Renewables 2025)"
+        ]
+      },
+      "sub_zone_bottom": {
+        "position": "right_bottom",
+        "content_type": "table",
+        "table": {
+          "headers": ["구분", "2020", "2022", "2024", "2030F"],
+          "rows": [
+            ["누적 용량 (GW)", "760", "1,185", "2,260", "5,500+"],
+            ["발전 설비 비중 (%)", "9%", "12%", "17%", "30%+"]
+          ]
+        }
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: IEA-PVPS Snapshot 2025, IRENA Renewable Capacity Statistics 2025, IEA Renewables 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 6,
+      "layout": "two_col_text_chart",
+      "section_number": "I",
+      "head_message": "태양광 모듈 가격 2024년 $0.087/Wp(중국 FOB)까지 하락 후 2026년 반등 — 은 가격 급등($84/oz)과 중국 VAT 환급 폐지로 구조적 가격 전환점 도달",
+      "title": "I-2. 태양광 기술 혁신 및 비용 구조 변화",
+      "text_column": {
+        "label": "기술·비용 핵심 동인",
+        "items": [
+          "TOPCon 기술: 2025년 시장 점유율 70~80% 달성, 상업 효율 24~25% — PERC 대체 완료 (CPIA/Exawatt)",
+          "페로브스카이트 탠덤: LONGi 효율 34.85% 달성(2025), Oxford PV 상업 모듈 26% 목표(2026), 대량생산 2027년 전망",
+          "은 가격 $84/oz — 모듈 원가의 17% 차지, 실리콘 추월. 원가 구조 근본 변화 (pv magazine 2026.1)",
+          "중국 VAT 환급 폐지(2026.4 시행) — 수출가 구조적 상승 예상, $0.08~0.10/Wp 바닥 확인 (Joinsun 2026)",
+          "2026~2027년 모듈 가격 $0.10~0.12/Wp 안정화 전망 — 공급 과잉 해소와 약체 퇴출 병행 (Wood Mackenzie)"
+        ]
+      },
+      "chart": {
+        "chart_type": "line",
+        "title": "태양광 모듈 평균 가격 추이 ($/Wp, 중국 FOB 기준)",
+        "x_axis": "연도",
+        "y_axis": "모듈 가격 ($/Wp)",
+        "data": [
+          {"label": "2010", "value": 0.76},
+          {"label": "2012", "value": 0.55},
+          {"label": "2014", "value": 0.38},
+          {"label": "2016", "value": 0.33},
+          {"label": "2018", "value": 0.22},
+          {"label": "2020", "value": 0.17},
+          {"label": "2022", "value": 0.24},
+          {"label": "2024", "value": 0.087},
+          {"label": "2026E", "value": 0.10}
+        ],
+        "source": "IRENA 2025, Wood Mackenzie Q1 2026, InfoLink 2026"
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: IRENA 2025, Wood Mackenzie Q1 2026, pv magazine 2026.1, CPIA/Exawatt 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 7,
+      "layout": "section_divider",
+      "section_number": "II",
+      "title": "인프라자산으로서의 투자 매력도",
+      "subtitle": "LCOE 경쟁력, 수익 구조, ESS 연계 디스패처블 솔라"
+    },
+    {
+      "slide_number": 8,
+      "layout": "wide_table",
+      "section_number": "II",
+      "head_message": "태양광 LCOE $38~78/MWh로 10년 연속 모든 신규 발전원 중 최저비용 유지 — 보조금 없이도 천연가스 신규 대비 경쟁력 확보 (Lazard 2025)",
+      "title": "II-1. 에너지원별 LCOE 및 태양광 경쟁력 분석",
+      "table": {
+        "headers": ["에너지원", "LCOE ($/MWh)", "이용률", "탄소비용", "계통 비용", "2025~26 트렌드"],
+        "rows": [
+          ["태양광 유틸리티", "$38~78", "15~25%", "없음", "높음 (간헐성)", "10년 연속 최저, 하한 상승"],
+          ["육상 풍력", "$37~86", "25~40%", "없음", "중간", "비용 상승 전환 ($27~73→$37~86)"],
+          ["해상 풍력", "$72~140", "35~52%", "없음", "중간", "비용 급등 지속"],
+          ["천연가스 CC", "$48~107", "50~65%", "$15~40+", "낮음", "가격 변동성 지속"],
+          ["원자력 (신규)", "$141~220", "90~95%", "없음", "없음", "SMR 주목, 비용 불확실"],
+          ["태양광+ESS 4h", "$57 (평균)", "24h 디스패치 가능", "없음", "대폭 완화", "LCOS $65→$57/MWh 급락"]
+        ],
+        "source": "Lazard LCOE+ 2025, BNEF 2025, Ember 2025"
+      },
+      "key_points": [
+        "태양광 LCOE 하한 $38/MWh(전년 $29→$38 소폭 상승) — 보조금 없이 신규 천연가스($48~107) 대비 경쟁력 유지 (Lazard 2025)",
+        "태양광+ESS 4시간 결합 시 $57/MWh — 디스패처블 솔라로 간헐성 단점 해소, 계통 비용 부담 대폭 완화 (Electrek 2025.12)",
+        "육상 풍력 LCOE $37~86으로 전년比 37% 상승 — 태양광 대비 비용 우위 소멸, 태양광+ESS가 새로운 기저 에너지원 후보"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 9,
+      "layout": "four_quadrant",
+      "section_number": "II",
+      "head_message": "태양광 투자 수익 구조는 FIT·PPA·REC·전력시장의 4개 수익원으로 구성 — 계약 유형별 IRR 4~12% 범위에서 리스크-수익 프로파일 상이",
+      "title": "II-2. 태양광 투자 수익 구조 및 계약 유형별 비교",
+      "cells": [
+        {
+          "position": "top_left",
+          "label": "FIT (발전차액지원제도)",
+          "content_type": "bullets",
+          "bullets": [
+            "고정 단가 15~20년 보장 — 수익 안정성 최고",
+            "국내: 30kW 미만 소규모 전용, 신규 진입 예산 제한",
+            "기존 FIT 계약 자산 희소가치 상승 — 세컨더리 프리미엄 형성",
+            "예상 IRR: 6~8% (고안정형)"
+          ]
+        },
+        {
+          "position": "top_right",
+          "label": "PPA (전력구매계약)",
+          "content_type": "bullets",
+          "bullets": [
+            "기업·공공기관 직접 계약 15~25년 고정가격",
+            "RE100 기업 수요 급증으로 PPA 시장 연 30%+ 성장",
+            "국내 직접 PPA 2021년 제도화 — 2025년 계약 규모 2배 확대",
+            "예상 IRR: 7~9% (계약 구조·상대방 신용 의존)"
+          ]
+        },
+        {
+          "position": "bottom_left",
+          "label": "REC (재생에너지 공급인증서)",
+          "content_type": "bullets",
+          "bullets": [
+            "국내 RPS 제도: 발전사 신재생에너지 의무 구매(2025년 25%)",
+            "REC 가격 2025.12 기준 72,404원 — 2024년 대비 안정화 추세",
+            "REC 현물시장 2026년까지 발급, 2029년까지 판매 가능",
+            "예상 IRR: 7~10% (REC 가격 변동성 감안)"
+          ]
+        },
+        {
+          "position": "bottom_right",
+          "label": "전력시장 직접 판매(SMP)",
+          "content_type": "bullets",
+          "bullets": [
+            "계통한계가격(SMP) 직접 정산 — 가격 변동 리스크 최대",
+            "2025.12 기준 육지 SMP 89.94원/kWh — 하락 추세 지속",
+            "ESS 연계 시 피크 시간대 가격차익(Peak Shaving) 확보 가능",
+            "예상 IRR: 4~8% (변동성 높음, ESS 연계 시 개선)"
+          ]
+        }
+      ],
+      "data_confidence": "high",
+      "note_box": {
+        "type": "source",
+        "content": "출처: 한국에너지공단 2025, 해줌 SMP/REC 동향 2026.3, Cambridge Associates 2025"
+      }
+    },
+    {
+      "slide_number": 10,
+      "layout": "two_col_chart_text",
+      "section_number": "II",
+      "head_message": "ESS 원가 $117/kWh(2025)로 전년比 31% 하락, LCOS $65/MWh 달성 — 태양광+ESS 디스패처블 솔라가 기저 에너지원으로 전환 중",
+      "title": "II-3. ESS 연계 디스패처블 솔라의 투자 경제성",
+      "chart": {
+        "chart_type": "bar",
+        "title": "ESS 턴키 비용 추이 ($/kWh, 4시간 유틸리티급)",
+        "x_axis": "연도",
+        "y_axis": "턴키 비용 ($/kWh)",
+        "data": [
+          {"label": "2020", "value": 350},
+          {"label": "2021", "value": 300},
+          {"label": "2022", "value": 280},
+          {"label": "2023", "value": 230},
+          {"label": "2024", "value": 170},
+          {"label": "2025", "value": 117},
+          {"label": "2030F", "value": 60},
+          {"label": "2035F", "value": 41}
+        ],
+        "source": "BNEF 2025, Ember 2025, NREL 2025"
+      },
+      "text_column": {
+        "label": "디스패처블 솔라 핵심 지표",
+        "items": [
+          "2025년 글로벌 태양광+ESS 87GW 설치, 평균 발전 단가 $57/MWh — 고정축 태양광($39) 대비 $18/MWh 프리미엄 (BNEF)",
+          "4시간 ESS LCOS $65/MWh(2025) → $41/MWh(2035F) — 태양광 야간 이동 비용 $33/MWh 추가만으로 24시간 디스패치 가능",
+          "캘리포니아 ESS 4시간 용량 2025년 12GW+ — 태양광 피크 커틴먼트 340만MWh 중 ESS 흡수 비중 확대 중",
+          "국내 ESS 연계 시 REC 가중치 추가 부여(5.0) — 태양광+ESS 경제성 개선의 핵심 정책 수단"
+        ]
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: BNEF 2025, Ember 'How Cheap Is Battery Storage' 2025, Electrek 2025.12, NREL 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 11,
+      "layout": "two_col_text_table",
+      "section_number": "II",
+      "head_message": "글로벌 재생에너지 투자 2025년 $3.3조 전망, 태양광 $4,500억으로 최대 — 기관투자자 요구수익률 IRR 5~10%로 하향 안정화, 선별 기준 강화",
+      "title": "II-4. 기관투자자의 태양광 인프라 투자 동향",
+      "text_column": {
+        "label": "기관투자자 투자 트렌드",
+        "items": [
+          "Blackrock: 글로벌 재생에너지 펀드 $150억+ 운용, 태양광 비중 45%+ — GIP 인수 후 인프라 AUM $2,500억+ (2025)",
+          "KKR: 유럽·아시아 태양광 포트폴리오 8GW+ 보유, 세컨더리 중심 전략 — Brownfield 선호 뚜렷",
+          "국내 NPS·사학연금: 해외 태양광 인프라펀드 LP 투자 연 $5억+ 집행, 선순위 부채 중심",
+          "요구수익률 하향: 2018년 IRR 10~15% → 2025년 5~10% — 금리·경쟁 심화 반영",
+          "대형화·포트폴리오화: 개별 100MW 이상, GW급 포트폴리오 거래 비중 증가 — 상위 25% 펀드 IRR 12%+ (Cambridge)"
+        ]
+      },
+      "table": {
+        "label": "주요 기관투자자 태양광 투자 현황 (2025)",
+        "headers": ["투자 기관", "투자 형태", "규모", "목표 IRR"],
+        "rows": [
+          ["Blackrock 인프라", "GP (펀드 운용)", "$150억+ (재생에너지)", "8~12%"],
+          ["KKR 인프라", "직접 지분 투자", "8GW+ (유럽·아시아)", "8~10%"],
+          ["Macquarie 자산운용", "인프라 펀드 GP", "20GW+ (전 세계)", "7~10%"],
+          ["국내 NPS", "인프라펀드 LP", "연 $5억+ 집행", "6~8%"],
+          ["Solar Future Fund III", "C&I 특화 펀드", "포르투갈/유럽", "net 8% (배당 4%)"]
+        ]
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: Cambridge Associates 2025, PV Tech 2025, Wood Mackenzie Q1 2026, Solar Future Fund III"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 12,
+      "layout": "section_divider",
+      "section_number": "III",
+      "title": "투자 리스크 분석",
+      "subtitle": "전력가격·포획률 리스크, 정책·규제 리스크, 기술·운영 리스크"
+    },
+    {
+      "slide_number": 13,
+      "layout": "composite_split",
+      "section_number": "III",
+      "head_message": "유럽 음전력가격 2025년 스페인 500시간+·프랑스 400시간+·독일 459시간으로 전년 대비 2배 — 태양광 전력 포획률 하락이 가장 현실화된 투자 리스크",
+      "title": "III-1. 전력가격·포획률 리스크 심층 분석",
+      "main_zone": {
+        "position": "left",
+        "content_type": "table",
+        "table": {
+          "headers": ["리스크 유형", "발생 메커니즘", "2025년 실측", "영향 지역"],
+          "rows": [
+            ["음전력가격 빈발", "태양광 동시 생산 → 공급 과잉", "스페인 500h+, 프랑스 400h+, 독일 459h", "유럽 전역·미국 캘리포니아"],
+            ["전력 포획률 하락", "태양광 발전 시간대 SMP 급락", "유럽 일부 52% 수준 하락", "유럽·미국 서부"],
+            ["커틴먼트 증가", "계통 수용 한계 초과 → 발전 차단", "캘리포니아 340만MWh(+29% YoY)", "캘리포니아·중국 서부"],
+            ["모듈 가격 반등", "은 가격 $84/oz + 중국 VAT 환급 폐지", "$0.087→$0.10/Wp 전환", "글로벌 전반"],
+            ["금리 민감도", "20~25년 PF에서 100bp → 자산가치 8~12% 변동", "2024~2025년 인프라펀드 평가 조정", "전 세계"]
+          ]
+        }
+      },
+      "sub_zone_top": {
+        "position": "right_top",
+        "content_type": "bullets",
+        "bullets": [
+          "유럽 2025년 상반기 음전력가격 시간 전년比 2배+ — 스페인이 독일보다 72% 더 많은 음전력 시간 발생 (Fortune 2026.1)",
+          "캘리포니아 2024년 태양광 커틴먼트 340만MWh — 전체 커틴먼트의 93%, 전년比 29% 증가 (EIA 2025)"
+        ]
+      },
+      "sub_zone_bottom": {
+        "position": "right_bottom",
+        "content_type": "bullets",
+        "bullets": [
+          "ESS 4시간 연계로 피크 이동 → 포획률 20~30%p 개선 가능 (BNEF)",
+          "CAISO EDAM(확장 일간시장) 2026.5 가동 예정 — 지역간 전력 거래로 커틴먼트 감축 기대"
+        ]
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: Fortune 2026.1, EIA 2025, IEA Renewables 2025, pv magazine 2025, Next Kraftwerke 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 14,
+      "layout": "four_quadrant",
+      "section_number": "III",
+      "head_message": "태양광 투자 4대 리스크는 전력가격·정책변동·기술노후화·개발단계 리스크 — ESS 연계와 장기 PPA 확보가 복합 리스크 완화의 핵심 수단",
+      "title": "III-2. 태양광 투자 4대 리스크 매트릭스",
+      "cells": [
+        {
+          "position": "top_left",
+          "label": "① 전력가격·포획률 (확률: 높음 / 영향: 대)",
+          "content_type": "bullets",
+          "bullets": [
+            "유럽 음전력가격 2025년 스페인 500h+, 프랑스 400h+ — 전년比 2배 증가",
+            "포획률 52% 하락 시 IRR 2~3%p 하락 (IEA)",
+            "ESS 없는 PPA 미확보 자산 → 시장 노출 리스크 직면",
+            "완화: 장기 PPA 체결 + ESS 4h 연계 필수"
+          ]
+        },
+        {
+          "position": "top_right",
+          "label": "② 정책·규제 (확률: 중 / 영향: 중)",
+          "content_type": "bullets",
+          "bullets": [
+            "국내 RPS 제도 폐지 논의 — REC 현물 2026년까지 발급, 2029년 판매 종료",
+            "중국 VAT 환급 폐지(2026.4) → 모듈 수출가 구조적 상승",
+            "미국 IRA ITC 30% 존속 불확실성 지속",
+            "완화: 다수 수익원(PPA+REC+SMP) 분산 구조"
+          ]
+        },
+        {
+          "position": "bottom_left",
+          "label": "③ 기술·노후화 (확률: 중 / 영향: 중)",
+          "content_type": "bullets",
+          "bullets": [
+            "TOPCon 시장 점유율 70~80%(2025) — 기존 PERC 모듈 기술 열위 확정",
+            "페로브스카이트 탠덤 효율 34.85% → 2027년 대량생산 시 기존 모듈 가치 하락",
+            "인버터 교체 주기 10~12년, 비용 $3~5만/MW",
+            "완화: 기술 업그레이드 비용 사전 반영 (CAPEX의 10~15%)"
+          ]
+        },
+        {
+          "position": "bottom_right",
+          "label": "④ 개발단계 (확률: 높음 / 영향: 중)",
+          "content_type": "bullets",
+          "bullets": [
+            "국내 계통 접속 허가 2~5년 대기 — 자본 잠김 리스크",
+            "주민 수용성: 경관·농지 이용 갈등 빈발, 이격거리 규정 통일 추진 중",
+            "영농형 과징금 제도 도입 예정 — 실경작 미이행 시 불이익",
+            "완화: Brownfield(운영 자산) 인수 전략 우선 검토"
+          ]
+        }
+      ],
+      "data_confidence": "high",
+      "note_box": {
+        "type": "source",
+        "content": "출처: IEA 2025, 한국에너지공단 2025, 해줌 2026.1, Wood Mackenzie 2026, Fortune 2026.1"
+      }
+    },
+    {
+      "slide_number": 15,
+      "layout": "section_divider",
+      "section_number": "IV",
+      "title": "국내 태양광 투자 환경",
+      "subtitle": "시장 현황, 정책 목표, RPS·FIT·PPA 제도, 영농형·수상 태양광"
+    },
+    {
+      "slide_number": 16,
+      "layout": "two_col_text_table",
+      "section_number": "IV",
+      "head_message": "국내 태양광 누적 24.7GW(2024), 정부 2030년 100GW 목표 — 연간 설치 목표 3GW→10GW로 3배 이상 상향, 영농형 특별법·이격거리 통일 등 제도 정비 가속",
+      "title": "IV-1. 국내 태양광 시장 현황 및 정책 목표",
+      "text_column": {
+        "label": "국내 시장 핵심 지표",
+        "items": [
+          "누적 설치 24.7GW(2024) — 전체 발전 설비의 14.2%, 신재생에너지 중 1위 (에너지공단 2025)",
+          "정부 '2030 재생에너지 100GW' 선언 — 태양광 77.2GW 목표(제11차 전력수급기본계획 기준 2038년 77.2GW)",
+          "연간 설치 목표 3GW→10GW로 대폭 상향 — 2030년 전력 비중 30% 달성 목표 (산업부 2025)",
+          "영농형 태양광 특별법 제정·가이드라인 마련 추진 — 농사 미이행 시 과징금 부과 조항 도입 예정",
+          "신재생에너지법 개정: 이격거리 규정 전국 통일 연내 마련 (산업부)"
+        ]
+      },
+      "table": {
+        "label": "국내 태양광 목표 vs 현황",
+        "headers": ["구분", "2024 실적", "2030 목표", "2038 목표"],
+        "rows": [
+          ["누적 설치 (GW)", "24.7", "~100", "77.2 (전수기)"],
+          ["발전 설비 비중 (%)", "14.2%", "30%", "30%+"],
+          ["연간 신규 설치 (GW)", "4.1", "10", "5~7"],
+          ["재생에너지 전체 (GW)", "39", "100", "121.9"]
+        ]
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: 한국에너지공단 2025, 산업통상자원부 2025, 제11차 전력수급기본계획 2024.8, 대한민국 정책브리핑 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 17,
+      "layout": "wide_table",
+      "section_number": "IV",
+      "head_message": "국내 태양광 수익은 RPS·FIT·직접 PPA 3원 체계 — RPS 제도 폐지 논의 중(REC 현물 2026년까지 발급), 직접 PPA와 준중앙제도가 차세대 수익 모델로 부상",
+      "title": "IV-2. 국내 RPS·FIT·PPA 제도별 수익성 비교",
+      "table": {
+        "headers": ["제도", "적용 대상", "수익 구조", "SMP+REC 합산 (2025.12)", "계약 기간", "안정성", "향후 전망"],
+        "rows": [
+          ["RPS (시장형)", "100kW 이상", "SMP + REC 시장 거래", "162원/kWh (89.9+72.4)", "자유", "중간", "REC 현물 2026 발급→2029 판매 종료"],
+          ["FIT (고정형)", "30kW 미만", "20년 고정가 구매", "80~110원/kWh", "20년", "최고", "신규 진입 예산 제한, 희소가치"],
+          ["직접 PPA", "1MW 이상", "기업 직접 계약 고정가", "계약별 협상", "15~25년", "높음", "RE100 수요 확대로 급성장"],
+          ["준중앙제도", "중소규모", "한전 중개 고정가", "제도 설계 중", "장기", "높음 (예상)", "RPS 대체 후보, 2026~27 시행 전망"],
+          ["VPP (가상발전소)", "소규모 집합", "집합 자원 시장 참여", "시장 가격", "자유", "낮음", "제도 준비 중"]
+        ],
+        "source": "한국에너지공단 2025, 해줌 SMP/REC 동향 2026.3, 산업통상자원부 2025"
+      },
+      "key_points": [
+        "2025.12 기준 SMP 89.94원+REC 72,404원 — 100kW급 월 수익 약 200만원 내외, REC 안정세 속 SMP 하락이 총수익 압박 요인 (해줌 2026.3)",
+        "RPS 폐지 논의 가속: REC 현물 2026년까지 발급·2029년 판매 종료 — 기존 RPS 자산은 잔여 REC 기간이 가치 결정 핵심",
+        "직접 PPA + 준중앙제도가 차세대 수익 모델 — RE100 기업 계약 확보 전략이 투자 의사결정의 최우선 변수"
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 18,
+      "layout": "two_col_text_table",
+      "section_number": "IV",
+      "head_message": "영농형 태양광 특별법 제정·수상태양광 확대·노후 석탄 부지 재활용 — 연간 10GW 설치 목표 달성을 위한 신규 부지 확보가 국내 투자의 핵심 병목이자 기회",
+      "title": "IV-3. 영농형·수상 태양광 및 국내 투자 파이프라인",
+      "text_column": {
+        "label": "파이프라인 핵심 기회",
+        "items": [
+          "영농형 태양광: 특별법 제정 후 가이드라인 마련 중 — 2030년 햇빛소득마을 500곳 확대 목표 (산업부)",
+          "수상 태양광: 댐·저수지 수면 활용, 이용률 육상 대비 7~10% 높음 — 전남·경북 중심 1GW+ 개발 중",
+          "노후 석탄 부지: 삼천포·하동·보령 폐쇄 부지 그린뉴딜 개발, 기존 계통 인프라 활용 가능",
+          "농지·간척지·수상 등 신규 부지 범정부 협업 발굴 추진 (산업부 2025)",
+          "해외 투자: 한화큐셀·SK에코플랜트 베트남·인도네시아·인도 진출 확대"
+        ]
+      },
+      "table": {
+        "label": "국내 태양광 투자 유형별 기회·리스크",
+        "headers": ["투자 유형", "규모 (추정)", "기대 IRR", "주요 리스크"],
+        "rows": [
+          ["영농형 태양광", "5GW+ 검토", "7~9%", "농지법 규제·과징금·실경작 의무"],
+          ["수상 태양광", "1GW+ 개발 중", "7~10%", "환경영향평가·인허가 장기화"],
+          ["기존 FIT 자산 인수", "소규모 다수", "6~8%", "노후화·인버터 교체 비용"],
+          ["유틸리티 신규 개발", "연 10GW 목표", "6~8%", "계통 접속 2~5년 대기"],
+          ["ESS 연계형", "정책 지원 확대", "8~11% [추정]", "ESS 화재 안전·보험 비용"]
+        ]
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: 산업통상자원부 2025, 한국에너지공단 2025, 해줌 2026, 에너지경제연구원 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 19,
+      "layout": "section_divider",
+      "section_number": "V",
+      "title": "기대수익률 분석 및 포트폴리오 편입 전략",
+      "subtitle": "시나리오별 IRR, 포트폴리오 편입 전략, 투자 실행 프레임워크"
+    },
+    {
+      "slide_number": 20,
+      "layout": "wide_table",
+      "section_number": "V",
+      "head_message": "태양광 인프라 기대 IRR은 보수적 4~6%~고수익형 9~12%, 장기 PPA+ESS 확보 운영 자산이 최적 — 상위 25% 인프라펀드 IRR 12%+ vs 하위 25% 마이너스 수익",
+      "title": "V-1. 시나리오별 태양광 투자 기대수익률(IRR) 분석",
+      "table": {
+        "headers": ["시나리오", "투자 유형", "기대 IRR", "수익 구조", "주요 리스크", "적합 투자자"],
+        "rows": [
+          ["보수적", "SMP 직접 노출", "4~6%", "SMP 직접 정산, PPA 없음", "포획률 하락·SMP 하락", "단기 투기적"],
+          ["기본형", "RPS + REC 혼합", "6~8%", "SMP + REC 1.0 복합", "REC 가격·RPS 폐지", "일반 인프라"],
+          ["안정형", "장기 PPA 15~20년", "7~9%", "고정 PPA 가격 중심", "PPA 상대방 신용", "연기금·보험사"],
+          ["ESS 연계형", "태양광+ESS 4h", "8~11% [추정]", "PPA + 피크 이동 차익", "ESS 비용·안전", "전문 인프라"],
+          ["고수익형", "영농형/수상형 개발→매각", "9~12% [추정]", "개발 이익 + 운영 수익", "인허가·규제 변경", "개발 전문사"],
+          ["세컨더리", "기존 FIT 자산 인수", "6~8%", "20년 고정 FIT 수익", "노후화·교체 비용", "보수적 LP"]
+        ],
+        "source": "Cambridge Associates 2025, 한국에너지공단 2025, 자체 분석"
+      },
+      "key_points": [
+        "상위 25% 인프라펀드 IRR 12%+ vs 하위 25% 마이너스 — 펀드·운용사 선별이 수익률 결정의 핵심 변수 (Cambridge 2025)",
+        "장기 PPA+ESS 연계 운영 자산 IRR 8~11% — 디스패처블 솔라로 간헐성 리스크 해소, RE100 기업 PPA 확보가 관건",
+        "국내 FIT 세컨더리: 20년 고정 수익 잔존기간 확인 필수 — 인버터 교체($3~5만/MW) 등 숨은 비용 반영 후 IRR 재산정"
+      ],
+      "estimated_values": ["ESS 연계형 IRR 8~11% 및 영농형/수상형 IRR 9~12%는 인허가 순탄·정책 유지 전제 하의 추정치"],
+      "data_confidence": "medium"
+    },
+    {
+      "slide_number": 21,
+      "layout": "two_col_text_chart",
+      "section_number": "V",
+      "head_message": "태양광 운영 자산 IRR 5~10%는 해상풍력(8~15%) 대비 낮으나, OPEX $8~12/MWh 최저·기술 성숙도 최고·ESS 연계 시 디스패처블화로 포트폴리오 기반 자산 역할",
+      "title": "V-2. 재생에너지 자산군별 위험-수익 포지셔닝",
+      "text_column": {
+        "label": "태양광의 포트폴리오 역할",
+        "items": [
+          "OPEX $8~12/MWh — 모든 에너지원 중 최저, 운영 단계 현금흐름 예측성 최고",
+          "기술 성숙도: 25년+ 운영 실적, 성능 열화 데이터 가장 풍부 (연간 0.5~0.7% 감소)",
+          "유동성 최대: GW급 포트폴리오 세컨더리 거래 활성화, 기관 LP 진입 장벽 최저",
+          "ESS 연계 시 디스패처블 솔라($57/MWh) — 간헐성 프리미엄 제거, 기저 대체 가능성"
+        ]
+      },
+      "chart": {
+        "chart_type": "bar",
+        "title": "재생에너지 자산군별 IRR 범위 비교 (%)",
+        "x_axis": "자산군",
+        "y_axis": "IRR (%)",
+        "series": [
+          {
+            "name": "하한",
+            "data": [
+              {"label": "태양광\n(운영)", "value": 5},
+              {"label": "태양광\n+ESS", "value": 8},
+              {"label": "해상풍력\n(운영)", "value": 8},
+              {"label": "육상풍력\n(운영)", "value": 6},
+              {"label": "배터리\nESS", "value": 8}
+            ]
+          },
+          {
+            "name": "상한",
+            "data": [
+              {"label": "태양광\n(운영)", "value": 10},
+              {"label": "태양광\n+ESS", "value": 11},
+              {"label": "해상풍력\n(운영)", "value": 15},
+              {"label": "육상풍력\n(운영)", "value": 10},
+              {"label": "배터리\nESS", "value": 19}
+            ]
+          }
+        ],
+        "source": "Cambridge Associates 2025, Lazard 2025, 자체 분석"
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: Cambridge Associates 2025, Lazard LCOE+ 2025, BNEF 2025, Electrek 2025.12"
+      },
+      "data_confidence": "medium"
+    },
+    {
+      "slide_number": 22,
+      "layout": "process_flow",
+      "section_number": "V",
+      "head_message": "태양광 인프라 투자는 개발→건설→운영→세컨더리의 가치사슬에서 진입 타이밍·ESS 연계 여부·PPA 확보 상태에 따라 IRR 4~12% 범위 내 전략 차별화",
+      "title": "V-3. 태양광 투자 가치사슬 및 단계별 전략",
+      "flow_type": "horizontal",
+      "steps": [
+        {
+          "number": 1,
+          "title": "개발 단계\n(Greenfield)",
+          "items": [
+            "부지 확보·인허가·계통 접속",
+            "개발 기간 2~5년",
+            "목표 IRR: 9~12% [추정]",
+            "적합: 전문 개발사·사모펀드"
+          ],
+          "highlight": false
+        },
+        {
+          "number": 2,
+          "title": "건설 단계\n(Construction)",
+          "items": [
+            "EPC 계약·조달·시공",
+            "건설 기간 6~18개월",
+            "목표 IRR: 8~10%",
+            "EPC 보증·성능 보장 필수"
+          ],
+          "highlight": false
+        },
+        {
+          "number": 3,
+          "title": "운영 초기\n(COD~3년)",
+          "items": [
+            "성능 안정화·O&M 체계 구축",
+            "PPA/FIT 수익 수취 개시",
+            "목표 IRR: 7~9%",
+            "ESS 연계 최적 시점"
+          ],
+          "highlight": true
+        },
+        {
+          "number": 4,
+          "title": "안정 운영\n(Brownfield)",
+          "items": [
+            "이용률·수익 안정화(3년+)",
+            "기관투자자 최적 진입 시점",
+            "목표 IRR: 6~8%",
+            "연기금·보험사 적합"
+          ],
+          "highlight": true
+        },
+        {
+          "number": 5,
+          "title": "세컨더리\n(Secondary)",
+          "items": [
+            "기존 포트폴리오 매입",
+            "즉시 캐시플로우 확보",
+            "목표 IRR: 6~8%",
+            "FIT 잔존기간이 가치 결정"
+          ],
+          "highlight": false
+        }
+      ],
+      "data_confidence": "high",
+      "note_box": {
+        "type": "source",
+        "content": "출처: Cambridge Associates 2025, 한국에너지공단 2025, 자체 분석"
+      }
+    },
+    {
+      "slide_number": 23,
+      "layout": "section_divider",
+      "section_number": "VI",
+      "title": "종합 제언 및 전망",
+      "subtitle": "투자 의사결정 기준과 핵심 모니터링 지표"
+    },
+    {
+      "slide_number": 24,
+      "layout": "two_col_text_table",
+      "section_number": "VI",
+      "head_message": "태양광 투자 의사결정은 PPA 확보·ESS 연계·이용률·계통 접속의 4대 기준으로 선별 — 5대 모니터링 지표를 분기 점검하여 리밸런싱 의사결정",
+      "title": "VI-1. 투자 의사결정 기준 및 모니터링 체계",
+      "text_column": {
+        "label": "4대 투자 선별 기준",
+        "items": [
+          "① PPA/FIT 확보: 장기 고정 수익 계약 없는 시장 노출 자산 배제 — 음전력가격·포획률 하락 리스크 직접 노출",
+          "② ESS 연계 여부: 4시간+ ESS 연계 자산 우선 — 디스패처블 솔라로 커틴먼트 리스크 해소, IRR 2~3%p 개선",
+          "③ 이용률 실측: 국내 18%+, 해외 최적 입지 22%+ 미달 자산 재검토",
+          "④ 계통 접속 확정: 국내 개발 단계는 접속 허가 확정 후 진입 — 2~5년 잠김 리스크 회피"
+        ]
+      },
+      "table": {
+        "label": "핵심 모니터링 지표 (분기 점검)",
+        "headers": ["지표", "현재 수준 (2025.12~2026.3)", "임계값 / 주의 기준"],
+        "rows": [
+          ["SMP 가격", "육지 89.94원/kWh (2025.12)", "70원 이하 지속 시 SMP형 투자 재검토"],
+          ["REC 가격", "72,404원/REC (2025.12)", "50,000원 이하 시 RPS형 재검토, 폐지 일정 모니터"],
+          ["이용률 (전국 평균)", "15~17%", "15% 미만 시 해당 사업 재검토"],
+          ["계통 접속 대기", "2~5년", "대기 5년 초과 시 개발 보류"],
+          ["ESS 턴키 비용", "$117/kWh (2025)", "$80 이하 시 ESS 연계 의무화 검토"]
+        ]
+      },
+      "note_box": {
+        "type": "source",
+        "content": "출처: 해줌 2026.3, 한국에너지공단 2025, BNEF 2025, Ember 2025"
+      },
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 25,
+      "layout": "content_text",
+      "section_number": "VI",
+      "head_message": "태양광은 LCOE 최저·기술 성숙·유동성 최대의 재생에너지 인프라자산 — ESS 연계 디스패처블 솔라 + 장기 PPA 확보 운영 자산이 최적 편입 전략",
+      "title": "VI-2. 종합 제언",
+      "body": [
+        "【시장 판단】 글로벌 태양광 누적 2,260GW(2024) 돌파, 2024년 신규 553~601GW로 전체 재생에너지 확장의 80% 차지. LCOE $38~78/MWh로 10년 연속 최저비용 에너지원 지위 유지(Lazard 2025). 다만 모듈 가격 바닥 확인($0.087/Wp→$0.10 반등)과 유럽 음전력가격 2배 증가(스페인 500h+)로, 단순 LCOE 우위만으로는 투자 수익성을 보장할 수 없는 구조적 전환기 진입.",
+        "【ESS 연계 전략】 ESS 4시간 LCOS $65/MWh(2025)로 전년比 27% 하락, 태양광+ESS 결합 $57/MWh 달성(BNEF). 디스패처블 솔라가 간헐성 단점을 해소하며 기저 에너지원 대체 후보로 부상. 향후 ESS 비용 추가 하락($41/kWh, 2035F) 시 태양광+ESS의 경제성이 원자력·천연가스를 전면 대체할 전망.",
+        "【국내 환경】 정부 2030년 재생에너지 100GW 목표 선언(태양광 77.2GW), 연간 설치 3GW→10GW 상향. 영농형 특별법·이격거리 통일·RPS 폐지→준중앙제도 전환 등 제도 대전환기. SMP 89.94원+REC 72,404원(2025.12) 기준 월 수익 200만원 내외이나, RPS 제도 폐지 시 직접 PPA 확보가 수익 안정성의 유일한 대안.",
+        "【편입 전략】 ①장기 PPA+ESS 연계 운영 자산(IRR 8~11%)을 1순위 편입. ②국내 FIT 세컨더리(IRR 6~8%, 잔존기간 확인) 병행. ③영농형·수상형 개발(IRR 9~12%)은 인허가 확정 후 선별 진입. 대체투자 내 태양광+ESS 비중 10~15%, 해상풍력 합산 20~30%를 중기 목표로 설정. [추정]"
+      ],
+      "data_points": [
+        {"label": "글로벌 누적 설치", "value": "2,260GW", "delta": "중국 1TW 돌파 (2024)"},
+        {"label": "태양광+ESS LCOE", "value": "$57/MWh", "delta": "디스패처블 솔라 실현"},
+        {"label": "국내 2030 목표", "value": "100GW", "delta": "연 10GW 설치 필요"}
+      ],
+      "data_confidence": "high"
+    },
+    {
+      "slide_number": 26,
+      "layout": "closing_slide",
+      "title": "태양광+ESS 디스패처블 솔라는 대체투자 재생에너지 인프라의 차세대 핵심 자산",
+      "closing_message": "LCOE $38~78/MWh 최저비용·ESS LCOS $65/MWh 사상 최저·기술 성숙도 최고의 태양광은, ESS 연계 디스패처블 솔라($57/MWh)로 간헐성을 해소하며 장기 PPA 확보 운영 자산 중심의 보수적 접근으로 IRR 8~11%의 안정적 인플레이션 헤지 자산으로 기능한다.",
+      "key_takeaways": [
+        "글로벌 태양광 누적 2,260GW, 2024년 신규 577GW — 재생에너지 확장의 80% 차지, LCOE 10년 연속 최저(Lazard 2025). 다만 유럽 음전력가격 2배 증가·모듈가격 반등으로 단순 LCOE 우위에서 ESS 연계 디스패처블 전략으로 패러다임 전환 필요",
+        "ESS 4h LCOS $65/MWh(YoY -27%) — 태양광+ESS $57/MWh로 24시간 디스패치 가능. ESS 비용 추가 하락($41/kWh, 2035F) 시 기저 에너지원 전면 대체 전망",
+        "국내 2030년 100GW 목표·연간 10GW 설치 상향 — 영농형 특별법·RPS 폐지→준중앙제도 전환 등 제도 대전환기. 장기 PPA+ESS 확보 운영 자산(IRR 8~11%)을 1순위로 편입하고, 5대 모니터링 지표(SMP·REC·이용률·계통접속·ESS비용) 분기 점검 권고"
+      ],
+      "disclaimer": "본 자료의 수치 데이터는 IEA, IRENA, BNEF, Lazard, Cambridge Associates, Ember, 한국에너지공단, 산업통상자원부 등 공개 자료를 기반으로 작성되었습니다(2026.3 기준). [추정] 표기 항목은 공개 데이터 기반 자체 추정치이며, 실제 투자 수익률과 차이가 있을 수 있습니다."
+    }
+  ]
+}

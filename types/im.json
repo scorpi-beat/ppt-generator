@@ -1,0 +1,41 @@
+{
+  "name": "투자제안서 (IM)",
+  "description": "부동산·대체투자 투자제안서. 회사 양식 80% 준수, 업계 베스트 프랙티스의 논리·표현 방식 적극 참고.",
+  "style": {
+    "sources": ["references/im/templates/", "references/im/best_practices/"],
+    "fidelity": 0.8,
+    "fallback": "blend",
+    "note": "3~5개 회사 양식 중 블렌드. 색상·폰트 체계는 유지하되 레이아웃 창의적 조합 허용."
+  },
+  "logic": {
+    "sources": ["references/im/narratives/", "references/im/best_practices/"],
+    "fidelity": 0.5,
+    "fallback": "ai",
+    "genre": "im",
+    "narrative_arc": "conclusion_first",
+    "note": "업계 양질 IM에서 논리 흐름, 차트 배열, 수치 표현 방식 학습. 창조적 재구성 허용."
+  },
+  "content": {
+    "mode": "ai_with_data",
+    "web_search": false,
+    "tone": "investor_persuasion",
+    "language": "ko",
+    "require_review": true,
+    "note": "수치 데이터 반드시 사용자 검토 후 PPT 생성."
+  },
+  "default_color_palette": {
+    "name": "BCG Forest",
+    "primary": "#1D3C2F",
+    "accent": "#00876A",
+    "support": "#F2C94C",
+    "neutral": "#F5F5F2",
+    "text": "#1A1A1A"
+  },
+  "accept_palette_image": true,
+  "slide_defaults": {
+    "min_slides": 15,
+    "max_slides": 35,
+    "default_slides": 22
+  },
+  "slide_master": null
+}
