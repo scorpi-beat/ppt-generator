@@ -95,6 +95,26 @@ pptxgen_builder.js는 draft 로드 후 자동으로 이 체인을 적용한다.
 | neutral | Warm White | #F5F5F2 |
 | text | Near Black | #1A1A1A |
 
+## HTML 프리뷰 렌더링 규칙 (html-preview 에이전트 준수)
+
+### 슬라이드 구조 순서
+모든 콘텐츠 슬라이드(`title_slide` · `section_divider` · `toc_slide` 제외)는 아래 순서로 렌더링한다:
+1. **slide-header-bar** (primary 배경, 전체폭): `section_number · section_name` (작게) + `slide title` (크게)
+2. **head-message box** (인셋): 핵심 인사이트 문장 — 콘텐츠 영역 좌우 여백에 맞춰 들여쓰기, header-bar와 여백을 두고 배치, 좌측 support(gold) 강조 border + 연한 배경
+3. **콘텐츠 영역**: 레이아웃별 내용
+
+### 색상 해상도 (pptxgen_builder와 동일 체인 적용)
+CSS `:root` 변수를 아래 우선순위로 결정한다. 수치 하드코딩 금지 — 반드시 체인에서 읽어야 한다.
+1. `style_{type}.json` → colors (최고 우선)
+2. `draft.meta.color_palette`
+3. `types/{type}.json` → `default_color_palette`
+4. BCG Forest 값 (최후 수단)
+
+### 특별 슬라이드 예외
+- `toc_slide` · `title_slide`: 독립 디자인 허용, slide-header-bar 강제 불필요
+- `kpi_metrics` 등 section_tag/slide_title 없는 슬라이드: head-message를 제목 영역 아래로 이동 (맨 위 금지)
+- `section_divider`: 다크 배경 독립 레이아웃, head-message 없음
+
 ## 표준 레이아웃 타입
 모든 에이전트(content-planner, logic-analyst, html-preview, ppt-builder)는 아래 이름만 사용한다.
 **타입 선택 우선순위**: 수치 데이터가 있으면 표/차트 우선 → 비교 구조면 2열/4분할 → 단순 설명이면 content_text 최후 수단.
