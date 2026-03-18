@@ -16,6 +16,7 @@
 
 "use strict";
 const PptxGenJS = require("pptxgenjs");
+const JSZip     = require("jszip");
 const fs        = require("fs");
 const path      = require("path");
 
@@ -56,20 +57,25 @@ const ROW_H     = H * CFG.rowHf;
 // [2] FONT — 절대 pt값, style JSON 로드 시 덮어씌워짐
 // ═══════════════════════════════════════════════════════════════════════
 let FONT = {
-  face:       "Pretendard",
-  headMsg:    14,
-  header:     13,
-  body:        9,
-  tableH:      9,
-  tableB:      9,
-  footnote:    6,
-  kpiVal:     26,
-  kpiLbl:      9,
-  sectionN:   22,
-  sectionT:   16,
-  titleMain:  30,
-  titleSub:   16,
-  tocItem:    10,
+  face:        "Pretendard",
+  headMsg:     14,
+  header:      13,
+  body:         9,
+  tableH:       9,
+  tableB:       9,
+  footnote:     6,
+  kpiVal:      26,
+  kpiLbl:       9,
+  sectionN:    22,
+  sectionT:    16,
+  titleMain:   30,
+  titleSub:    16,
+  tocItem:     10,
+  // ─ 파생 크기 (magic 배수 대신 명시적 값으로 관리) ──────────────────
+  sectionNLg:  55,   // section_divider 대형 번호 (sectionN × 2.5)
+  sectionTLg:  22,   // section_divider 대형 제목 (sectionT × 1.4)
+  kpiHighlight:14,   // three_column_summary 강조 수치 (kpiLbl × 1.6)
+  stepNum:     14,   // process_flow 스텝 번호 (kpiLbl × 1.5)
 };
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -88,30 +94,40 @@ let C = {
 };
 
 // ─── style JSON 로드 ───────────────────────────────────────────────────
+const hex = v => v?.replace("#", "");
+
 function loadStyle(stylePath) {
-  if (!stylePath || !fs.existsSync(stylePath)) return;
+  if (!stylePath) return;
   try {
-    const s = JSON.parse(fs.readFileSync(stylePath, "utf-8"));
+    const s   = JSON.parse(fs.readFileSync(stylePath, "utf-8"));
     const col = s.colors || {};
     const fnt = s.fonts  || {};
-    if (col.primary)       C.primary  = col.primary.replace("#", "");
-    if (col.accent_dark)   C.accent   = col.accent_dark.replace("#", "");
-    if (col.accent_salmon) C.salmon   = col.accent_salmon.replace("#", "");
-    if (col.accent_warm)   C.warm     = col.accent_warm.replace("#", "");
-    if (col.accent_blue)   C.blue     = col.accent_blue.replace("#", "");
-    if (col.text_main)     C.text     = col.text_main.replace("#", "");
-    if (fnt.primary_typeface) FONT.face    = fnt.primary_typeface;
-    if (fnt.head_message?.size_pt)     FONT.headMsg = fnt.head_message.size_pt;
-    if (fnt.header_bar_title?.size_pt) FONT.header  = fnt.header_bar_title.size_pt;
-    if (fnt.body?.size_pt)             FONT.body    = Math.max(fnt.body.size_pt, 8);
-    if (fnt.table_body?.size_pt)       FONT.tableB  = Math.max(fnt.table_body.size_pt, 8);
-    if (fnt.table_header?.size_pt)     FONT.tableH  = Math.max(fnt.table_header.size_pt, 8);
+
+    // 색상 매핑 (key: style JSON 키, val: C 객체 키)
+    const colorMap = [
+      ["primary",      "primary"],
+      ["accent_dark",  "accent"],
+      ["accent_salmon","salmon"],
+      ["accent_warm",  "warm"],
+      ["accent_blue",  "blue"],
+      ["text_main",    "text"],
+    ];
+    colorMap.forEach(([src, dst]) => { if (col[src]) C[dst] = hex(col[src]); });
+
+    if (fnt.primary_typeface)          FONT.face     = fnt.primary_typeface;
+    if (fnt.head_message?.size_pt)     FONT.headMsg  = fnt.head_message.size_pt;
+    if (fnt.header_bar_title?.size_pt) FONT.header   = fnt.header_bar_title.size_pt;
+    if (fnt.body?.size_pt)             FONT.body     = Math.max(fnt.body.size_pt, 8);
+    if (fnt.table_body?.size_pt)       FONT.tableB   = Math.max(fnt.table_body.size_pt, 8);
+    if (fnt.table_header?.size_pt)     FONT.tableH   = Math.max(fnt.table_header.size_pt, 8);
     if (fnt.footnote_source?.size_pt)  FONT.footnote = Math.max(fnt.footnote_source.size_pt, 6);
     if (fnt.head_message?.color) {
-      const hc = fnt.head_message.color.replace("#","");
+      const hc = hex(fnt.head_message.color);
       if (/^[0-9A-Fa-f]{6}$/.test(hc)) C.salmon = hc;
     }
-  } catch (e) { /* style 로드 실패 시 기본값 유지 */ }
+  } catch (e) {
+    console.warn(`[style] 로드 실패 (기본값 사용): ${stylePath} — ${e.message}`);
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -195,29 +211,34 @@ function makeTableRows(tbl, opts = {}) {
 
 function normalizeChart(chart) {
   if (!chart) return { labels:[], seriesList:[] };
-  const labels=[], values=[];
-  if (Array.isArray(chart.data)) {
-    chart.data.forEach(d => { labels.push(String(d.label)); values.push(Number(d.value)); });
-    return { labels, seriesList:[{ name:chart.title||"값", values }] };
+
+  // 형식 1: { data:[{label, value}] }
+  const simpleData = Array.isArray(chart.data) ? chart.data
+    : (Array.isArray(chart.series) && "label" in (chart.series[0]||{})) ? chart.series
+    : null;
+  if (simpleData) {
+    return {
+      labels:     simpleData.map(d => String(d.label)),
+      seriesList: [{ name: chart.title||"값", values: simpleData.map(d => Number(d.value)) }],
+    };
   }
-  if (Array.isArray(chart.series)) {
-    const first = chart.series[0] || {};
-    if ("label" in first || "value" in first) {
-      chart.series.forEach(d => { labels.push(String(d.label)); values.push(Number(d.value)); });
-      return { labels, seriesList:[{ name:chart.title||"값", values }] };
-    }
-    if ("name" in first) {
-      const cats = chart.categories || first.labels || [];
-      return { labels:cats.map(String), seriesList:chart.series.map(s=>({ name:s.name, values:(s.values||[]).map(Number) })) };
-    }
+
+  // 형식 2: { series:[{name, values, labels}], categories }
+  if (Array.isArray(chart.series) && "name" in (chart.series[0]||{})) {
+    const cats = chart.categories || chart.series[0]?.labels || [];
+    return {
+      labels:     cats.map(String),
+      seriesList: chart.series.map(s => ({ name:s.name, values:(s.values||[]).map(Number) })),
+    };
   }
+
   return { labels:[], seriesList:[{ name:"값", values:[] }] };
 }
 
 function buildWaterfallData(chart) {
   const { labels, seriesList } = normalizeChart(chart);
   const vals = seriesList[0]?.values || [];
-  const src   = chart.series || chart.data || [];
+  const src  = chart.data || chart.series || [];
   const base=[], pos=[], neg=[];
   let run = 0;
   vals.forEach((v, i) => {
@@ -307,6 +328,14 @@ function addKeyPoints(slide, keyPoints, y) {
   slide.addText(items, { x:MX, y:kpY, w:CONTENT_W, h:kpH, valign:"top", wrap:true });
 }
 
+// 2열 분할 좌표 계산 헬퍼 (leftPercent: 좌열 CONTENT_W 대비 비율)
+function splitTwoColumns(leftPercent) {
+  const lw = CONTENT_W * leftPercent;
+  const rw = CONTENT_W - lw - GAP;
+  const rx = MX + lw + GAP;
+  return { lw, rw, rx };
+}
+
 function renderZoneContent(prs, slide, zone, x, y, w, h) {
   if (!zone) return;
   const ct = (zone.content_type||"").toLowerCase();
@@ -342,7 +371,7 @@ function renderZoneContent(prs, slide, zone, x, y, w, h) {
 // ═══════════════════════════════════════════════════════════════════════
 
 // ── title_slide ──────────────────────────────────────────────────────
-function renderTitleSlide(prs, slide, s) {
+function renderTitleSlide(prs, slide, s, n) {
   slide.addShape("rect", { x:0, y:0, w:W, h:H, fill:{color:C.accent}, line:{color:C.accent} });
   slide.addShape("rect", { x:0, y:H*0.72, w:W, h:H*0.28, fill:{color:C.primary}, line:{color:C.primary} });
   slide.addShape("rect", { x:MX, y:H*0.68, w:W*0.12, h:H*0.008, fill:{color:C.salmon}, line:{color:C.salmon} });
@@ -388,9 +417,9 @@ function renderSectionDivider(prs, slide, s) {
   slide.addShape("rect", { x:0, y:H*0.70, w:W, h:H*0.30, fill:{color:C.primary}, line:{color:C.primary} });
   slide.addShape("rect", { x:MX, y:H*0.66, w:W*0.10, h:H*0.008, fill:{color:C.salmon}, line:{color:C.salmon} });
   slide.addText(s.section_number||"", { x:MX, y:H*0.12, w:W-MX*2, h:H*0.38,
-    fontSize:FONT.sectionN*2.5, color:C.white, bold:true, fontFace:FONT.face, transparency:25 });
+    fontSize:FONT.sectionNLg, color:C.white, bold:true, fontFace:FONT.face, transparency:25 });
   slide.addText(s.title||"", { x:MX, y:H*0.42, w:W-MX*2, h:H*0.24,
-    fontSize:FONT.sectionT*1.4, color:C.white, bold:true, fontFace:FONT.face, wrap:true });
+    fontSize:FONT.sectionTLg, color:C.white, bold:true, fontFace:FONT.face, wrap:true });
   if (s.subtitle) slide.addText(s.subtitle, { x:MX, y:H*0.64, w:W-MX*2, h:H*0.08,
     fontSize:FONT.titleSub, color:C.white, fontFace:FONT.face, transparency:20 });
 }
@@ -479,9 +508,7 @@ function renderKpiMetrics(prs, slide, s, n) {
 // ── two_col_text_table ───────────────────────────────────────────────
 function renderTwoColTextTable(prs, slide, s, n) {
   addCommonHeader(slide, s, n);
-  const lw  = CONTENT_W*0.44;
-  const rw  = CONTENT_W - lw - GAP;
-  const rx  = MX + lw + GAP;
+  const { lw, rw, rx } = splitTwoColumns(0.44);
   const bul = s.bullets || s.body || [];
   addBulletsToSlide(slide, bul, MX, CONTENT_Y, lw, CONTENT_H);
   if (s.table) {
@@ -496,9 +523,7 @@ function renderTwoColTextTable(prs, slide, s, n) {
 // ── two_col_text_chart ───────────────────────────────────────────────
 function renderTwoColTextChart(prs, slide, s, n) {
   addCommonHeader(slide, s, n);
-  const lw = CONTENT_W*0.40;
-  const rw = CONTENT_W - lw - GAP;
-  const rx = MX + lw + GAP;
+  const { lw, rw, rx } = splitTwoColumns(0.40);
   addBulletsToSlide(slide, s.bullets||s.body||[], MX, CONTENT_Y, lw, CONTENT_H);
   addChartToSlide(prs, slide, s.chart, rx, CONTENT_Y, rw, CONTENT_H*0.95);
   addNoteBox(slide, s.note_box);
@@ -507,9 +532,7 @@ function renderTwoColTextChart(prs, slide, s, n) {
 // ── two_col_chart_text ───────────────────────────────────────────────
 function renderTwoColChartText(prs, slide, s, n) {
   addCommonHeader(slide, s, n);
-  const lw = CONTENT_W*0.56;
-  const rw = CONTENT_W - lw - GAP;
-  const rx = MX + lw + GAP;
+  const { lw, rw, rx } = splitTwoColumns(0.56);
   addChartToSlide(prs, slide, s.chart, MX, CONTENT_Y, lw, CONTENT_H*0.95);
   addBulletsToSlide(slide, s.bullets||s.body||[], rx, CONTENT_Y, rw, CONTENT_H);
   addNoteBox(slide, s.note_box);
@@ -540,9 +563,7 @@ function renderTwoColumnCompare(prs, slide, s, n) {
 // ── table_chart_combo ────────────────────────────────────────────────
 function renderTableChartCombo(prs, slide, s, n) {
   addCommonHeader(slide, s, n);
-  const lw = CONTENT_W*0.52;
-  const rw = CONTENT_W - lw - GAP;
-  const rx = MX + lw + GAP;
+  const { lw, rw, rx } = splitTwoColumns(0.52);
   if (s.table) {
     const rows = makeTableRows(s.table);
     const rh   = Math.min(ROW_H, CONTENT_H/(s.table.rows.length+1.5));
@@ -569,7 +590,7 @@ function renderThreeColumnSummary(prs, slide, s, n) {
     slide.addText(col.title||"", { x:cx+0.12, y:CONTENT_Y+H*0.005, w:cw-0.24, h:H*0.04,
       fontSize:FONT.body, color:C.white, bold:true, fontFace:FONT.face, valign:"middle" });
     if (col.highlight) slide.addText(col.highlight, { x:cx+0.12, y:CONTENT_Y+H*0.052, w:cw-0.24, h:H*0.07,
-      fontSize:FONT.kpiLbl*1.6, color:C.primary, bold:true, fontFace:FONT.face, align:"center" });
+      fontSize:FONT.kpiHighlight, color:C.primary, bold:true, fontFace:FONT.face, align:"center" });
     const byH = col.highlight ? CONTENT_Y+H*0.125 : CONTENT_Y+H*0.052;
     const bH  = CONTENT_H - (col.highlight ? H*0.128 : H*0.055);
     addBulletsToSlide(slide, col.bullets||col.body||[], cx+0.12, byH, cw-0.24, bH);
@@ -647,7 +668,7 @@ function renderProcessFlow(prs, slide, s, n) {
       fill:{color: isEven ? C.primary : C.neutral},
       line:{color: isEven ? C.primary : "CCCCCC", pt:0.5} });
     slide.addText(String(step.number||i+1), { x:sx+0.1, y:stepY+stepH*0.04, w:stepW-0.2, h:stepH*0.18,
-      fontSize:FONT.kpiLbl*1.5, color: isEven ? C.white : C.primary, bold:true, fontFace:FONT.face, align:"center" });
+      fontSize:FONT.stepNum, color: isEven ? C.white : C.primary, bold:true, fontFace:FONT.face, align:"center" });
     slide.addText(step.title||"", { x:sx+0.1, y:stepY+stepH*0.22, w:stepW-0.2, h:stepH*0.20,
       fontSize:FONT.body, color: isEven ? C.white : C.accent, bold:true, fontFace:FONT.face, align:"center", wrap:true });
     const items = (step.items||[]).map(t=>({
@@ -689,7 +710,7 @@ function renderRoadmapTimeline(prs, slide, s, n) {
 }
 
 // ── closing_slide ───────────────────────────────────────────────────
-function renderClosingSlide(prs, slide, s) {
+function renderClosingSlide(prs, slide, s, n) {
   slide.addShape("rect", { x:0, y:0, w:W, h:H, fill:{color:C.primary}, line:{color:C.primary} });
   slide.addShape("rect", { x:W*0.38, y:0, w:W*0.62, h:H, fill:{color:C.accent}, line:{color:C.accent} });
   slide.addShape("rect", { x:MX, y:H*0.44, w:W*0.10, h:H*0.008, fill:{color:C.salmon}, line:{color:C.salmon} });
@@ -743,6 +764,13 @@ function renderSlide(prs, slideData, pageNum) {
 // ═══════════════════════════════════════════════════════════════════════
 // [7] MAIN
 // ═══════════════════════════════════════════════════════════════════════
+
+function derivePptxPath(draftJsonPath) {
+  const dir  = path.dirname(draftJsonPath);
+  const name = path.basename(draftJsonPath, ".json").replace(/^draft_/, "");
+  return path.join(dir, name + ".pptx");
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const get  = (flag) => { const i=args.indexOf(flag); return i>=0?args[i+1]:null; };
@@ -751,36 +779,35 @@ async function main() {
   const stylePath = get("--style");
   const outPath   = get("--out");
 
-  if (!draftPath) { console.error("사용법: node pptxgen_builder.js --draft <path> [--style <path>] [--out <path>]"); process.exit(1); }
+  if (!draftPath) {
+    console.error("사용법: node pptxgen_builder.js --draft <path> [--style <path>] [--out <path>]");
+    process.exit(1);
+  }
 
   const draft = JSON.parse(fs.readFileSync(draftPath, "utf-8"));
   loadStyle(stylePath);
 
   const prs = new PptxGenJS();
   prs.defineLayout({ name:"SRC", width:W, height:H });
-  prs.layout = "SRC";
+  prs.layout  = "SRC";
   prs.author  = draft.author  || "PPT Generator";
   prs.company = draft.company || "";
-  prs.subject = draft.topic  || "";
-  prs.title   = draft.topic  || draft.title || "";
+  prs.subject = draft.topic   || "";
+  prs.title   = draft.topic   || draft.title || "";
 
   const slides = draft.slides || [];
   slides.forEach((s, i) => renderSlide(prs, s, s.slide_number ?? i+1));
 
-  // 출력 경로 자동 생성
-  const defaultOut = draftPath.replace(/draft_/, "").replace(/\.json$/, ".pptx")
-                              .replace(/outputs[\\/]/, "outputs/");
-  const finalOut = outPath || defaultOut;
-  await prs.writeFile({ fileName: finalOut });
+  const finalOut = outPath || derivePptxPath(draftPath);
 
-  // QA: 슬라이드 수 검증
-  const { default: JSZip } = await import("jszip");
-  const buf  = fs.readFileSync(finalOut);
-  const zip  = await JSZip.loadAsync(buf);
+  // QA: 파일 쓰기 + 슬라이드 수 검증 (buffer 1회만 사용 — 디스크 재읽기 없음)
+  const buf  = await prs.write({ outputType:"nodebuffer" });
+  fs.writeFileSync(finalOut, buf);
+
+  const zip    = await JSZip.loadAsync(buf);
   const actual = Object.keys(zip.files).filter(f=>/ppt\/slides\/slide\d+\.xml$/.test(f)).length;
-  const expected = slides.length;
-  const status = actual===expected ? "✓" : "✗ 불일치";
-  console.log(`${status} 슬라이드 ${actual}/${expected}장  →  ${finalOut}`);
+  const status = actual===slides.length ? "✓" : "✗ 불일치";
+  console.log(`${status} 슬라이드 ${actual}/${slides.length}장  →  ${finalOut}`);
 }
 
 main().catch(e => { console.error("빌드 실패:", e.message); process.exit(1); });
